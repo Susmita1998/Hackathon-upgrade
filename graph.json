@@ -1,0 +1,623 @@
+{
+ "nodes": [
+  {
+   "id": "cold-chain-storage",
+   "type": "policy",
+   "title": "Cold Chain Storage",
+   "domain": "logistics",
+   "risk_tier": 2
+  },
+  {
+   "id": "batch-recall",
+   "type": "policy",
+   "title": "Batch Recall",
+   "domain": "quality",
+   "risk_tier": 3
+  },
+  {
+   "id": "lot-quarantine",
+   "type": "policy",
+   "title": "Lot Quarantine",
+   "domain": "quality",
+   "risk_tier": 3
+  },
+  {
+   "id": "supplier-onboarding",
+   "type": "policy",
+   "title": "Supplier Onboarding",
+   "domain": "procurement",
+   "risk_tier": 1
+  },
+  {
+   "id": "purchase-approval",
+   "type": "policy",
+   "title": "Purchase Approval",
+   "domain": "finance",
+   "risk_tier": 3
+  },
+  {
+   "id": "invoice-dispute",
+   "type": "policy",
+   "title": "Invoice Dispute",
+   "domain": "finance",
+   "risk_tier": 2
+  },
+  {
+   "id": "data-retention",
+   "type": "policy",
+   "title": "Data Retention",
+   "domain": "compliance",
+   "risk_tier": 2
+  },
+  {
+   "id": "access-review",
+   "type": "policy",
+   "title": "Access Review",
+   "domain": "security",
+   "risk_tier": 2
+  },
+  {
+   "id": "incident-escalation",
+   "type": "policy",
+   "title": "Incident Escalation",
+   "domain": "operations",
+   "risk_tier": 2
+  },
+  {
+   "id": "safety-inspection",
+   "type": "policy",
+   "title": "Safety Inspection",
+   "domain": "safety",
+   "risk_tier": 3
+  },
+  {
+   "id": "hazmat-handling",
+   "type": "policy",
+   "title": "Hazmat Handling",
+   "domain": "safety",
+   "risk_tier": 3
+  },
+  {
+   "id": "warehouse-receiving",
+   "type": "policy",
+   "title": "Warehouse Receiving",
+   "domain": "logistics",
+   "risk_tier": 1
+  },
+  {
+   "id": "returns-processing",
+   "type": "policy",
+   "title": "Returns Processing",
+   "domain": "logistics",
+   "risk_tier": 1
+  },
+  {
+   "id": "customer-refund",
+   "type": "policy",
+   "title": "Customer Refund",
+   "domain": "finance",
+   "risk_tier": 3
+  },
+  {
+   "id": "vendor-audit",
+   "type": "policy",
+   "title": "Vendor Audit",
+   "domain": "compliance",
+   "risk_tier": 2
+  },
+  {
+   "id": "change-management",
+   "type": "policy",
+   "title": "Change Management",
+   "domain": "operations",
+   "risk_tier": 2
+  },
+  {
+   "id": "backup-recovery",
+   "type": "policy",
+   "title": "Backup Recovery",
+   "domain": "security",
+   "risk_tier": 2
+  },
+  {
+   "id": "password-rotation",
+   "type": "policy",
+   "title": "Password Rotation",
+   "domain": "security",
+   "risk_tier": 1
+  },
+  {
+   "id": "travel-expense",
+   "type": "policy",
+   "title": "Travel Expense",
+   "domain": "finance",
+   "risk_tier": 1
+  },
+  {
+   "id": "equipment-calibration",
+   "type": "policy",
+   "title": "Equipment Calibration",
+   "domain": "quality",
+   "risk_tier": 2
+  },
+  {
+   "id": "label-verification",
+   "type": "policy",
+   "title": "Label Verification",
+   "domain": "quality",
+   "risk_tier": 1
+  },
+  {
+   "id": "shipment-hold",
+   "type": "policy",
+   "title": "Shipment Hold",
+   "domain": "logistics",
+   "risk_tier": 2
+  },
+  {
+   "id": "training-certification",
+   "type": "policy",
+   "title": "Training Certification",
+   "domain": "compliance",
+   "risk_tier": 1
+  },
+  {
+   "id": "contract-renewal",
+   "type": "policy",
+   "title": "Contract Renewal",
+   "domain": "procurement",
+   "risk_tier": 2
+  },
+  {
+   "id": "fire-drill",
+   "type": "policy",
+   "title": "Fire Drill",
+   "domain": "safety",
+   "risk_tier": 1
+  },
+  {
+   "id": "software-release",
+   "type": "policy",
+   "title": "Software Release",
+   "domain": "operations",
+   "risk_tier": 2
+  },
+  {
+   "id": "privacy-request",
+   "type": "policy",
+   "title": "Privacy Request",
+   "domain": "compliance",
+   "risk_tier": 3
+  },
+  {
+   "id": "stock-adjustment",
+   "type": "policy",
+   "title": "Stock Adjustment",
+   "domain": "logistics",
+   "risk_tier": 3
+  },
+  {
+   "id": "credit-limit",
+   "type": "policy",
+   "title": "Credit Limit",
+   "domain": "finance",
+   "risk_tier": 3
+  },
+  {
+   "id": "visitor-access",
+   "type": "policy",
+   "title": "Visitor Access",
+   "domain": "security",
+   "risk_tier": 1
+  },
+  {
+   "id": "lot-88392-safety-protocol",
+   "type": "policy",
+   "title": "Lot 88392 Safety Protocol",
+   "domain": "safety",
+   "risk_tier": 3
+  },
+  {
+   "id": "code:__init__",
+   "type": "module",
+   "title": "__init__.py"
+  },
+  {
+   "id": "code:api",
+   "type": "module",
+   "title": "api.py"
+  },
+  {
+   "id": "code:cache",
+   "type": "module",
+   "title": "cache.py"
+  },
+  {
+   "id": "code:config",
+   "type": "module",
+   "title": "config.py"
+  },
+  {
+   "id": "code:graphify",
+   "type": "module",
+   "title": "graphify.py"
+  },
+  {
+   "id": "code:harness",
+   "type": "module",
+   "title": "harness.py"
+  },
+  {
+   "id": "code:llm",
+   "type": "module",
+   "title": "llm.py"
+  },
+  {
+   "id": "code:loop",
+   "type": "module",
+   "title": "loop.py"
+  },
+  {
+   "id": "code:mcp",
+   "type": "module",
+   "title": "mcp.py"
+  },
+  {
+   "id": "code:models",
+   "type": "module",
+   "title": "models.py"
+  },
+  {
+   "id": "code:plugins",
+   "type": "module",
+   "title": "plugins.py"
+  },
+  {
+   "id": "code:rag",
+   "type": "module",
+   "title": "rag.py"
+  },
+  {
+   "id": "code:security",
+   "type": "module",
+   "title": "security.py"
+  },
+  {
+   "id": "code:service",
+   "type": "module",
+   "title": "service.py"
+  },
+  {
+   "id": "code:state",
+   "type": "module",
+   "title": "state.py"
+  },
+  {
+   "id": "code:telemetry",
+   "type": "module",
+   "title": "telemetry.py"
+  },
+  {
+   "id": "code:triage",
+   "type": "module",
+   "title": "triage.py"
+  },
+  {
+   "id": "code:verify",
+   "type": "module",
+   "title": "verify.py"
+  }
+ ],
+ "edges": [
+  {
+   "src": "cold-chain-storage",
+   "dst": "travel-expense",
+   "type": "wikilink"
+  },
+  {
+   "src": "cold-chain-storage",
+   "dst": "vendor-audit",
+   "type": "wikilink"
+  },
+  {
+   "src": "batch-recall",
+   "dst": "stock-adjustment",
+   "type": "wikilink"
+  },
+  {
+   "src": "batch-recall",
+   "dst": "invoice-dispute",
+   "type": "wikilink"
+  },
+  {
+   "src": "lot-quarantine",
+   "dst": "batch-recall",
+   "type": "wikilink"
+  },
+  {
+   "src": "lot-quarantine",
+   "dst": "fire-drill",
+   "type": "wikilink"
+  },
+  {
+   "src": "supplier-onboarding",
+   "dst": "returns-processing",
+   "type": "wikilink"
+  },
+  {
+   "src": "supplier-onboarding",
+   "dst": "visitor-access",
+   "type": "wikilink"
+  },
+  {
+   "src": "purchase-approval",
+   "dst": "change-management",
+   "type": "wikilink"
+  },
+  {
+   "src": "purchase-approval",
+   "dst": "training-certification",
+   "type": "wikilink"
+  },
+  {
+   "src": "invoice-dispute",
+   "dst": "equipment-calibration",
+   "type": "wikilink"
+  },
+  {
+   "src": "invoice-dispute",
+   "dst": "stock-adjustment",
+   "type": "wikilink"
+  },
+  {
+   "src": "data-retention",
+   "dst": "visitor-access",
+   "type": "wikilink"
+  },
+  {
+   "src": "data-retention",
+   "dst": "password-rotation",
+   "type": "wikilink"
+  },
+  {
+   "src": "access-review",
+   "dst": "vendor-audit",
+   "type": "wikilink"
+  },
+  {
+   "src": "access-review",
+   "dst": "stock-adjustment",
+   "type": "wikilink"
+  },
+  {
+   "src": "incident-escalation",
+   "dst": "visitor-access",
+   "type": "wikilink"
+  },
+  {
+   "src": "incident-escalation",
+   "dst": "password-rotation",
+   "type": "wikilink"
+  },
+  {
+   "src": "safety-inspection",
+   "dst": "purchase-approval",
+   "type": "wikilink"
+  },
+  {
+   "src": "safety-inspection",
+   "dst": "travel-expense",
+   "type": "wikilink"
+  },
+  {
+   "src": "hazmat-handling",
+   "dst": "purchase-approval",
+   "type": "wikilink"
+  },
+  {
+   "src": "hazmat-handling",
+   "dst": "password-rotation",
+   "type": "wikilink"
+  },
+  {
+   "src": "warehouse-receiving",
+   "dst": "password-rotation",
+   "type": "wikilink"
+  },
+  {
+   "src": "warehouse-receiving",
+   "dst": "cold-chain-storage",
+   "type": "wikilink"
+  },
+  {
+   "src": "returns-processing",
+   "dst": "credit-limit",
+   "type": "wikilink"
+  },
+  {
+   "src": "returns-processing",
+   "dst": "change-management",
+   "type": "wikilink"
+  },
+  {
+   "src": "customer-refund",
+   "dst": "software-release",
+   "type": "wikilink"
+  },
+  {
+   "src": "customer-refund",
+   "dst": "invoice-dispute",
+   "type": "wikilink"
+  },
+  {
+   "src": "vendor-audit",
+   "dst": "label-verification",
+   "type": "wikilink"
+  },
+  {
+   "src": "vendor-audit",
+   "dst": "cold-chain-storage",
+   "type": "wikilink"
+  },
+  {
+   "src": "change-management",
+   "dst": "software-release",
+   "type": "wikilink"
+  },
+  {
+   "src": "change-management",
+   "dst": "privacy-request",
+   "type": "wikilink"
+  },
+  {
+   "src": "backup-recovery",
+   "dst": "purchase-approval",
+   "type": "wikilink"
+  },
+  {
+   "src": "backup-recovery",
+   "dst": "invoice-dispute",
+   "type": "wikilink"
+  },
+  {
+   "src": "password-rotation",
+   "dst": "purchase-approval",
+   "type": "wikilink"
+  },
+  {
+   "src": "password-rotation",
+   "dst": "change-management",
+   "type": "wikilink"
+  },
+  {
+   "src": "travel-expense",
+   "dst": "label-verification",
+   "type": "wikilink"
+  },
+  {
+   "src": "travel-expense",
+   "dst": "fire-drill",
+   "type": "wikilink"
+  },
+  {
+   "src": "equipment-calibration",
+   "dst": "supplier-onboarding",
+   "type": "wikilink"
+  },
+  {
+   "src": "equipment-calibration",
+   "dst": "password-rotation",
+   "type": "wikilink"
+  },
+  {
+   "src": "label-verification",
+   "dst": "batch-recall",
+   "type": "wikilink"
+  },
+  {
+   "src": "label-verification",
+   "dst": "hazmat-handling",
+   "type": "wikilink"
+  },
+  {
+   "src": "shipment-hold",
+   "dst": "training-certification",
+   "type": "wikilink"
+  },
+  {
+   "src": "shipment-hold",
+   "dst": "backup-recovery",
+   "type": "wikilink"
+  },
+  {
+   "src": "training-certification",
+   "dst": "backup-recovery",
+   "type": "wikilink"
+  },
+  {
+   "src": "training-certification",
+   "dst": "password-rotation",
+   "type": "wikilink"
+  },
+  {
+   "src": "contract-renewal",
+   "dst": "change-management",
+   "type": "wikilink"
+  },
+  {
+   "src": "contract-renewal",
+   "dst": "privacy-request",
+   "type": "wikilink"
+  },
+  {
+   "src": "fire-drill",
+   "dst": "software-release",
+   "type": "wikilink"
+  },
+  {
+   "src": "fire-drill",
+   "dst": "supplier-onboarding",
+   "type": "wikilink"
+  },
+  {
+   "src": "software-release",
+   "dst": "visitor-access",
+   "type": "wikilink"
+  },
+  {
+   "src": "software-release",
+   "dst": "password-rotation",
+   "type": "wikilink"
+  },
+  {
+   "src": "privacy-request",
+   "dst": "batch-recall",
+   "type": "wikilink"
+  },
+  {
+   "src": "privacy-request",
+   "dst": "access-review",
+   "type": "wikilink"
+  },
+  {
+   "src": "stock-adjustment",
+   "dst": "data-retention",
+   "type": "wikilink"
+  },
+  {
+   "src": "stock-adjustment",
+   "dst": "incident-escalation",
+   "type": "wikilink"
+  },
+  {
+   "src": "credit-limit",
+   "dst": "batch-recall",
+   "type": "wikilink"
+  },
+  {
+   "src": "credit-limit",
+   "dst": "fire-drill",
+   "type": "wikilink"
+  },
+  {
+   "src": "visitor-access",
+   "dst": "supplier-onboarding",
+   "type": "wikilink"
+  },
+  {
+   "src": "visitor-access",
+   "dst": "backup-recovery",
+   "type": "wikilink"
+  },
+  {
+   "src": "lot-88392-safety-protocol",
+   "dst": "batch-recall",
+   "type": "wikilink"
+  },
+  {
+   "src": "lot-88392-safety-protocol",
+   "dst": "lot-quarantine",
+   "type": "wikilink"
+  }
+ ]
+}

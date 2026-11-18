@@ -1,0 +1,15 @@
+{
+ "vus": 100,
+ "duration_s": 20,
+ "requests": 1693,
+ "rps": 80.43857485582875,
+ "p50_ms": 55.940120000741445,
+ "p95_ms": 1012.436426000022,
+ "p99_ms": 2224.5133669994175,
+ "rate_5xx_pct": 0.0,
+ "status_codes": {
+  "200": 1693
+ },
+ "cross_tenant_leaks": 0,
+ "note": "client and server share one machine; Python client overhead inflates latency; NOT a 50K-VU result"
+}

@@ -1,0 +1,115 @@
+{
+ "env": {
+  "jmeter": "5.6.3",
+  "java": "openjdk version \"25.0.3-ea\" 2026-04-21",
+  "cores": 4,
+  "workers": 3,
+  "llm": "off (offline stub mode)",
+  "pacing": "Constant Throughput Timer 60/min/thread",
+  "ramp_s": 10,
+  "hold_s": 30,
+  "note": "stats exclude the ramp window; JMeter and server share one 4-core machine, pinned to separate cores"
+ },
+ "ladder": [
+  {
+   "threads": 250,
+   "requests_steady": 7426,
+   "requests_total": 8953,
+   "rps": 248.17030377970124,
+   "p50_ms": 4,
+   "p90_ms": 7,
+   "p95_ms": 9,
+   "p99_ms": 18,
+   "avg_ms": 4.872879073525451,
+   "max_ms": 60,
+   "http_error_pct": 0.0,
+   "assertion_fail_pct": 0.0,
+   "failure_messages": {},
+   "wall_s": 46.4,
+   "sla_met": true
+  },
+  {
+   "threads": 500,
+   "requests_steady": 14996,
+   "requests_total": 18076,
+   "rps": 491.09248100602565,
+   "p50_ms": 4,
+   "p90_ms": 8,
+   "p95_ms": 11,
+   "p99_ms": 31,
+   "avg_ms": 5.654907975460123,
+   "max_ms": 105,
+   "http_error_pct": 0.0,
+   "assertion_fail_pct": 0.0,
+   "failure_messages": {},
+   "wall_s": 47.2,
+   "sla_met": true
+  },
+  {
+   "threads": 1000,
+   "requests_steady": 27026,
+   "requests_total": 29646,
+   "rps": 564.2524584003173,
+   "p50_ms": 296,
+   "p90_ms": 842,
+   "p95_ms": 1021,
+   "p99_ms": 1303,
+   "avg_ms": 362.9759120846592,
+   "max_ms": 3108,
+   "http_error_pct": 0.0,
+   "assertion_fail_pct": 25.190557241175163,
+   "failure_messages": {
+    "JSONPath '$[?(@.faithfulness >= 0.92)]' is indefinite and the extracted Value is an empty ": 591,
+    "The operation lasted too long: It took 615 milliseconds, but should not have lasted longer": 29,
+    "The operation lasted too long: It took 796 milliseconds, but should not have lasted longer": 29,
+    "The operation lasted too long: It took 781 milliseconds, but should not have lasted longer": 27
+   },
+   "wall_s": 64.9,
+   "sla_met": false
+  },
+  {
+   "threads": 2000,
+   "requests_steady": 30038,
+   "requests_total": 32810,
+   "rps": 504.53507121741467,
+   "p50_ms": 1754,
+   "p90_ms": 4224,
+   "p95_ms": 5181,
+   "p99_ms": 6613,
+   "avg_ms": 2059.860743058792,
+   "max_ms": 8413,
+   "http_error_pct": 0.0,
+   "assertion_fail_pct": 91.19781609960717,
+   "failure_messages": {
+    "JSONPath '$[?(@.faithfulness >= 0.92)]' is indefinite and the extracted Value is an empty ": 1906,
+    "The operation lasted too long: It took 3,347 milliseconds, but should not have lasted long": 33,
+    "The operation lasted too long: It took 2,553 milliseconds, but should not have lasted long": 32,
+    "The operation lasted too long: It took 1,748 milliseconds, but should not have lasted long": 29
+   },
+   "wall_s": 76.7,
+   "sla_met": false
+  },
+  {
+   "threads": 3000,
+   "requests_steady": 35938,
+   "requests_total": 39285,
+   "rps": 535.0783157643975,
+   "p50_ms": 2501,
+   "p90_ms": 5726,
+   "p95_ms": 7008,
+   "p99_ms": 9408,
+   "avg_ms": 2806.842673493238,
+   "max_ms": 11831,
+   "http_error_pct": 0.0,
+   "assertion_fail_pct": 87.12504869497468,
+   "failure_messages": {
+    "JSONPath '$[?(@.faithfulness >= 0.92)]' is indefinite and the extracted Value is an empty ": 2170,
+    "The operation lasted too long: It took 3,690 milliseconds, but should not have lasted long": 50,
+    "The operation lasted too long: It took 4,296 milliseconds, but should not have lasted long": 40,
+    "The operation lasted too long: It took 3,356 milliseconds, but should not have lasted long": 40
+   },
+   "wall_s": 84.1,
+   "sla_met": false
+  }
+ ]
+}

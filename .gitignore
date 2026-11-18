@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+state.db
+results_50k.jtl
+dashboard_50k/
+.env
+*.key
+.keys/

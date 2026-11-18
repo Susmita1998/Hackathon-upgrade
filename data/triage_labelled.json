@@ -1,0 +1,2081 @@
+[
+ {
+  "query": "help",
+  "route": "DIRECT_ANSWER",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Summarize our Shipment Hold rules",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 2,
+  "complexity": "medium"
+ },
+ {
+  "query": "Who invented the telephone?",
+  "route": "REJECT_OOS",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Before scheduling work, what maximum batch size applies to Purchase Approval, and who is the owner?",
+  "route": "HYBRID_RAG",
+  "domain": "finance",
+  "risk_tier": 3,
+  "complexity": "high"
+ },
+ {
+  "query": "Explain the Warehouse Receiving policy",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "medium"
+ },
+ {
+  "query": "Release the Password Rotation form for SKU-072",
+  "route": "TRANSACTION_EXEC",
+  "domain": "security",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the maximum batch size for Supplier Onboarding?",
+  "route": "HYBRID_RAG",
+  "domain": "procurement",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "what can you do",
+  "route": "DIRECT_ANSWER",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Who painted the Mona Lisa?",
+  "route": "REJECT_OOS",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Please update workflow Credit Limit for LOT-68739",
+  "route": "TRANSACTION_EXEC",
+  "domain": "finance",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the escalation deadline of the procedure that escalations for Purchase Approval follow?",
+  "route": "HYBRID_RAG",
+  "domain": "finance",
+  "risk_tier": 3,
+  "complexity": "high"
+ },
+ {
+  "query": "Show details for SKU1 and its lot LOT-25963",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "When preparing a review, what maximum processing time applies to Fire Drill, and who is the owner?",
+  "route": "HYBRID_RAG",
+  "domain": "safety",
+  "risk_tier": 1,
+  "complexity": "high"
+ },
+ {
+  "query": "Explain quantum entanglement to a child.",
+  "route": "REJECT_OOS",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "When preparing a review, what record retention period applies to Customer Refund, and who is the owner?",
+  "route": "HYBRID_RAG",
+  "domain": "finance",
+  "risk_tier": 3,
+  "complexity": "high"
+ },
+ {
+  "query": "What is the maximum batch size for Invoice Dispute?",
+  "route": "HYBRID_RAG",
+  "domain": "finance",
+  "risk_tier": 2,
+  "complexity": "low"
+ },
+ {
+  "query": "Explain the Label Verification policy",
+  "route": "HYBRID_RAG",
+  "domain": "quality",
+  "risk_tier": 1,
+  "complexity": "medium"
+ },
+ {
+  "query": "Show details for SKU91 and its lot LOT-06795",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the cooling-off period of the procedure that escalations for Data Retention follow?",
+  "route": "HYBRID_RAG",
+  "domain": "compliance",
+  "risk_tier": 2,
+  "complexity": "high"
+ },
+ {
+  "query": "Verify batch LOT-92440 safety protocol and return triage status",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the boiling point of mercury?",
+  "route": "REJECT_OOS",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Verify batch LOT-78136 safety protocol and return triage status",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "During onboarding, what audit lookback period applies to Incident Escalation, and who is the owner?",
+  "route": "HYBRID_RAG",
+  "domain": "operations",
+  "risk_tier": 2,
+  "complexity": "high"
+ },
+ {
+  "query": "For reporting, what required approvals applies to Batch Recall, and who is the owner?",
+  "route": "HYBRID_RAG",
+  "domain": "quality",
+  "risk_tier": 3,
+  "complexity": "high"
+ },
+ {
+  "query": "What is the notification window of the procedure that escalations for Incident Escalation follow?",
+  "route": "HYBRID_RAG",
+  "domain": "operations",
+  "risk_tier": 2,
+  "complexity": "high"
+ },
+ {
+  "query": "Submit the Visitor Access form for SKU-002",
+  "route": "TRANSACTION_EXEC",
+  "domain": "security",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the audit lookback period for Training Certification?",
+  "route": "HYBRID_RAG",
+  "domain": "compliance",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Summarize our Vendor Audit rules",
+  "route": "HYBRID_RAG",
+  "domain": "compliance",
+  "risk_tier": 2,
+  "complexity": "medium"
+ },
+ {
+  "query": "For reporting, what required approvals applies to Data Retention, and who is the owner?",
+  "route": "HYBRID_RAG",
+  "domain": "compliance",
+  "risk_tier": 2,
+  "complexity": "high"
+ },
+ {
+  "query": "What is the safety protocol for lot 8839?",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "When preparing a review, what audit lookback period applies to Invoice Dispute, and who is the owner?",
+  "route": "HYBRID_RAG",
+  "domain": "finance",
+  "risk_tier": 2,
+  "complexity": "high"
+ },
+ {
+  "query": "thank you",
+  "route": "DIRECT_ANSWER",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Please update workflow Batch Recall for LOT-81416",
+  "route": "TRANSACTION_EXEC",
+  "domain": "quality",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Check the status of LOT-87472",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Explain the Training Certification policy",
+  "route": "HYBRID_RAG",
+  "domain": "compliance",
+  "risk_tier": 1,
+  "complexity": "medium"
+ },
+ {
+  "query": "Please update workflow Label Verification for LOT-74661",
+  "route": "TRANSACTION_EXEC",
+  "domain": "quality",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Transition the Equipment Calibration form for SKU-032",
+  "route": "TRANSACTION_EXEC",
+  "domain": "quality",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "When is the next solar eclipse?",
+  "route": "REJECT_OOS",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Summarize our Hazmat Handling rules",
+  "route": "HYBRID_RAG",
+  "domain": "safety",
+  "risk_tier": 3,
+  "complexity": "medium"
+ },
+ {
+  "query": "Who won the 2022 football World Cup?",
+  "route": "REJECT_OOS",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Update the Cold Chain Storage form for SKU-099",
+  "route": "TRANSACTION_EXEC",
+  "domain": "logistics",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Summarize our Returns Processing rules",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "medium"
+ },
+ {
+  "query": "Show details for SKU28 and its lot LOT-07125",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "How many units of SKU-012 are in stock?",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Explain the Cold Chain Storage policy",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 2,
+  "complexity": "medium"
+ },
+ {
+  "query": "Please close workflow Hazmat Handling for LOT-15735",
+  "route": "TRANSACTION_EXEC",
+  "domain": "safety",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Check the status of LOT-49825",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Please approve workflow Returns Processing for LOT-06766",
+  "route": "TRANSACTION_EXEC",
+  "domain": "logistics",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the review frequency of the procedure that escalations for Visitor Access follow?",
+  "route": "HYBRID_RAG",
+  "domain": "security",
+  "risk_tier": 1,
+  "complexity": "high"
+ },
+ {
+  "query": "Update the Change Management form for SKU-063",
+  "route": "TRANSACTION_EXEC",
+  "domain": "operations",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Explain the Backup Recovery policy",
+  "route": "HYBRID_RAG",
+  "domain": "security",
+  "risk_tier": 2,
+  "complexity": "medium"
+ },
+ {
+  "query": "Explain the Change Management policy",
+  "route": "HYBRID_RAG",
+  "domain": "operations",
+  "risk_tier": 2,
+  "complexity": "medium"
+ },
+ {
+  "query": "hello there",
+  "route": "DIRECT_ANSWER",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Please transition workflow Shipment Hold for LOT-49397",
+  "route": "TRANSACTION_EXEC",
+  "domain": "logistics",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Please update workflow Stock Adjustment for LOT-16773",
+  "route": "TRANSACTION_EXEC",
+  "domain": "logistics",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Verify batch LOT-53977 safety protocol and return triage status",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Please submit workflow Change Management for LOT-72104",
+  "route": "TRANSACTION_EXEC",
+  "domain": "operations",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Explain the Password Rotation policy",
+  "route": "HYBRID_RAG",
+  "domain": "security",
+  "risk_tier": 1,
+  "complexity": "medium"
+ },
+ {
+  "query": "hi",
+  "route": "DIRECT_ANSWER",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Who is the best tennis player ever?",
+  "route": "REJECT_OOS",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "For reporting, what notification window applies to Visitor Access, and who is the owner?",
+  "route": "HYBRID_RAG",
+  "domain": "security",
+  "risk_tier": 1,
+  "complexity": "high"
+ },
+ {
+  "query": "What is the escalation deadline of the procedure that escalations for Password Rotation follow?",
+  "route": "HYBRID_RAG",
+  "domain": "security",
+  "risk_tier": 1,
+  "complexity": "high"
+ },
+ {
+  "query": "Which restaurant near the office has the best pizza?",
+  "route": "REJECT_OOS",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Please close workflow Safety Inspection for LOT-41429",
+  "route": "TRANSACTION_EXEC",
+  "domain": "safety",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Check the status of LOT-65315",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the WiFi password at the airport?",
+  "route": "REJECT_OOS",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Check the status of LOT-62300",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the review frequency of the procedure that escalations for Warehouse Receiving follow?",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "high"
+ },
+ {
+  "query": "What is the review frequency for Returns Processing?",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "How many units of SKU-064 are in stock?",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Close the Customer Refund form for SKU-066",
+  "route": "TRANSACTION_EXEC",
+  "domain": "finance",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Summarize our Label Verification rules",
+  "route": "HYBRID_RAG",
+  "domain": "quality",
+  "risk_tier": 1,
+  "complexity": "medium"
+ },
+ {
+  "query": "During onboarding, what maximum processing time applies to Software Release, and who is the owner?",
+  "route": "HYBRID_RAG",
+  "domain": "operations",
+  "risk_tier": 2,
+  "complexity": "high"
+ },
+ {
+  "query": "What will the weather be in Paris tomorrow?",
+  "route": "REJECT_OOS",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the maximum processing time for Incident Escalation?",
+  "route": "HYBRID_RAG",
+  "domain": "operations",
+  "risk_tier": 2,
+  "complexity": "low"
+ },
+ {
+  "query": "Transition the Vendor Audit form for SKU-093",
+  "route": "TRANSACTION_EXEC",
+  "domain": "compliance",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Explain the Hazmat Handling policy",
+  "route": "HYBRID_RAG",
+  "domain": "safety",
+  "risk_tier": 3,
+  "complexity": "medium"
+ },
+ {
+  "query": "What time does the sun set in Tokyo?",
+  "route": "REJECT_OOS",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Check the status of LOT-71697",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "For reporting, what maximum processing time applies to Lot Quarantine, and who is the owner?",
+  "route": "HYBRID_RAG",
+  "domain": "quality",
+  "risk_tier": 3,
+  "complexity": "high"
+ },
+ {
+  "query": "Recommend a good sci-fi movie.",
+  "route": "REJECT_OOS",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "During onboarding, what audit lookback period applies to Change Management, and who is the owner?",
+  "route": "HYBRID_RAG",
+  "domain": "operations",
+  "risk_tier": 2,
+  "complexity": "high"
+ },
+ {
+  "query": "Show details for SKU40 and its lot LOT-26269",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "During onboarding, what notification window applies to Cold Chain Storage, and who is the owner?",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 2,
+  "complexity": "high"
+ },
+ {
+  "query": "Check the status of LOT-30253",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the review frequency for Access Review?",
+  "route": "HYBRID_RAG",
+  "domain": "security",
+  "risk_tier": 2,
+  "complexity": "low"
+ },
+ {
+  "query": "What are next year's lottery numbers?",
+  "route": "REJECT_OOS",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Please release workflow Contract Renewal for LOT-56602",
+  "route": "TRANSACTION_EXEC",
+  "domain": "procurement",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Create the Warehouse Receiving form for SKU-009",
+  "route": "TRANSACTION_EXEC",
+  "domain": "logistics",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Summarize our Data Retention rules",
+  "route": "HYBRID_RAG",
+  "domain": "compliance",
+  "risk_tier": 2,
+  "complexity": "medium"
+ },
+ {
+  "query": "Explain the Software Release policy",
+  "route": "HYBRID_RAG",
+  "domain": "operations",
+  "risk_tier": 2,
+  "complexity": "medium"
+ },
+ {
+  "query": "Verify batch LOT-40872 safety protocol and return triage status",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Please create workflow Customer Refund for LOT-24884",
+  "route": "TRANSACTION_EXEC",
+  "domain": "finance",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "For reporting, what maximum processing time applies to Shipment Hold, and who is the owner?",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 2,
+  "complexity": "high"
+ },
+ {
+  "query": "Summarize our Software Release rules",
+  "route": "HYBRID_RAG",
+  "domain": "operations",
+  "risk_tier": 2,
+  "complexity": "medium"
+ },
+ {
+  "query": "How do I learn to play guitar?",
+  "route": "REJECT_OOS",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Please submit workflow Cold Chain Storage for LOT-80869",
+  "route": "TRANSACTION_EXEC",
+  "domain": "logistics",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "How many units of SKU-003 are in stock?",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Please close workflow Password Rotation for LOT-15695",
+  "route": "TRANSACTION_EXEC",
+  "domain": "security",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the notification window of the procedure that escalations for Returns Processing follow?",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "high"
+ },
+ {
+  "query": "Explain the Credit Limit policy",
+  "route": "HYBRID_RAG",
+  "domain": "finance",
+  "risk_tier": 3,
+  "complexity": "medium"
+ },
+ {
+  "query": "Summarize our Backup Recovery rules",
+  "route": "HYBRID_RAG",
+  "domain": "security",
+  "risk_tier": 2,
+  "complexity": "medium"
+ },
+ {
+  "query": "Explain the Visitor Access policy",
+  "route": "HYBRID_RAG",
+  "domain": "security",
+  "risk_tier": 1,
+  "complexity": "medium"
+ },
+ {
+  "query": "What is the sample size for Label Verification?",
+  "route": "HYBRID_RAG",
+  "domain": "quality",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the audit lookback period of the procedure that escalations for Backup Recovery follow?",
+  "route": "HYBRID_RAG",
+  "domain": "security",
+  "risk_tier": 2,
+  "complexity": "high"
+ },
+ {
+  "query": "How many units of SKU-015 are in stock?",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Summarize our Travel Expense rules",
+  "route": "HYBRID_RAG",
+  "domain": "finance",
+  "risk_tier": 1,
+  "complexity": "medium"
+ },
+ {
+  "query": "Explain the Equipment Calibration policy",
+  "route": "HYBRID_RAG",
+  "domain": "quality",
+  "risk_tier": 2,
+  "complexity": "medium"
+ },
+ {
+  "query": "What is the record retention period of the procedure that escalations for Stock Adjustment follow?",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 3,
+  "complexity": "high"
+ },
+ {
+  "query": "What year did the Berlin Wall fall?",
+  "route": "REJECT_OOS",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Explain the Shipment Hold policy",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 2,
+  "complexity": "medium"
+ },
+ {
+  "query": "What is the stock price of Acme Corp today?",
+  "route": "REJECT_OOS",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Before scheduling work, what sample size applies to Returns Processing, and who is the owner?",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "high"
+ },
+ {
+  "query": "Which vitamins help with sleep?",
+  "route": "REJECT_OOS",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "What is my colleague's salary?",
+  "route": "REJECT_OOS",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "When preparing a review, what sample size applies to Training Certification, and who is the owner?",
+  "route": "HYBRID_RAG",
+  "domain": "compliance",
+  "risk_tier": 1,
+  "complexity": "high"
+ },
+ {
+  "query": "Please transition workflow Travel Expense for LOT-59374",
+  "route": "TRANSACTION_EXEC",
+  "domain": "finance",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Check the status of LOT-34737",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Cancel the Incident Escalation form for SKU-001",
+  "route": "TRANSACTION_EXEC",
+  "domain": "operations",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Before scheduling work, what sample size applies to Hazmat Handling, and who is the owner?",
+  "route": "HYBRID_RAG",
+  "domain": "safety",
+  "risk_tier": 3,
+  "complexity": "high"
+ },
+ {
+  "query": "What is the maximum batch size for Privacy Request?",
+  "route": "HYBRID_RAG",
+  "domain": "compliance",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Please release workflow Fire Drill for LOT-76963",
+  "route": "TRANSACTION_EXEC",
+  "domain": "safety",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "who are you",
+  "route": "DIRECT_ANSWER",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Explain the Contract Renewal policy",
+  "route": "HYBRID_RAG",
+  "domain": "procurement",
+  "risk_tier": 2,
+  "complexity": "medium"
+ },
+ {
+  "query": "When preparing a review, what audit lookback period applies to Equipment Calibration, and who is the owner?",
+  "route": "HYBRID_RAG",
+  "domain": "quality",
+  "risk_tier": 2,
+  "complexity": "high"
+ },
+ {
+  "query": "Release the Software Release form for SKU-058",
+  "route": "TRANSACTION_EXEC",
+  "domain": "operations",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the review frequency for Warehouse Receiving?",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the record retention period of the procedure that escalations for Privacy Request follow?",
+  "route": "HYBRID_RAG",
+  "domain": "compliance",
+  "risk_tier": 3,
+  "complexity": "high"
+ },
+ {
+  "query": "Who is the president of Brazil?",
+  "route": "REJECT_OOS",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Check the status of LOT-63577",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the required approvals of the procedure that escalations for Software Release follow?",
+  "route": "HYBRID_RAG",
+  "domain": "operations",
+  "risk_tier": 2,
+  "complexity": "high"
+ },
+ {
+  "query": "What is the audit lookback period for Cold Chain Storage?",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 2,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the record retention period for Equipment Calibration?",
+  "route": "HYBRID_RAG",
+  "domain": "quality",
+  "risk_tier": 2,
+  "complexity": "low"
+ },
+ {
+  "query": "When preparing a review, what maximum batch size applies to Label Verification, and who is the owner?",
+  "route": "HYBRID_RAG",
+  "domain": "quality",
+  "risk_tier": 1,
+  "complexity": "high"
+ },
+ {
+  "query": "Please release workflow Privacy Request for LOT-11142",
+  "route": "TRANSACTION_EXEC",
+  "domain": "compliance",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Explain the Access Review policy",
+  "route": "HYBRID_RAG",
+  "domain": "security",
+  "risk_tier": 2,
+  "complexity": "medium"
+ },
+ {
+  "query": "Summarize our Batch Recall rules",
+  "route": "HYBRID_RAG",
+  "domain": "quality",
+  "risk_tier": 3,
+  "complexity": "medium"
+ },
+ {
+  "query": "What is the required approvals of the procedure that escalations for Invoice Dispute follow?",
+  "route": "HYBRID_RAG",
+  "domain": "finance",
+  "risk_tier": 2,
+  "complexity": "high"
+ },
+ {
+  "query": "Explain the Returns Processing policy",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "medium"
+ },
+ {
+  "query": "Explain the Customer Refund policy",
+  "route": "HYBRID_RAG",
+  "domain": "finance",
+  "risk_tier": 3,
+  "complexity": "medium"
+ },
+ {
+  "query": "What is the speed of light?",
+  "route": "REJECT_OOS",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Please create workflow Access Review for LOT-30328",
+  "route": "TRANSACTION_EXEC",
+  "domain": "security",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Submit the Returns Processing form for SKU-036",
+  "route": "TRANSACTION_EXEC",
+  "domain": "logistics",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Please release workflow Supplier Onboarding for LOT-61125",
+  "route": "TRANSACTION_EXEC",
+  "domain": "procurement",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the escalation deadline for Contract Renewal?",
+  "route": "HYBRID_RAG",
+  "domain": "procurement",
+  "risk_tier": 2,
+  "complexity": "low"
+ },
+ {
+  "query": "Approve the Privacy Request form for SKU-106",
+  "route": "TRANSACTION_EXEC",
+  "domain": "compliance",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Please create workflow Training Certification for LOT-16499",
+  "route": "TRANSACTION_EXEC",
+  "domain": "compliance",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Explain the Data Retention policy",
+  "route": "HYBRID_RAG",
+  "domain": "compliance",
+  "risk_tier": 2,
+  "complexity": "medium"
+ },
+ {
+  "query": "Show details for SKU114 and its lot LOT-93328",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Show details for SKU33 and its lot LOT-10629",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Release the Lot Quarantine form for SKU-035",
+  "route": "TRANSACTION_EXEC",
+  "domain": "quality",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "For reporting, what cooling-off period applies to Access Review, and who is the owner?",
+  "route": "HYBRID_RAG",
+  "domain": "security",
+  "risk_tier": 2,
+  "complexity": "high"
+ },
+ {
+  "query": "What is the notification window for Shipment Hold?",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 2,
+  "complexity": "low"
+ },
+ {
+  "query": "Check the status of LOT-48853",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Translate hello into Klingon.",
+  "route": "REJECT_OOS",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the review frequency for Purchase Approval?",
+  "route": "HYBRID_RAG",
+  "domain": "finance",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "For reporting, what required approvals applies to Contract Renewal, and who is the owner?",
+  "route": "HYBRID_RAG",
+  "domain": "procurement",
+  "risk_tier": 2,
+  "complexity": "high"
+ },
+ {
+  "query": "Summarize our Stock Adjustment rules",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 3,
+  "complexity": "medium"
+ },
+ {
+  "query": "Explain the Batch Recall policy",
+  "route": "HYBRID_RAG",
+  "domain": "quality",
+  "risk_tier": 3,
+  "complexity": "medium"
+ },
+ {
+  "query": "bye",
+  "route": "DIRECT_ANSWER",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Please update workflow Visitor Access for LOT-60384",
+  "route": "TRANSACTION_EXEC",
+  "domain": "security",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the record retention period of the procedure that escalations for Fire Drill follow?",
+  "route": "HYBRID_RAG",
+  "domain": "safety",
+  "risk_tier": 1,
+  "complexity": "high"
+ },
+ {
+  "query": "What is the review frequency for Password Rotation?",
+  "route": "HYBRID_RAG",
+  "domain": "security",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the capital of Australia?",
+  "route": "REJECT_OOS",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Verify batch LOT-91203 safety protocol and return triage status",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the record retention period for Batch Recall?",
+  "route": "HYBRID_RAG",
+  "domain": "quality",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Please update workflow Backup Recovery for LOT-33521",
+  "route": "TRANSACTION_EXEC",
+  "domain": "security",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Summarize our Supplier Onboarding rules",
+  "route": "HYBRID_RAG",
+  "domain": "procurement",
+  "risk_tier": 1,
+  "complexity": "medium"
+ },
+ {
+  "query": "How many units of SKU-080 are in stock?",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "How many calories are in an apple?",
+  "route": "REJECT_OOS",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the airspeed velocity of an unladen swallow?",
+  "route": "REJECT_OOS",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Explain the Travel Expense policy",
+  "route": "HYBRID_RAG",
+  "domain": "finance",
+  "risk_tier": 1,
+  "complexity": "medium"
+ },
+ {
+  "query": "For reporting, what record retention period applies to Privacy Request, and who is the owner?",
+  "route": "HYBRID_RAG",
+  "domain": "compliance",
+  "risk_tier": 3,
+  "complexity": "high"
+ },
+ {
+  "query": "What is the review frequency of the procedure that escalations for Safety Inspection follow?",
+  "route": "HYBRID_RAG",
+  "domain": "safety",
+  "risk_tier": 3,
+  "complexity": "high"
+ },
+ {
+  "query": "Explain the Vendor Audit policy",
+  "route": "HYBRID_RAG",
+  "domain": "compliance",
+  "risk_tier": 2,
+  "complexity": "medium"
+ },
+ {
+  "query": "What is the tallest building in Dubai?",
+  "route": "REJECT_OOS",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "How many units of SKU-109 are in stock?",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Please update workflow Data Retention for LOT-47128",
+  "route": "TRANSACTION_EXEC",
+  "domain": "compliance",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the notification window of the procedure that escalations for Shipment Hold follow?",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 2,
+  "complexity": "high"
+ },
+ {
+  "query": "What is the sample size for Hazmat Handling?",
+  "route": "HYBRID_RAG",
+  "domain": "safety",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Summarize our Invoice Dispute rules",
+  "route": "HYBRID_RAG",
+  "domain": "finance",
+  "risk_tier": 2,
+  "complexity": "medium"
+ },
+ {
+  "query": "Approve the Credit Limit form for SKU-010",
+  "route": "TRANSACTION_EXEC",
+  "domain": "finance",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Please release workflow Incident Escalation for LOT-89338",
+  "route": "TRANSACTION_EXEC",
+  "domain": "operations",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Cancel the Data Retention form for SKU-096",
+  "route": "TRANSACTION_EXEC",
+  "domain": "compliance",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Verify batch LOT-77962 safety protocol and return triage status",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "For reporting, what record retention period applies to Backup Recovery, and who is the owner?",
+  "route": "HYBRID_RAG",
+  "domain": "security",
+  "risk_tier": 2,
+  "complexity": "high"
+ },
+ {
+  "query": "Verify batch LOT-24131 safety protocol and return triage status",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Explain the Safety Inspection policy",
+  "route": "HYBRID_RAG",
+  "domain": "safety",
+  "risk_tier": 3,
+  "complexity": "medium"
+ },
+ {
+  "query": "What is the record retention period for Safety Inspection?",
+  "route": "HYBRID_RAG",
+  "domain": "safety",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Summarize our Customer Refund rules",
+  "route": "HYBRID_RAG",
+  "domain": "finance",
+  "risk_tier": 3,
+  "complexity": "medium"
+ },
+ {
+  "query": "Close the Safety Inspection form for SKU-045",
+  "route": "TRANSACTION_EXEC",
+  "domain": "safety",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Transition the Label Verification form for SKU-048",
+  "route": "TRANSACTION_EXEC",
+  "domain": "quality",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the maximum processing time of the procedure that escalations for Hazmat Handling follow?",
+  "route": "HYBRID_RAG",
+  "domain": "safety",
+  "risk_tier": 3,
+  "complexity": "high"
+ },
+ {
+  "query": "When preparing a review, what maximum batch size applies to Credit Limit, and who is the owner?",
+  "route": "HYBRID_RAG",
+  "domain": "finance",
+  "risk_tier": 3,
+  "complexity": "high"
+ },
+ {
+  "query": "Create the Hazmat Handling form for SKU-108",
+  "route": "TRANSACTION_EXEC",
+  "domain": "safety",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the plot of Hamlet?",
+  "route": "REJECT_OOS",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Submit the Stock Adjustment form for SKU-083",
+  "route": "TRANSACTION_EXEC",
+  "domain": "logistics",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the maximum processing time for Fire Drill?",
+  "route": "HYBRID_RAG",
+  "domain": "safety",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the required approvals for Credit Limit?",
+  "route": "HYBRID_RAG",
+  "domain": "finance",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Summarize our Equipment Calibration rules",
+  "route": "HYBRID_RAG",
+  "domain": "quality",
+  "risk_tier": 2,
+  "complexity": "medium"
+ },
+ {
+  "query": "What is the escalation deadline for Stock Adjustment?",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Verify batch LOT-73549 safety protocol and return triage status",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Summarize our Fire Drill rules",
+  "route": "HYBRID_RAG",
+  "domain": "safety",
+  "risk_tier": 1,
+  "complexity": "medium"
+ },
+ {
+  "query": "Summarize our Training Certification rules",
+  "route": "HYBRID_RAG",
+  "domain": "compliance",
+  "risk_tier": 1,
+  "complexity": "medium"
+ },
+ {
+  "query": "Show details for SKU43 and its lot LOT-49006",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the cooling-off period of the procedure that escalations for Change Management follow?",
+  "route": "HYBRID_RAG",
+  "domain": "operations",
+  "risk_tier": 2,
+  "complexity": "high"
+ },
+ {
+  "query": "Please release workflow Purchase Approval for LOT-02295",
+  "route": "TRANSACTION_EXEC",
+  "domain": "finance",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Explain the Incident Escalation policy",
+  "route": "HYBRID_RAG",
+  "domain": "operations",
+  "risk_tier": 2,
+  "complexity": "medium"
+ },
+ {
+  "query": "What is the required approvals for Data Retention?",
+  "route": "HYBRID_RAG",
+  "domain": "compliance",
+  "risk_tier": 2,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the notification window for Backup Recovery?",
+  "route": "HYBRID_RAG",
+  "domain": "security",
+  "risk_tier": 2,
+  "complexity": "low"
+ },
+ {
+  "query": "Please transition workflow Software Release for LOT-14293",
+  "route": "TRANSACTION_EXEC",
+  "domain": "operations",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the required approvals of the procedure that escalations for Travel Expense follow?",
+  "route": "HYBRID_RAG",
+  "domain": "finance",
+  "risk_tier": 1,
+  "complexity": "high"
+ },
+ {
+  "query": "What is the record retention period for Change Management?",
+  "route": "HYBRID_RAG",
+  "domain": "operations",
+  "risk_tier": 2,
+  "complexity": "low"
+ },
+ {
+  "query": "Explain the Supplier Onboarding policy",
+  "route": "HYBRID_RAG",
+  "domain": "procurement",
+  "risk_tier": 1,
+  "complexity": "medium"
+ },
+ {
+  "query": "Summarize our Access Review rules",
+  "route": "HYBRID_RAG",
+  "domain": "security",
+  "risk_tier": 2,
+  "complexity": "medium"
+ },
+ {
+  "query": "For reporting, what audit lookback period applies to Supplier Onboarding, and who is the owner?",
+  "route": "HYBRID_RAG",
+  "domain": "procurement",
+  "risk_tier": 1,
+  "complexity": "high"
+ },
+ {
+  "query": "Update the Training Certification form for SKU-074",
+  "route": "TRANSACTION_EXEC",
+  "domain": "compliance",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "hey assistant",
+  "route": "DIRECT_ANSWER",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Summarize our Lot Quarantine rules",
+  "route": "HYBRID_RAG",
+  "domain": "quality",
+  "risk_tier": 3,
+  "complexity": "medium"
+ },
+ {
+  "query": "Update the Supplier Onboarding form for SKU-060",
+  "route": "TRANSACTION_EXEC",
+  "domain": "procurement",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Summarize our Change Management rules",
+  "route": "HYBRID_RAG",
+  "domain": "operations",
+  "risk_tier": 2,
+  "complexity": "medium"
+ },
+ {
+  "query": "Please close workflow Invoice Dispute for LOT-27504",
+  "route": "TRANSACTION_EXEC",
+  "domain": "finance",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Verify batch LOT-46068 safety protocol and return triage status",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "How many moons does Jupiter have?",
+  "route": "REJECT_OOS",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Write a poem about the sea.",
+  "route": "REJECT_OOS",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Summarize our Password Rotation rules",
+  "route": "HYBRID_RAG",
+  "domain": "security",
+  "risk_tier": 1,
+  "complexity": "medium"
+ },
+ {
+  "query": "What is the cooling-off period of the procedure that escalations for Batch Recall follow?",
+  "route": "HYBRID_RAG",
+  "domain": "quality",
+  "risk_tier": 3,
+  "complexity": "high"
+ },
+ {
+  "query": "Close the Contract Renewal form for SKU-052",
+  "route": "TRANSACTION_EXEC",
+  "domain": "procurement",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the maximum processing time for Lot Quarantine?",
+  "route": "HYBRID_RAG",
+  "domain": "quality",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Please approve workflow Vendor Audit for LOT-06485",
+  "route": "TRANSACTION_EXEC",
+  "domain": "compliance",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "During onboarding, what notification window applies to Safety Inspection, and who is the owner?",
+  "route": "HYBRID_RAG",
+  "domain": "safety",
+  "risk_tier": 3,
+  "complexity": "high"
+ },
+ {
+  "query": "Release the Invoice Dispute form for SKU-035",
+  "route": "TRANSACTION_EXEC",
+  "domain": "finance",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Give me a joke about accountants.",
+  "route": "REJECT_OOS",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the notification window for Vendor Audit?",
+  "route": "HYBRID_RAG",
+  "domain": "compliance",
+  "risk_tier": 2,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the maximum batch size of the procedure that escalations for Access Review follow?",
+  "route": "HYBRID_RAG",
+  "domain": "security",
+  "risk_tier": 2,
+  "complexity": "high"
+ },
+ {
+  "query": "Suggest a name for my dog.",
+  "route": "REJECT_OOS",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the best programming language?",
+  "route": "REJECT_OOS",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "How tall is Mount Everest?",
+  "route": "REJECT_OOS",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the safety protocol for lot 97821?",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Summarize our Credit Limit rules",
+  "route": "HYBRID_RAG",
+  "domain": "finance",
+  "risk_tier": 3,
+  "complexity": "medium"
+ },
+ {
+  "query": "What is the escalation deadline of the procedure that escalations for Customer Refund follow?",
+  "route": "HYBRID_RAG",
+  "domain": "finance",
+  "risk_tier": 3,
+  "complexity": "high"
+ },
+ {
+  "query": "Create the Backup Recovery form for SKU-037",
+  "route": "TRANSACTION_EXEC",
+  "domain": "security",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Summarize our Warehouse Receiving rules",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "medium"
+ },
+ {
+  "query": "What is the cafeteria menu for Friday?",
+  "route": "REJECT_OOS",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Please close workflow Warehouse Receiving for LOT-51140",
+  "route": "TRANSACTION_EXEC",
+  "domain": "logistics",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Summarize our Incident Escalation rules",
+  "route": "HYBRID_RAG",
+  "domain": "operations",
+  "risk_tier": 2,
+  "complexity": "medium"
+ },
+ {
+  "query": "What is the maximum processing time of the procedure that escalations for Training Certification follow?",
+  "route": "HYBRID_RAG",
+  "domain": "compliance",
+  "risk_tier": 1,
+  "complexity": "high"
+ },
+ {
+  "query": "Explain the Invoice Dispute policy",
+  "route": "HYBRID_RAG",
+  "domain": "finance",
+  "risk_tier": 2,
+  "complexity": "medium"
+ },
+ {
+  "query": "What is the CEO's home address?",
+  "route": "REJECT_OOS",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the notification window for Software Release?",
+  "route": "HYBRID_RAG",
+  "domain": "operations",
+  "risk_tier": 2,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the population of Canada?",
+  "route": "REJECT_OOS",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "For reporting, what maximum processing time applies to Warehouse Receiving, and who is the owner?",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "high"
+ },
+ {
+  "query": "Before scheduling work, what maximum processing time applies to Stock Adjustment, and who is the owner?",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 3,
+  "complexity": "high"
+ },
+ {
+  "query": "How do I bake sourdough bread?",
+  "route": "REJECT_OOS",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the escalation deadline for Visitor Access?",
+  "route": "HYBRID_RAG",
+  "domain": "security",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Summarize our Cold Chain Storage rules",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 2,
+  "complexity": "medium"
+ },
+ {
+  "query": "What is the review frequency for Customer Refund?",
+  "route": "HYBRID_RAG",
+  "domain": "finance",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "good morning",
+  "route": "DIRECT_ANSWER",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Summarize our Safety Inspection rules",
+  "route": "HYBRID_RAG",
+  "domain": "safety",
+  "risk_tier": 3,
+  "complexity": "medium"
+ },
+ {
+  "query": "thanks",
+  "route": "DIRECT_ANSWER",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Show details for SKU88 and its lot LOT-47490",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the escalation deadline for Travel Expense?",
+  "route": "HYBRID_RAG",
+  "domain": "finance",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the notification window of the procedure that escalations for Credit Limit follow?",
+  "route": "HYBRID_RAG",
+  "domain": "finance",
+  "risk_tier": 3,
+  "complexity": "high"
+ },
+ {
+  "query": "Check the status of LOT-24316",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Verify batch LOT-10256 safety protocol and return triage status",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Approve the Access Review form for SKU-091",
+  "route": "TRANSACTION_EXEC",
+  "domain": "security",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "When preparing a review, what notification window applies to Password Rotation, and who is the owner?",
+  "route": "HYBRID_RAG",
+  "domain": "security",
+  "risk_tier": 1,
+  "complexity": "high"
+ },
+ {
+  "query": "Create the Batch Recall form for SKU-033",
+  "route": "TRANSACTION_EXEC",
+  "domain": "quality",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Approve the Purchase Approval form for SKU-120",
+  "route": "TRANSACTION_EXEC",
+  "domain": "finance",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the required approvals of the procedure that escalations for Cold Chain Storage follow?",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 2,
+  "complexity": "high"
+ },
+ {
+  "query": "Close the Shipment Hold form for SKU-096",
+  "route": "TRANSACTION_EXEC",
+  "domain": "logistics",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the required approvals of the procedure that escalations for Label Verification follow?",
+  "route": "HYBRID_RAG",
+  "domain": "quality",
+  "risk_tier": 1,
+  "complexity": "high"
+ },
+ {
+  "query": "What is the review frequency of the procedure that escalations for Contract Renewal follow?",
+  "route": "HYBRID_RAG",
+  "domain": "procurement",
+  "risk_tier": 2,
+  "complexity": "high"
+ },
+ {
+  "query": "What is the notification window of the procedure that escalations for Equipment Calibration follow?",
+  "route": "HYBRID_RAG",
+  "domain": "quality",
+  "risk_tier": 2,
+  "complexity": "high"
+ },
+ {
+  "query": "What is the review frequency of the procedure that escalations for Supplier Onboarding follow?",
+  "route": "HYBRID_RAG",
+  "domain": "procurement",
+  "risk_tier": 1,
+  "complexity": "high"
+ },
+ {
+  "query": "Explain the Fire Drill policy",
+  "route": "HYBRID_RAG",
+  "domain": "safety",
+  "risk_tier": 1,
+  "complexity": "medium"
+ },
+ {
+  "query": "Please approve workflow Equipment Calibration for LOT-22898",
+  "route": "TRANSACTION_EXEC",
+  "domain": "quality",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Explain the Privacy Request policy",
+  "route": "HYBRID_RAG",
+  "domain": "compliance",
+  "risk_tier": 3,
+  "complexity": "medium"
+ },
+ {
+  "query": "Close the Fire Drill form for SKU-091",
+  "route": "TRANSACTION_EXEC",
+  "domain": "safety",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "How do I fix my bicycle chain?",
+  "route": "REJECT_OOS",
+  "domain": "general",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the maximum processing time of the procedure that escalations for Vendor Audit follow?",
+  "route": "HYBRID_RAG",
+  "domain": "compliance",
+  "risk_tier": 2,
+  "complexity": "high"
+ },
+ {
+  "query": "Release the Travel Expense form for SKU-071",
+  "route": "TRANSACTION_EXEC",
+  "domain": "finance",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Explain the Purchase Approval policy",
+  "route": "HYBRID_RAG",
+  "domain": "finance",
+  "risk_tier": 3,
+  "complexity": "medium"
+ },
+ {
+  "query": "Summarize our Purchase Approval rules",
+  "route": "HYBRID_RAG",
+  "domain": "finance",
+  "risk_tier": 3,
+  "complexity": "medium"
+ },
+ {
+  "query": "Verify batch LOT-21710 safety protocol and return triage status",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Explain the Lot Quarantine policy",
+  "route": "HYBRID_RAG",
+  "domain": "quality",
+  "risk_tier": 3,
+  "complexity": "medium"
+ },
+ {
+  "query": "Explain the Stock Adjustment policy",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 3,
+  "complexity": "medium"
+ },
+ {
+  "query": "Please approve workflow Lot Quarantine for LOT-90727",
+  "route": "TRANSACTION_EXEC",
+  "domain": "quality",
+  "risk_tier": 3,
+  "complexity": "low"
+ },
+ {
+  "query": "Summarize our Visitor Access rules",
+  "route": "HYBRID_RAG",
+  "domain": "security",
+  "risk_tier": 1,
+  "complexity": "medium"
+ },
+ {
+  "query": "For reporting, what record retention period applies to Travel Expense, and who is the owner?",
+  "route": "HYBRID_RAG",
+  "domain": "finance",
+  "risk_tier": 1,
+  "complexity": "high"
+ },
+ {
+  "query": "How many units of SKU-083 are in stock?",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "What is the audit lookback period of the procedure that escalations for Lot Quarantine follow?",
+  "route": "HYBRID_RAG",
+  "domain": "quality",
+  "risk_tier": 3,
+  "complexity": "high"
+ },
+ {
+  "query": "Show details for SKU14 and its lot LOT-22186",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ },
+ {
+  "query": "Summarize our Privacy Request rules",
+  "route": "HYBRID_RAG",
+  "domain": "compliance",
+  "risk_tier": 3,
+  "complexity": "medium"
+ },
+ {
+  "query": "Summarize our Contract Renewal rules",
+  "route": "HYBRID_RAG",
+  "domain": "procurement",
+  "risk_tier": 2,
+  "complexity": "medium"
+ },
+ {
+  "query": "When preparing a review, what notification window applies to Vendor Audit, and who is the owner?",
+  "route": "HYBRID_RAG",
+  "domain": "compliance",
+  "risk_tier": 2,
+  "complexity": "high"
+ },
+ {
+  "query": "Show details for SKU24 and its lot LOT-79967",
+  "route": "HYBRID_RAG",
+  "domain": "logistics",
+  "risk_tier": 1,
+  "complexity": "low"
+ }
+]

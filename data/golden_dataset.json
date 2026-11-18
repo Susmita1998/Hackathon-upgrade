@@ -1,0 +1,2478 @@
+[
+ {
+  "id": "Q001",
+  "type": "factoid",
+  "question": "What is the sample size for Incident Escalation?",
+  "ground_truth": "66 units",
+  "relevant_ids": [
+   "incident-escalation"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q002",
+  "type": "factoid",
+  "question": "What is the maximum processing time for Change Management?",
+  "ground_truth": "53 hours",
+  "relevant_ids": [
+   "change-management"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q003",
+  "type": "factoid",
+  "question": "What is the responsible owner for Access Review?",
+  "ground_truth": "Quality Lead",
+  "relevant_ids": [
+   "access-review"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q004",
+  "type": "factoid",
+  "question": "What is the maximum processing time for Cold Chain Storage?",
+  "ground_truth": "77 hours",
+  "relevant_ids": [
+   "cold-chain-storage"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q005",
+  "type": "factoid",
+  "question": "What is the notification window for Returns Processing?",
+  "ground_truth": "73 hours",
+  "relevant_ids": [
+   "returns-processing"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q006",
+  "type": "factoid",
+  "question": "What is the escalation deadline for Contract Renewal?",
+  "ground_truth": "47 minutes",
+  "relevant_ids": [
+   "contract-renewal"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q007",
+  "type": "factoid",
+  "question": "What is the maximum batch size for Fire Drill?",
+  "ground_truth": "64 items",
+  "relevant_ids": [
+   "fire-drill"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q008",
+  "type": "factoid",
+  "question": "What is the record retention period for Contract Renewal?",
+  "ground_truth": "60 days",
+  "relevant_ids": [
+   "contract-renewal"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q009",
+  "type": "factoid",
+  "question": "What is the audit lookback period for Customer Refund?",
+  "ground_truth": "4 months",
+  "relevant_ids": [
+   "customer-refund"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q010",
+  "type": "factoid",
+  "question": "What is the required approvals for Data Retention?",
+  "ground_truth": "46 approvers",
+  "relevant_ids": [
+   "data-retention"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q011",
+  "type": "factoid",
+  "question": "What is the cooling-off period for Vendor Audit?",
+  "ground_truth": "50 days",
+  "relevant_ids": [
+   "vendor-audit"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q012",
+  "type": "factoid",
+  "question": "What is the required approvals for Shipment Hold?",
+  "ground_truth": "31 approvers",
+  "relevant_ids": [
+   "shipment-hold"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q013",
+  "type": "factoid",
+  "question": "What is the maximum batch size for Access Review?",
+  "ground_truth": "22 items",
+  "relevant_ids": [
+   "access-review"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q014",
+  "type": "factoid",
+  "question": "What is the required approvals for Stock Adjustment?",
+  "ground_truth": "81 approvers",
+  "relevant_ids": [
+   "stock-adjustment"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q015",
+  "type": "factoid",
+  "question": "What is the maximum processing time for Label Verification?",
+  "ground_truth": "91 hours",
+  "relevant_ids": [
+   "label-verification"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q016",
+  "type": "factoid",
+  "question": "What is the sample size for Warehouse Receiving?",
+  "ground_truth": "13 units",
+  "relevant_ids": [
+   "warehouse-receiving"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q017",
+  "type": "factoid",
+  "question": "What is the responsible owner for Safety Inspection?",
+  "ground_truth": "Safety Marshal",
+  "relevant_ids": [
+   "safety-inspection"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q018",
+  "type": "factoid",
+  "question": "What is the maximum batch size for Batch Recall?",
+  "ground_truth": "56 items",
+  "relevant_ids": [
+   "batch-recall"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q019",
+  "type": "factoid",
+  "question": "What is the review frequency for Stock Adjustment?",
+  "ground_truth": "every 79 weeks",
+  "relevant_ids": [
+   "stock-adjustment"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q020",
+  "type": "factoid",
+  "question": "What is the cooling-off period for Privacy Request?",
+  "ground_truth": "13 days",
+  "relevant_ids": [
+   "privacy-request"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q021",
+  "type": "factoid",
+  "question": "What is the escalation deadline for Vendor Audit?",
+  "ground_truth": "43 minutes",
+  "relevant_ids": [
+   "vendor-audit"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q022",
+  "type": "factoid",
+  "question": "What is the cooling-off period for Travel Expense?",
+  "ground_truth": "62 days",
+  "relevant_ids": [
+   "travel-expense"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q023",
+  "type": "factoid",
+  "question": "What is the sample size for Fire Drill?",
+  "ground_truth": "63 units",
+  "relevant_ids": [
+   "fire-drill"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q024",
+  "type": "factoid",
+  "question": "What is the maximum processing time for Purchase Approval?",
+  "ground_truth": "10 hours",
+  "relevant_ids": [
+   "purchase-approval"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q025",
+  "type": "factoid",
+  "question": "What is the required approvals for Software Release?",
+  "ground_truth": "94 approvers",
+  "relevant_ids": [
+   "software-release"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q026",
+  "type": "factoid",
+  "question": "What is the record retention period for Supplier Onboarding?",
+  "ground_truth": "18 days",
+  "relevant_ids": [
+   "supplier-onboarding"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q027",
+  "type": "factoid",
+  "question": "What is the sample size for Purchase Approval?",
+  "ground_truth": "75 units",
+  "relevant_ids": [
+   "purchase-approval"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q028",
+  "type": "factoid",
+  "question": "What is the audit lookback period for Supplier Onboarding?",
+  "ground_truth": "76 months",
+  "relevant_ids": [
+   "supplier-onboarding"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q029",
+  "type": "factoid",
+  "question": "What is the required approvals for Equipment Calibration?",
+  "ground_truth": "36 approvers",
+  "relevant_ids": [
+   "equipment-calibration"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q030",
+  "type": "factoid",
+  "question": "What is the maximum processing time for Credit Limit?",
+  "ground_truth": "70 hours",
+  "relevant_ids": [
+   "credit-limit"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q031",
+  "type": "factoid",
+  "question": "What is the record retention period for Password Rotation?",
+  "ground_truth": "6 days",
+  "relevant_ids": [
+   "password-rotation"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q032",
+  "type": "factoid",
+  "question": "What is the review frequency for Hazmat Handling?",
+  "ground_truth": "every 48 weeks",
+  "relevant_ids": [
+   "hazmat-handling"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q033",
+  "type": "factoid",
+  "question": "What is the audit lookback period for Invoice Dispute?",
+  "ground_truth": "62 months",
+  "relevant_ids": [
+   "invoice-dispute"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q034",
+  "type": "factoid",
+  "question": "What is the escalation deadline for Visitor Access?",
+  "ground_truth": "40 minutes",
+  "relevant_ids": [
+   "visitor-access"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q035",
+  "type": "factoid",
+  "question": "What is the sample size for Software Release?",
+  "ground_truth": "52 units",
+  "relevant_ids": [
+   "software-release"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q036",
+  "type": "factoid",
+  "question": "What is the responsible owner for Fire Drill?",
+  "ground_truth": "Quality Lead",
+  "relevant_ids": [
+   "fire-drill"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q037",
+  "type": "factoid",
+  "question": "What is the audit lookback period for Incident Escalation?",
+  "ground_truth": "61 months",
+  "relevant_ids": [
+   "incident-escalation"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q038",
+  "type": "factoid",
+  "question": "What is the sample size for Cold Chain Storage?",
+  "ground_truth": "12 units",
+  "relevant_ids": [
+   "cold-chain-storage"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q039",
+  "type": "factoid",
+  "question": "What is the required approvals for Fire Drill?",
+  "ground_truth": "28 approvers",
+  "relevant_ids": [
+   "fire-drill"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q040",
+  "type": "factoid",
+  "question": "What is the cooling-off period for Training Certification?",
+  "ground_truth": "97 days",
+  "relevant_ids": [
+   "training-certification"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q041",
+  "type": "factoid",
+  "question": "What is the responsible owner for Vendor Audit?",
+  "ground_truth": "Compliance Officer",
+  "relevant_ids": [
+   "vendor-audit"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q042",
+  "type": "factoid",
+  "question": "What is the cooling-off period for Supplier Onboarding?",
+  "ground_truth": "42 days",
+  "relevant_ids": [
+   "supplier-onboarding"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q043",
+  "type": "factoid",
+  "question": "What is the responsible owner for Lot Quarantine?",
+  "ground_truth": "Quality Lead",
+  "relevant_ids": [
+   "lot-quarantine"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q044",
+  "type": "factoid",
+  "question": "What is the review frequency for Safety Inspection?",
+  "ground_truth": "every 10 weeks",
+  "relevant_ids": [
+   "safety-inspection"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q045",
+  "type": "factoid",
+  "question": "What is the review frequency for Warehouse Receiving?",
+  "ground_truth": "every 53 weeks",
+  "relevant_ids": [
+   "warehouse-receiving"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q046",
+  "type": "factoid",
+  "question": "What is the notification window for Invoice Dispute?",
+  "ground_truth": "61 hours",
+  "relevant_ids": [
+   "invoice-dispute"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q047",
+  "type": "factoid",
+  "question": "What is the required approvals for Vendor Audit?",
+  "ground_truth": "75 approvers",
+  "relevant_ids": [
+   "vendor-audit"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q048",
+  "type": "factoid",
+  "question": "What is the maximum processing time for Fire Drill?",
+  "ground_truth": "29 hours",
+  "relevant_ids": [
+   "fire-drill"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q049",
+  "type": "factoid",
+  "question": "What is the cooling-off period for Stock Adjustment?",
+  "ground_truth": "86 days",
+  "relevant_ids": [
+   "stock-adjustment"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q050",
+  "type": "factoid",
+  "question": "What is the required approvals for Incident Escalation?",
+  "ground_truth": "47 approvers",
+  "relevant_ids": [
+   "incident-escalation"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q051",
+  "type": "factoid",
+  "question": "What is the sample size for Hazmat Handling?",
+  "ground_truth": "81 units",
+  "relevant_ids": [
+   "hazmat-handling"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q052",
+  "type": "factoid",
+  "question": "What is the maximum batch size for Travel Expense?",
+  "ground_truth": "65 items",
+  "relevant_ids": [
+   "travel-expense"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q053",
+  "type": "factoid",
+  "question": "What is the maximum batch size for Training Certification?",
+  "ground_truth": "28 items",
+  "relevant_ids": [
+   "training-certification"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q054",
+  "type": "factoid",
+  "question": "What is the responsible owner for Stock Adjustment?",
+  "ground_truth": "Safety Marshal",
+  "relevant_ids": [
+   "stock-adjustment"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q055",
+  "type": "factoid",
+  "question": "What is the maximum processing time for Lot Quarantine?",
+  "ground_truth": "77 hours",
+  "relevant_ids": [
+   "lot-quarantine"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q056",
+  "type": "factoid",
+  "question": "What is the escalation deadline for Returns Processing?",
+  "ground_truth": "48 minutes",
+  "relevant_ids": [
+   "returns-processing"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q057",
+  "type": "factoid",
+  "question": "What is the cooling-off period for Cold Chain Storage?",
+  "ground_truth": "49 days",
+  "relevant_ids": [
+   "cold-chain-storage"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q058",
+  "type": "factoid",
+  "question": "What is the review frequency for Contract Renewal?",
+  "ground_truth": "every 80 weeks",
+  "relevant_ids": [
+   "contract-renewal"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q059",
+  "type": "factoid",
+  "question": "What is the review frequency for Returns Processing?",
+  "ground_truth": "every 93 weeks",
+  "relevant_ids": [
+   "returns-processing"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q060",
+  "type": "factoid",
+  "question": "What is the notification window for Customer Refund?",
+  "ground_truth": "65 hours",
+  "relevant_ids": [
+   "customer-refund"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q061",
+  "type": "factoid",
+  "question": "What is the maximum processing time for Equipment Calibration?",
+  "ground_truth": "91 hours",
+  "relevant_ids": [
+   "equipment-calibration"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q062",
+  "type": "factoid",
+  "question": "What is the responsible owner for Label Verification?",
+  "ground_truth": "Security Officer",
+  "relevant_ids": [
+   "label-verification"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q063",
+  "type": "factoid",
+  "question": "What is the responsible owner for Warehouse Receiving?",
+  "ground_truth": "Safety Marshal",
+  "relevant_ids": [
+   "warehouse-receiving"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q064",
+  "type": "complex_reasoning",
+  "question": "For compliance reporting, what required approvals applies to Backup Recovery, and who is the responsible owner?",
+  "ground_truth": "17 approvers; Quality Lead",
+  "relevant_ids": [
+   "backup-recovery"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q065",
+  "type": "complex_reasoning",
+  "question": "Before scheduling work, what responsible owner applies to Change Management, and who is the responsible owner?",
+  "ground_truth": "Operations Manager; Operations Manager",
+  "relevant_ids": [
+   "change-management"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q066",
+  "type": "complex_reasoning",
+  "question": "Before scheduling work, what escalation deadline applies to Customer Refund, and who is the responsible owner?",
+  "ground_truth": "32 minutes; Compliance Officer",
+  "relevant_ids": [
+   "customer-refund"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q067",
+  "type": "complex_reasoning",
+  "question": "Before scheduling work, what responsible owner applies to Incident Escalation, and who is the responsible owner?",
+  "ground_truth": "Operations Manager; Operations Manager",
+  "relevant_ids": [
+   "incident-escalation"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q068",
+  "type": "complex_reasoning",
+  "question": "When preparing an audit, what maximum processing time applies to Contract Renewal, and who is the responsible owner?",
+  "ground_truth": "27 hours; Logistics Supervisor",
+  "relevant_ids": [
+   "contract-renewal"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q069",
+  "type": "complex_reasoning",
+  "question": "For compliance reporting, what record retention period applies to Cold Chain Storage, and who is the responsible owner?",
+  "ground_truth": "71 days; Quality Lead",
+  "relevant_ids": [
+   "cold-chain-storage"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q070",
+  "type": "complex_reasoning",
+  "question": "When preparing an audit, what cooling-off period applies to Equipment Calibration, and who is the responsible owner?",
+  "ground_truth": "64 days; Compliance Officer",
+  "relevant_ids": [
+   "equipment-calibration"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q071",
+  "type": "complex_reasoning",
+  "question": "When preparing an audit, what sample size applies to Lot Quarantine, and who is the responsible owner?",
+  "ground_truth": "77 units; Quality Lead",
+  "relevant_ids": [
+   "lot-quarantine"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q072",
+  "type": "complex_reasoning",
+  "question": "For compliance reporting, what required approvals applies to Returns Processing, and who is the responsible owner?",
+  "ground_truth": "56 approvers; Procurement Director",
+  "relevant_ids": [
+   "returns-processing"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q073",
+  "type": "complex_reasoning",
+  "question": "When preparing an audit, what review frequency applies to Shipment Hold, and who is the responsible owner?",
+  "ground_truth": "every 71 weeks; Finance Controller",
+  "relevant_ids": [
+   "shipment-hold"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q074",
+  "type": "complex_reasoning",
+  "question": "Before scheduling work, what review frequency applies to Purchase Approval, and who is the responsible owner?",
+  "ground_truth": "every 82 weeks; Finance Controller",
+  "relevant_ids": [
+   "purchase-approval"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q075",
+  "type": "complex_reasoning",
+  "question": "When preparing an audit, what required approvals applies to Password Rotation, and who is the responsible owner?",
+  "ground_truth": "49 approvers; Procurement Director",
+  "relevant_ids": [
+   "password-rotation"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q076",
+  "type": "complex_reasoning",
+  "question": "For compliance reporting, what maximum processing time applies to Stock Adjustment, and who is the responsible owner?",
+  "ground_truth": "21 hours; Safety Marshal",
+  "relevant_ids": [
+   "stock-adjustment"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q077",
+  "type": "complex_reasoning",
+  "question": "Before scheduling work, what review frequency applies to Vendor Audit, and who is the responsible owner?",
+  "ground_truth": "every 71 weeks; Compliance Officer",
+  "relevant_ids": [
+   "vendor-audit"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q078",
+  "type": "complex_reasoning",
+  "question": "For compliance reporting, what sample size applies to Privacy Request, and who is the responsible owner?",
+  "ground_truth": "62 units; Compliance Officer",
+  "relevant_ids": [
+   "privacy-request"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q079",
+  "type": "complex_reasoning",
+  "question": "Before scheduling work, what notification window applies to Backup Recovery, and who is the responsible owner?",
+  "ground_truth": "59 hours; Quality Lead",
+  "relevant_ids": [
+   "backup-recovery"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q080",
+  "type": "complex_reasoning",
+  "question": "Before scheduling work, what audit lookback period applies to Batch Recall, and who is the responsible owner?",
+  "ground_truth": "14 months; Procurement Director",
+  "relevant_ids": [
+   "batch-recall"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q081",
+  "type": "complex_reasoning",
+  "question": "For compliance reporting, what sample size applies to Change Management, and who is the responsible owner?",
+  "ground_truth": "53 units; Operations Manager",
+  "relevant_ids": [
+   "change-management"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q082",
+  "type": "complex_reasoning",
+  "question": "For compliance reporting, what maximum processing time applies to Backup Recovery, and who is the responsible owner?",
+  "ground_truth": "23 hours; Quality Lead",
+  "relevant_ids": [
+   "backup-recovery"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q083",
+  "type": "complex_reasoning",
+  "question": "Before scheduling work, what record retention period applies to Visitor Access, and who is the responsible owner?",
+  "ground_truth": "78 days; Security Officer",
+  "relevant_ids": [
+   "visitor-access"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q084",
+  "type": "complex_reasoning",
+  "question": "For compliance reporting, what cooling-off period applies to Contract Renewal, and who is the responsible owner?",
+  "ground_truth": "91 days; Logistics Supervisor",
+  "relevant_ids": [
+   "contract-renewal"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q085",
+  "type": "complex_reasoning",
+  "question": "For compliance reporting, what review frequency applies to Label Verification, and who is the responsible owner?",
+  "ground_truth": "every 6 weeks; Security Officer",
+  "relevant_ids": [
+   "label-verification"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q086",
+  "type": "complex_reasoning",
+  "question": "For compliance reporting, what maximum batch size applies to Credit Limit, and who is the responsible owner?",
+  "ground_truth": "16 items; Procurement Director",
+  "relevant_ids": [
+   "credit-limit"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q087",
+  "type": "complex_reasoning",
+  "question": "When preparing an audit, what record retention period applies to Stock Adjustment, and who is the responsible owner?",
+  "ground_truth": "62 days; Safety Marshal",
+  "relevant_ids": [
+   "stock-adjustment"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q088",
+  "type": "complex_reasoning",
+  "question": "For compliance reporting, what maximum batch size applies to Returns Processing, and who is the responsible owner?",
+  "ground_truth": "38 items; Procurement Director",
+  "relevant_ids": [
+   "returns-processing"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q089",
+  "type": "complex_reasoning",
+  "question": "Before scheduling work, what record retention period applies to Travel Expense, and who is the responsible owner?",
+  "ground_truth": "63 days; Safety Marshal",
+  "relevant_ids": [
+   "travel-expense"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q090",
+  "type": "complex_reasoning",
+  "question": "Before scheduling work, what record retention period applies to Warehouse Receiving, and who is the responsible owner?",
+  "ground_truth": "66 days; Safety Marshal",
+  "relevant_ids": [
+   "warehouse-receiving"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q091",
+  "type": "complex_reasoning",
+  "question": "For compliance reporting, what maximum processing time applies to Supplier Onboarding, and who is the responsible owner?",
+  "ground_truth": "72 hours; Compliance Officer",
+  "relevant_ids": [
+   "supplier-onboarding"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q092",
+  "type": "complex_reasoning",
+  "question": "Before scheduling work, what required approvals applies to Privacy Request, and who is the responsible owner?",
+  "ground_truth": "54 approvers; Compliance Officer",
+  "relevant_ids": [
+   "privacy-request"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q093",
+  "type": "complex_reasoning",
+  "question": "For compliance reporting, what notification window applies to Training Certification, and who is the responsible owner?",
+  "ground_truth": "69 hours; Logistics Supervisor",
+  "relevant_ids": [
+   "training-certification"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q094",
+  "type": "complex_reasoning",
+  "question": "Before scheduling work, what sample size applies to Shipment Hold, and who is the responsible owner?",
+  "ground_truth": "72 units; Finance Controller",
+  "relevant_ids": [
+   "shipment-hold"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q095",
+  "type": "complex_reasoning",
+  "question": "Before scheduling work, what escalation deadline applies to Fire Drill, and who is the responsible owner?",
+  "ground_truth": "46 minutes; Quality Lead",
+  "relevant_ids": [
+   "fire-drill"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q096",
+  "type": "complex_reasoning",
+  "question": "For compliance reporting, what maximum processing time applies to Visitor Access, and who is the responsible owner?",
+  "ground_truth": "33 hours; Security Officer",
+  "relevant_ids": [
+   "visitor-access"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q097",
+  "type": "complex_reasoning",
+  "question": "For compliance reporting, what audit lookback period applies to Backup Recovery, and who is the responsible owner?",
+  "ground_truth": "29 months; Quality Lead",
+  "relevant_ids": [
+   "backup-recovery"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q098",
+  "type": "complex_reasoning",
+  "question": "Before scheduling work, what review frequency applies to Password Rotation, and who is the responsible owner?",
+  "ground_truth": "every 12 weeks; Procurement Director",
+  "relevant_ids": [
+   "password-rotation"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q099",
+  "type": "complex_reasoning",
+  "question": "For compliance reporting, what responsible owner applies to Supplier Onboarding, and who is the responsible owner?",
+  "ground_truth": "Compliance Officer; Compliance Officer",
+  "relevant_ids": [
+   "supplier-onboarding"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q100",
+  "type": "complex_reasoning",
+  "question": "For compliance reporting, what responsible owner applies to Cold Chain Storage, and who is the responsible owner?",
+  "ground_truth": "Quality Lead; Quality Lead",
+  "relevant_ids": [
+   "cold-chain-storage"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q101",
+  "type": "complex_reasoning",
+  "question": "When preparing an audit, what record retention period applies to Invoice Dispute, and who is the responsible owner?",
+  "ground_truth": "41 days; Finance Controller",
+  "relevant_ids": [
+   "invoice-dispute"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q102",
+  "type": "complex_reasoning",
+  "question": "When preparing an audit, what cooling-off period applies to Invoice Dispute, and who is the responsible owner?",
+  "ground_truth": "49 days; Finance Controller",
+  "relevant_ids": [
+   "invoice-dispute"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q103",
+  "type": "complex_reasoning",
+  "question": "Before scheduling work, what cooling-off period applies to Batch Recall, and who is the responsible owner?",
+  "ground_truth": "73 days; Procurement Director",
+  "relevant_ids": [
+   "batch-recall"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q104",
+  "type": "complex_reasoning",
+  "question": "Before scheduling work, what required approvals applies to Lot Quarantine, and who is the responsible owner?",
+  "ground_truth": "10 approvers; Quality Lead",
+  "relevant_ids": [
+   "lot-quarantine"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q105",
+  "type": "complex_reasoning",
+  "question": "When preparing an audit, what responsible owner applies to Purchase Approval, and who is the responsible owner?",
+  "ground_truth": "Finance Controller; Finance Controller",
+  "relevant_ids": [
+   "purchase-approval"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q106",
+  "type": "complex_reasoning",
+  "question": "Before scheduling work, what notification window applies to Software Release, and who is the responsible owner?",
+  "ground_truth": "28 hours; Compliance Officer",
+  "relevant_ids": [
+   "software-release"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q107",
+  "type": "complex_reasoning",
+  "question": "Before scheduling work, what escalation deadline applies to Lot Quarantine, and who is the responsible owner?",
+  "ground_truth": "76 minutes; Quality Lead",
+  "relevant_ids": [
+   "lot-quarantine"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q108",
+  "type": "complex_reasoning",
+  "question": "For compliance reporting, what maximum processing time applies to Batch Recall, and who is the responsible owner?",
+  "ground_truth": "33 hours; Procurement Director",
+  "relevant_ids": [
+   "batch-recall"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q109",
+  "type": "complex_reasoning",
+  "question": "Before scheduling work, what responsible owner applies to Hazmat Handling, and who is the responsible owner?",
+  "ground_truth": "Quality Lead; Quality Lead",
+  "relevant_ids": [
+   "hazmat-handling"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q110",
+  "type": "complex_reasoning",
+  "question": "Before scheduling work, what escalation deadline applies to Data Retention, and who is the responsible owner?",
+  "ground_truth": "66 minutes; Security Officer",
+  "relevant_ids": [
+   "data-retention"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q111",
+  "type": "complex_reasoning",
+  "question": "For compliance reporting, what record retention period applies to Customer Refund, and who is the responsible owner?",
+  "ground_truth": "87 days; Compliance Officer",
+  "relevant_ids": [
+   "customer-refund"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q112",
+  "type": "complex_reasoning",
+  "question": "When preparing an audit, what maximum batch size applies to Privacy Request, and who is the responsible owner?",
+  "ground_truth": "95 items; Compliance Officer",
+  "relevant_ids": [
+   "privacy-request"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q113",
+  "type": "complex_reasoning",
+  "question": "Before scheduling work, what cooling-off period applies to Access Review, and who is the responsible owner?",
+  "ground_truth": "24 days; Quality Lead",
+  "relevant_ids": [
+   "access-review"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q114",
+  "type": "complex_reasoning",
+  "question": "For compliance reporting, what maximum batch size applies to Incident Escalation, and who is the responsible owner?",
+  "ground_truth": "79 items; Operations Manager",
+  "relevant_ids": [
+   "incident-escalation"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q115",
+  "type": "complex_reasoning",
+  "question": "Before scheduling work, what maximum batch size applies to Label Verification, and who is the responsible owner?",
+  "ground_truth": "21 items; Security Officer",
+  "relevant_ids": [
+   "label-verification"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q116",
+  "type": "complex_reasoning",
+  "question": "For compliance reporting, what maximum batch size applies to Change Management, and who is the responsible owner?",
+  "ground_truth": "74 items; Operations Manager",
+  "relevant_ids": [
+   "change-management"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q117",
+  "type": "complex_reasoning",
+  "question": "For compliance reporting, what responsible owner applies to Training Certification, and who is the responsible owner?",
+  "ground_truth": "Logistics Supervisor; Logistics Supervisor",
+  "relevant_ids": [
+   "training-certification"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q118",
+  "type": "complex_reasoning",
+  "question": "When preparing an audit, what notification window applies to Safety Inspection, and who is the responsible owner?",
+  "ground_truth": "42 hours; Safety Marshal",
+  "relevant_ids": [
+   "safety-inspection"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q119",
+  "type": "complex_reasoning",
+  "question": "Before scheduling work, what sample size applies to Credit Limit, and who is the responsible owner?",
+  "ground_truth": "95 units; Procurement Director",
+  "relevant_ids": [
+   "credit-limit"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q120",
+  "type": "complex_reasoning",
+  "question": "Before scheduling work, what required approvals applies to Access Review, and who is the responsible owner?",
+  "ground_truth": "46 approvers; Quality Lead",
+  "relevant_ids": [
+   "access-review"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q121",
+  "type": "complex_reasoning",
+  "question": "When preparing an audit, what notification window applies to Cold Chain Storage, and who is the responsible owner?",
+  "ground_truth": "15 hours; Quality Lead",
+  "relevant_ids": [
+   "cold-chain-storage"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q122",
+  "type": "complex_reasoning",
+  "question": "When preparing an audit, what escalation deadline applies to Access Review, and who is the responsible owner?",
+  "ground_truth": "56 minutes; Quality Lead",
+  "relevant_ids": [
+   "access-review"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q123",
+  "type": "complex_reasoning",
+  "question": "Before scheduling work, what audit lookback period applies to Change Management, and who is the responsible owner?",
+  "ground_truth": "53 months; Operations Manager",
+  "relevant_ids": [
+   "change-management"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q124",
+  "type": "complex_reasoning",
+  "question": "When preparing an audit, what responsible owner applies to Batch Recall, and who is the responsible owner?",
+  "ground_truth": "Procurement Director; Procurement Director",
+  "relevant_ids": [
+   "batch-recall"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q125",
+  "type": "complex_reasoning",
+  "question": "When preparing an audit, what cooling-off period applies to Data Retention, and who is the responsible owner?",
+  "ground_truth": "60 days; Security Officer",
+  "relevant_ids": [
+   "data-retention"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q126",
+  "type": "multi_hop",
+  "question": "What is the cooling-off period of the procedure that escalations for Cold Chain Storage follow?",
+  "ground_truth": "62 days",
+  "relevant_ids": [
+   "cold-chain-storage",
+   "travel-expense"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q127",
+  "type": "multi_hop",
+  "question": "What is the required approvals of the procedure that escalations for Batch Recall follow?",
+  "ground_truth": "81 approvers",
+  "relevant_ids": [
+   "batch-recall",
+   "stock-adjustment"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q128",
+  "type": "multi_hop",
+  "question": "What is the maximum processing time of the procedure that escalations for Lot Quarantine follow?",
+  "ground_truth": "33 hours",
+  "relevant_ids": [
+   "lot-quarantine",
+   "batch-recall"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q129",
+  "type": "multi_hop",
+  "question": "What is the required approvals of the procedure that escalations for Supplier Onboarding follow?",
+  "ground_truth": "56 approvers",
+  "relevant_ids": [
+   "supplier-onboarding",
+   "returns-processing"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q130",
+  "type": "multi_hop",
+  "question": "What is the maximum processing time of the procedure that escalations for Purchase Approval follow?",
+  "ground_truth": "53 hours",
+  "relevant_ids": [
+   "purchase-approval",
+   "change-management"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q131",
+  "type": "multi_hop",
+  "question": "What is the required approvals of the procedure that escalations for Invoice Dispute follow?",
+  "ground_truth": "36 approvers",
+  "relevant_ids": [
+   "invoice-dispute",
+   "equipment-calibration"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q132",
+  "type": "multi_hop",
+  "question": "What is the required approvals of the procedure that escalations for Data Retention follow?",
+  "ground_truth": "44 approvers",
+  "relevant_ids": [
+   "data-retention",
+   "visitor-access"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q133",
+  "type": "multi_hop",
+  "question": "What is the cooling-off period of the procedure that escalations for Access Review follow?",
+  "ground_truth": "50 days",
+  "relevant_ids": [
+   "access-review",
+   "vendor-audit"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q134",
+  "type": "multi_hop",
+  "question": "What is the escalation deadline of the procedure that escalations for Incident Escalation follow?",
+  "ground_truth": "40 minutes",
+  "relevant_ids": [
+   "incident-escalation",
+   "visitor-access"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q135",
+  "type": "multi_hop",
+  "question": "What is the review frequency of the procedure that escalations for Safety Inspection follow?",
+  "ground_truth": "every 82 weeks",
+  "relevant_ids": [
+   "safety-inspection",
+   "purchase-approval"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q136",
+  "type": "multi_hop",
+  "question": "What is the maximum processing time of the procedure that escalations for Hazmat Handling follow?",
+  "ground_truth": "10 hours",
+  "relevant_ids": [
+   "hazmat-handling",
+   "purchase-approval"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q137",
+  "type": "multi_hop",
+  "question": "What is the maximum batch size of the procedure that escalations for Warehouse Receiving follow?",
+  "ground_truth": "29 items",
+  "relevant_ids": [
+   "warehouse-receiving",
+   "password-rotation"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q138",
+  "type": "multi_hop",
+  "question": "What is the record retention period of the procedure that escalations for Returns Processing follow?",
+  "ground_truth": "86 days",
+  "relevant_ids": [
+   "returns-processing",
+   "credit-limit"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q139",
+  "type": "multi_hop",
+  "question": "What is the maximum batch size of the procedure that escalations for Customer Refund follow?",
+  "ground_truth": "64 items",
+  "relevant_ids": [
+   "customer-refund",
+   "software-release"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q140",
+  "type": "multi_hop",
+  "question": "What is the record retention period of the procedure that escalations for Vendor Audit follow?",
+  "ground_truth": "70 days",
+  "relevant_ids": [
+   "vendor-audit",
+   "label-verification"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q141",
+  "type": "multi_hop",
+  "question": "What is the maximum batch size of the procedure that escalations for Change Management follow?",
+  "ground_truth": "64 items",
+  "relevant_ids": [
+   "change-management",
+   "software-release"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q142",
+  "type": "multi_hop",
+  "question": "What is the required approvals of the procedure that escalations for Backup Recovery follow?",
+  "ground_truth": "94 approvers",
+  "relevant_ids": [
+   "backup-recovery",
+   "purchase-approval"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q143",
+  "type": "multi_hop",
+  "question": "What is the review frequency of the procedure that escalations for Password Rotation follow?",
+  "ground_truth": "every 82 weeks",
+  "relevant_ids": [
+   "password-rotation",
+   "purchase-approval"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q144",
+  "type": "multi_hop",
+  "question": "What is the maximum processing time of the procedure that escalations for Travel Expense follow?",
+  "ground_truth": "91 hours",
+  "relevant_ids": [
+   "travel-expense",
+   "label-verification"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q145",
+  "type": "multi_hop",
+  "question": "What is the escalation deadline of the procedure that escalations for Equipment Calibration follow?",
+  "ground_truth": "21 minutes",
+  "relevant_ids": [
+   "equipment-calibration",
+   "supplier-onboarding"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q146",
+  "type": "multi_hop",
+  "question": "What is the maximum batch size of the procedure that escalations for Label Verification follow?",
+  "ground_truth": "56 items",
+  "relevant_ids": [
+   "label-verification",
+   "batch-recall"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q147",
+  "type": "multi_hop",
+  "question": "What is the cooling-off period of the procedure that escalations for Shipment Hold follow?",
+  "ground_truth": "97 days",
+  "relevant_ids": [
+   "shipment-hold",
+   "training-certification"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q148",
+  "type": "multi_hop",
+  "question": "What is the notification window of the procedure that escalations for Training Certification follow?",
+  "ground_truth": "59 hours",
+  "relevant_ids": [
+   "training-certification",
+   "backup-recovery"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q149",
+  "type": "multi_hop",
+  "question": "What is the audit lookback period of the procedure that escalations for Contract Renewal follow?",
+  "ground_truth": "53 months",
+  "relevant_ids": [
+   "contract-renewal",
+   "change-management"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q150",
+  "type": "multi_hop",
+  "question": "What is the audit lookback period of the procedure that escalations for Fire Drill follow?",
+  "ground_truth": "18 months",
+  "relevant_ids": [
+   "fire-drill",
+   "software-release"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q151",
+  "type": "multi_hop",
+  "question": "What is the record retention period of the procedure that escalations for Software Release follow?",
+  "ground_truth": "78 days",
+  "relevant_ids": [
+   "software-release",
+   "visitor-access"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q152",
+  "type": "multi_hop",
+  "question": "What is the audit lookback period of the procedure that escalations for Privacy Request follow?",
+  "ground_truth": "14 months",
+  "relevant_ids": [
+   "privacy-request",
+   "batch-recall"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q153",
+  "type": "multi_hop",
+  "question": "What is the cooling-off period of the procedure that escalations for Stock Adjustment follow?",
+  "ground_truth": "60 days",
+  "relevant_ids": [
+   "stock-adjustment",
+   "data-retention"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q154",
+  "type": "multi_hop",
+  "question": "What is the maximum batch size of the procedure that escalations for Credit Limit follow?",
+  "ground_truth": "56 items",
+  "relevant_ids": [
+   "credit-limit",
+   "batch-recall"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q155",
+  "type": "multi_hop",
+  "question": "What is the escalation deadline of the procedure that escalations for Visitor Access follow?",
+  "ground_truth": "21 minutes",
+  "relevant_ids": [
+   "visitor-access",
+   "supplier-onboarding"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q156",
+  "type": "multi_hop",
+  "question": "What is the cooling-off period of the procedure that escalations for Cold Chain Storage follow?",
+  "ground_truth": "62 days",
+  "relevant_ids": [
+   "cold-chain-storage",
+   "travel-expense"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q157",
+  "type": "multi_hop",
+  "question": "What is the cooling-off period of the procedure that escalations for Batch Recall follow?",
+  "ground_truth": "86 days",
+  "relevant_ids": [
+   "batch-recall",
+   "stock-adjustment"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q158",
+  "type": "multi_hop",
+  "question": "What is the audit lookback period of the procedure that escalations for Lot Quarantine follow?",
+  "ground_truth": "14 months",
+  "relevant_ids": [
+   "lot-quarantine",
+   "batch-recall"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q159",
+  "type": "multi_hop",
+  "question": "What is the review frequency of the procedure that escalations for Supplier Onboarding follow?",
+  "ground_truth": "every 93 weeks",
+  "relevant_ids": [
+   "supplier-onboarding",
+   "returns-processing"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q160",
+  "type": "multi_hop",
+  "question": "What is the maximum batch size of the procedure that escalations for Purchase Approval follow?",
+  "ground_truth": "74 items",
+  "relevant_ids": [
+   "purchase-approval",
+   "change-management"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q161",
+  "type": "multi_hop",
+  "question": "What is the cooling-off period of the procedure that escalations for Invoice Dispute follow?",
+  "ground_truth": "64 days",
+  "relevant_ids": [
+   "invoice-dispute",
+   "equipment-calibration"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q162",
+  "type": "multi_hop",
+  "question": "What is the escalation deadline of the procedure that escalations for Data Retention follow?",
+  "ground_truth": "40 minutes",
+  "relevant_ids": [
+   "data-retention",
+   "visitor-access"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q163",
+  "type": "multi_hop",
+  "question": "What is the escalation deadline of the procedure that escalations for Access Review follow?",
+  "ground_truth": "43 minutes",
+  "relevant_ids": [
+   "access-review",
+   "vendor-audit"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q164",
+  "type": "multi_hop",
+  "question": "What is the required approvals of the procedure that escalations for Incident Escalation follow?",
+  "ground_truth": "44 approvers",
+  "relevant_ids": [
+   "incident-escalation",
+   "visitor-access"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q165",
+  "type": "multi_hop",
+  "question": "What is the required approvals of the procedure that escalations for Safety Inspection follow?",
+  "ground_truth": "94 approvers",
+  "relevant_ids": [
+   "safety-inspection",
+   "purchase-approval"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q166",
+  "type": "multi_hop",
+  "question": "What is the review frequency of the procedure that escalations for Hazmat Handling follow?",
+  "ground_truth": "every 82 weeks",
+  "relevant_ids": [
+   "hazmat-handling",
+   "purchase-approval"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q167",
+  "type": "multi_hop",
+  "question": "What is the required approvals of the procedure that escalations for Warehouse Receiving follow?",
+  "ground_truth": "49 approvers",
+  "relevant_ids": [
+   "warehouse-receiving",
+   "password-rotation"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q168",
+  "type": "multi_hop",
+  "question": "What is the maximum processing time of the procedure that escalations for Returns Processing follow?",
+  "ground_truth": "70 hours",
+  "relevant_ids": [
+   "returns-processing",
+   "credit-limit"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q169",
+  "type": "multi_hop",
+  "question": "What is the required approvals of the procedure that escalations for Customer Refund follow?",
+  "ground_truth": "94 approvers",
+  "relevant_ids": [
+   "customer-refund",
+   "software-release"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q170",
+  "type": "multi_hop",
+  "question": "What is the maximum batch size of the procedure that escalations for Vendor Audit follow?",
+  "ground_truth": "21 items",
+  "relevant_ids": [
+   "vendor-audit",
+   "label-verification"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q171",
+  "type": "multi_hop",
+  "question": "What is the required approvals of the procedure that escalations for Change Management follow?",
+  "ground_truth": "94 approvers",
+  "relevant_ids": [
+   "change-management",
+   "software-release"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q172",
+  "type": "multi_hop",
+  "question": "What is the escalation deadline of the procedure that escalations for Backup Recovery follow?",
+  "ground_truth": "11 minutes",
+  "relevant_ids": [
+   "backup-recovery",
+   "purchase-approval"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q173",
+  "type": "multi_hop",
+  "question": "What is the escalation deadline of the procedure that escalations for Password Rotation follow?",
+  "ground_truth": "11 minutes",
+  "relevant_ids": [
+   "password-rotation",
+   "purchase-approval"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q174",
+  "type": "multi_hop",
+  "question": "What is the maximum processing time of the procedure that escalations for Travel Expense follow?",
+  "ground_truth": "91 hours",
+  "relevant_ids": [
+   "travel-expense",
+   "label-verification"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q175",
+  "type": "multi_hop",
+  "question": "What is the audit lookback period of the procedure that escalations for Equipment Calibration follow?",
+  "ground_truth": "76 months",
+  "relevant_ids": [
+   "equipment-calibration",
+   "supplier-onboarding"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q176",
+  "type": "summary",
+  "question": "Summarize the Cold Chain Storage policy.",
+  "ground_truth": "For Cold Chain Storage, the sample size is 12 units. For Cold Chain Storage, the record retention period is 71 days. For Cold Chain Storage, the notification window is 15 hours. For Cold Chain Storage, the cooling-off period is 49 days. For Cold Chain Storage, the maximum processing time is 77 hours. For Cold Chain Storage, the responsible owner is the Quality Lead. Escalations for Cold Chain Storage follow the [[travel-expense]] procedure (Travel Expense).",
+  "relevant_ids": [
+   "cold-chain-storage"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q177",
+  "type": "summary",
+  "question": "Summarize the Batch Recall policy.",
+  "ground_truth": "For Batch Recall, the maximum batch size is 56 items. For Batch Recall, the escalation deadline is 11 minutes. For Batch Recall, the maximum processing time is 33 hours. For Batch Recall, the audit lookback period is 14 months. For Batch Recall, the cooling-off period is 73 days. For Batch Recall, the responsible owner is the Procurement Director. Escalations for Batch Recall follow the [[stock-adjustment]] procedure (Stock Adjustment).",
+  "relevant_ids": [
+   "batch-recall"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q178",
+  "type": "summary",
+  "question": "Summarize the Lot Quarantine policy.",
+  "ground_truth": "For Lot Quarantine, the maximum processing time is 77 hours. For Lot Quarantine, the required approvals is 10 approvers. For Lot Quarantine, the escalation deadline is 76 minutes. For Lot Quarantine, the sample size is 77 units. For Lot Quarantine, the notification window is 53 hours. For Lot Quarantine, the responsible owner is the Quality Lead. Escalations for Lot Quarantine follow the [[batch-recall]] procedure (Batch Recall).",
+  "relevant_ids": [
+   "lot-quarantine"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q179",
+  "type": "summary",
+  "question": "Summarize the Supplier Onboarding policy.",
+  "ground_truth": "For Supplier Onboarding, the escalation deadline is 21 minutes. For Supplier Onboarding, the maximum processing time is 72 hours. For Supplier Onboarding, the record retention period is 18 days. For Supplier Onboarding, the audit lookback period is 76 months. For Supplier Onboarding, the cooling-off period is 42 days. For Supplier Onboarding, the responsible owner is the Compliance Officer. Escalations for Supplier Onboarding follow the [[returns-processing]] procedure (Returns Processing).",
+  "relevant_ids": [
+   "supplier-onboarding"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q180",
+  "type": "summary",
+  "question": "Summarize the Purchase Approval policy.",
+  "ground_truth": "For Purchase Approval, the required approvals is 94 approvers. For Purchase Approval, the escalation deadline is 11 minutes. For Purchase Approval, the sample size is 75 units. For Purchase Approval, the maximum processing time is 10 hours. For Purchase Approval, the review frequency is every 82 weeks. For Purchase Approval, the responsible owner is the Finance Controller. Escalations for Purchase Approval follow the [[change-management]] procedure (Change Management).",
+  "relevant_ids": [
+   "purchase-approval"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q181",
+  "type": "summary",
+  "question": "Summarize the Invoice Dispute policy.",
+  "ground_truth": "For Invoice Dispute, the audit lookback period is 62 months. For Invoice Dispute, the maximum batch size is 77 items. For Invoice Dispute, the notification window is 61 hours. For Invoice Dispute, the cooling-off period is 49 days. For Invoice Dispute, the record retention period is 41 days. For Invoice Dispute, the responsible owner is the Finance Controller. Escalations for Invoice Dispute follow the [[equipment-calibration]] procedure (Equipment Calibration).",
+  "relevant_ids": [
+   "invoice-dispute"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q182",
+  "type": "summary",
+  "question": "Summarize the Data Retention policy.",
+  "ground_truth": "For Data Retention, the record retention period is 70 days. For Data Retention, the escalation deadline is 66 minutes. For Data Retention, the required approvals is 46 approvers. For Data Retention, the review frequency is every 96 weeks. For Data Retention, the cooling-off period is 60 days. For Data Retention, the responsible owner is the Security Officer. Escalations for Data Retention follow the [[visitor-access]] procedure (Visitor Access).",
+  "relevant_ids": [
+   "data-retention"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q183",
+  "type": "summary",
+  "question": "Summarize the Access Review policy.",
+  "ground_truth": "For Access Review, the cooling-off period is 24 days. For Access Review, the required approvals is 46 approvers. For Access Review, the maximum batch size is 22 items. For Access Review, the review frequency is every 65 weeks. For Access Review, the escalation deadline is 56 minutes. For Access Review, the responsible owner is the Quality Lead. Escalations for Access Review follow the [[vendor-audit]] procedure (Vendor Audit).",
+  "relevant_ids": [
+   "access-review"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q184",
+  "type": "summary",
+  "question": "Summarize the Incident Escalation policy.",
+  "ground_truth": "For Incident Escalation, the required approvals is 47 approvers. For Incident Escalation, the maximum batch size is 79 items. For Incident Escalation, the sample size is 66 units. For Incident Escalation, the record retention period is 77 days. For Incident Escalation, the audit lookback period is 61 months. For Incident Escalation, the responsible owner is the Operations Manager. Escalations for Incident Escalation follow the [[visitor-access]] procedure (Visitor Access).",
+  "relevant_ids": [
+   "incident-escalation"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q185",
+  "type": "summary",
+  "question": "Summarize the Safety Inspection policy.",
+  "ground_truth": "For Safety Inspection, the required approvals is 11 approvers. For Safety Inspection, the review frequency is every 10 weeks. For Safety Inspection, the audit lookback period is 96 months. For Safety Inspection, the sample size is 92 units. For Safety Inspection, the notification window is 42 hours. For Safety Inspection, the responsible owner is the Safety Marshal. Escalations for Safety Inspection follow the [[purchase-approval]] procedure (Purchase Approval).",
+  "relevant_ids": [
+   "safety-inspection"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q186",
+  "type": "summary",
+  "question": "Summarize the Hazmat Handling policy.",
+  "ground_truth": "For Hazmat Handling, the review frequency is every 48 weeks. For Hazmat Handling, the notification window is 24 hours. For Hazmat Handling, the sample size is 81 units. For Hazmat Handling, the maximum processing time is 17 hours. For Hazmat Handling, the escalation deadline is 66 minutes. For Hazmat Handling, the responsible owner is the Quality Lead. Escalations for Hazmat Handling follow the [[purchase-approval]] procedure (Purchase Approval).",
+  "relevant_ids": [
+   "hazmat-handling"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q187",
+  "type": "summary",
+  "question": "Summarize the Warehouse Receiving policy.",
+  "ground_truth": "For Warehouse Receiving, the escalation deadline is 53 minutes. For Warehouse Receiving, the review frequency is every 53 weeks. For Warehouse Receiving, the record retention period is 66 days. For Warehouse Receiving, the sample size is 13 units. For Warehouse Receiving, the required approvals is 24 approvers. For Warehouse Receiving, the responsible owner is the Safety Marshal. Escalations for Warehouse Receiving follow the [[password-rotation]] procedure (Password Rotation).",
+  "relevant_ids": [
+   "warehouse-receiving"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q188",
+  "type": "summary",
+  "question": "Summarize the Returns Processing policy.",
+  "ground_truth": "For Returns Processing, the notification window is 73 hours. For Returns Processing, the maximum batch size is 38 items. For Returns Processing, the review frequency is every 93 weeks. For Returns Processing, the required approvals is 56 approvers. For Returns Processing, the escalation deadline is 48 minutes. For Returns Processing, the responsible owner is the Procurement Director. Escalations for Returns Processing follow the [[credit-limit]] procedure (Credit Limit).",
+  "relevant_ids": [
+   "returns-processing"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q189",
+  "type": "summary",
+  "question": "Summarize the Customer Refund policy.",
+  "ground_truth": "For Customer Refund, the escalation deadline is 32 minutes. For Customer Refund, the record retention period is 87 days. For Customer Refund, the required approvals is 32 approvers. For Customer Refund, the audit lookback period is 4 months. For Customer Refund, the notification window is 65 hours. For Customer Refund, the responsible owner is the Compliance Officer. Escalations for Customer Refund follow the [[software-release]] procedure (Software Release).",
+  "relevant_ids": [
+   "customer-refund"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q190",
+  "type": "summary",
+  "question": "Summarize the Vendor Audit policy.",
+  "ground_truth": "For Vendor Audit, the review frequency is every 71 weeks. For Vendor Audit, the cooling-off period is 50 days. For Vendor Audit, the maximum processing time is 81 hours. For Vendor Audit, the required approvals is 75 approvers. For Vendor Audit, the escalation deadline is 43 minutes. For Vendor Audit, the responsible owner is the Compliance Officer. Escalations for Vendor Audit follow the [[label-verification]] procedure (Label Verification).",
+  "relevant_ids": [
+   "vendor-audit"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q191",
+  "type": "summary",
+  "question": "Summarize the Change Management policy.",
+  "ground_truth": "For Change Management, the maximum batch size is 74 items. For Change Management, the maximum processing time is 53 hours. For Change Management, the audit lookback period is 53 months. For Change Management, the notification window is 54 hours. For Change Management, the sample size is 53 units. For Change Management, the responsible owner is the Operations Manager. Escalations for Change Management follow the [[software-release]] procedure (Software Release).",
+  "relevant_ids": [
+   "change-management"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q192",
+  "type": "summary",
+  "question": "Summarize the Backup Recovery policy.",
+  "ground_truth": "For Backup Recovery, the audit lookback period is 29 months. For Backup Recovery, the notification window is 59 hours. For Backup Recovery, the maximum processing time is 23 hours. For Backup Recovery, the required approvals is 17 approvers. For Backup Recovery, the cooling-off period is 46 days. For Backup Recovery, the responsible owner is the Quality Lead. Escalations for Backup Recovery follow the [[purchase-approval]] procedure (Purchase Approval).",
+  "relevant_ids": [
+   "backup-recovery"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q193",
+  "type": "summary",
+  "question": "Summarize the Password Rotation policy.",
+  "ground_truth": "For Password Rotation, the required approvals is 49 approvers. For Password Rotation, the maximum processing time is 81 hours. For Password Rotation, the record retention period is 6 days. For Password Rotation, the review frequency is every 12 weeks. For Password Rotation, the maximum batch size is 29 items. For Password Rotation, the responsible owner is the Procurement Director. Escalations for Password Rotation follow the [[purchase-approval]] procedure (Purchase Approval).",
+  "relevant_ids": [
+   "password-rotation"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q194",
+  "type": "summary",
+  "question": "Summarize the Travel Expense policy.",
+  "ground_truth": "For Travel Expense, the record retention period is 63 days. For Travel Expense, the review frequency is every 18 weeks. For Travel Expense, the sample size is 17 units. For Travel Expense, the maximum batch size is 65 items. For Travel Expense, the cooling-off period is 62 days. For Travel Expense, the responsible owner is the Safety Marshal. Escalations for Travel Expense follow the [[label-verification]] procedure (Label Verification).",
+  "relevant_ids": [
+   "travel-expense"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q195",
+  "type": "summary",
+  "question": "Summarize the Equipment Calibration policy.",
+  "ground_truth": "For Equipment Calibration, the audit lookback period is 46 months. For Equipment Calibration, the review frequency is every 97 weeks. For Equipment Calibration, the required approvals is 36 approvers. For Equipment Calibration, the cooling-off period is 64 days. For Equipment Calibration, the maximum processing time is 91 hours. For Equipment Calibration, the responsible owner is the Compliance Officer. Escalations for Equipment Calibration follow the [[supplier-onboarding]] procedure (Supplier Onboarding).",
+  "relevant_ids": [
+   "equipment-calibration"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q196",
+  "type": "summary",
+  "question": "Summarize the Label Verification policy.",
+  "ground_truth": "For Label Verification, the maximum batch size is 21 items. For Label Verification, the maximum processing time is 91 hours. For Label Verification, the escalation deadline is 72 minutes. For Label Verification, the review frequency is every 6 weeks. For Label Verification, the record retention period is 70 days. For Label Verification, the responsible owner is the Security Officer. Escalations for Label Verification follow the [[batch-recall]] procedure (Batch Recall).",
+  "relevant_ids": [
+   "label-verification"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q197",
+  "type": "summary",
+  "question": "Summarize the Shipment Hold policy.",
+  "ground_truth": "For Shipment Hold, the required approvals is 31 approvers. For Shipment Hold, the review frequency is every 71 weeks. For Shipment Hold, the sample size is 72 units. For Shipment Hold, the cooling-off period is 67 days. For Shipment Hold, the record retention period is 45 days. For Shipment Hold, the responsible owner is the Finance Controller. Escalations for Shipment Hold follow the [[training-certification]] procedure (Training Certification).",
+  "relevant_ids": [
+   "shipment-hold"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q198",
+  "type": "summary",
+  "question": "Summarize the Training Certification policy.",
+  "ground_truth": "For Training Certification, the cooling-off period is 97 days. For Training Certification, the escalation deadline is 32 minutes. For Training Certification, the maximum batch size is 28 items. For Training Certification, the notification window is 69 hours. For Training Certification, the audit lookback period is 66 months. For Training Certification, the responsible owner is the Logistics Supervisor. Escalations for Training Certification follow the [[backup-recovery]] procedure (Backup Recovery).",
+  "relevant_ids": [
+   "training-certification"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q199",
+  "type": "summary",
+  "question": "Summarize the Contract Renewal policy.",
+  "ground_truth": "For Contract Renewal, the maximum processing time is 27 hours. For Contract Renewal, the cooling-off period is 91 days. For Contract Renewal, the review frequency is every 80 weeks. For Contract Renewal, the escalation deadline is 47 minutes. For Contract Renewal, the record retention period is 60 days. For Contract Renewal, the responsible owner is the Logistics Supervisor. Escalations for Contract Renewal follow the [[change-management]] procedure (Change Management).",
+  "relevant_ids": [
+   "contract-renewal"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q200",
+  "type": "summary",
+  "question": "Summarize the Fire Drill policy.",
+  "ground_truth": "For Fire Drill, the sample size is 63 units. For Fire Drill, the required approvals is 28 approvers. For Fire Drill, the escalation deadline is 46 minutes. For Fire Drill, the maximum processing time is 29 hours. For Fire Drill, the maximum batch size is 64 items. For Fire Drill, the responsible owner is the Quality Lead. Escalations for Fire Drill follow the [[software-release]] procedure (Software Release).",
+  "relevant_ids": [
+   "fire-drill"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q201",
+  "type": "summary",
+  "question": "Summarize the Software Release policy.",
+  "ground_truth": "For Software Release, the audit lookback period is 18 months. For Software Release, the sample size is 52 units. For Software Release, the required approvals is 94 approvers. For Software Release, the notification window is 28 hours. For Software Release, the maximum batch size is 64 items. For Software Release, the responsible owner is the Compliance Officer. Escalations for Software Release follow the [[visitor-access]] procedure (Visitor Access).",
+  "relevant_ids": [
+   "software-release"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q202",
+  "type": "summary",
+  "question": "Summarize the Privacy Request policy.",
+  "ground_truth": "For Privacy Request, the notification window is 53 hours. For Privacy Request, the sample size is 62 units. For Privacy Request, the required approvals is 54 approvers. For Privacy Request, the cooling-off period is 13 days. For Privacy Request, the maximum batch size is 95 items. For Privacy Request, the responsible owner is the Compliance Officer. Escalations for Privacy Request follow the [[batch-recall]] procedure (Batch Recall).",
+  "relevant_ids": [
+   "privacy-request"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q203",
+  "type": "summary",
+  "question": "Summarize the Stock Adjustment policy.",
+  "ground_truth": "For Stock Adjustment, the record retention period is 62 days. For Stock Adjustment, the cooling-off period is 86 days. For Stock Adjustment, the maximum processing time is 21 hours. For Stock Adjustment, the required approvals is 81 approvers. For Stock Adjustment, the review frequency is every 79 weeks. For Stock Adjustment, the responsible owner is the Safety Marshal. Escalations for Stock Adjustment follow the [[data-retention]] procedure (Data Retention).",
+  "relevant_ids": [
+   "stock-adjustment"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q204",
+  "type": "summary",
+  "question": "Summarize the Credit Limit policy.",
+  "ground_truth": "For Credit Limit, the sample size is 95 units. For Credit Limit, the record retention period is 86 days. For Credit Limit, the maximum batch size is 16 items. For Credit Limit, the maximum processing time is 70 hours. For Credit Limit, the notification window is 20 hours. For Credit Limit, the responsible owner is the Procurement Director. Escalations for Credit Limit follow the [[batch-recall]] procedure (Batch Recall).",
+  "relevant_ids": [
+   "credit-limit"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q205",
+  "type": "summary",
+  "question": "Summarize the Visitor Access policy.",
+  "ground_truth": "For Visitor Access, the escalation deadline is 40 minutes. For Visitor Access, the cooling-off period is 67 days. For Visitor Access, the maximum processing time is 33 hours. For Visitor Access, the record retention period is 78 days. For Visitor Access, the required approvals is 44 approvers. For Visitor Access, the responsible owner is the Security Officer. Escalations for Visitor Access follow the [[supplier-onboarding]] procedure (Supplier Onboarding).",
+  "relevant_ids": [
+   "visitor-access"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q206",
+  "type": "summary",
+  "question": "Summarize the Cold Chain Storage policy.",
+  "ground_truth": "For Cold Chain Storage, the sample size is 12 units. For Cold Chain Storage, the record retention period is 71 days. For Cold Chain Storage, the notification window is 15 hours. For Cold Chain Storage, the cooling-off period is 49 days. For Cold Chain Storage, the maximum processing time is 77 hours. For Cold Chain Storage, the responsible owner is the Quality Lead. Escalations for Cold Chain Storage follow the [[travel-expense]] procedure (Travel Expense).",
+  "relevant_ids": [
+   "cold-chain-storage"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q207",
+  "type": "summary",
+  "question": "Summarize the Batch Recall policy.",
+  "ground_truth": "For Batch Recall, the maximum batch size is 56 items. For Batch Recall, the escalation deadline is 11 minutes. For Batch Recall, the maximum processing time is 33 hours. For Batch Recall, the audit lookback period is 14 months. For Batch Recall, the cooling-off period is 73 days. For Batch Recall, the responsible owner is the Procurement Director. Escalations for Batch Recall follow the [[stock-adjustment]] procedure (Stock Adjustment).",
+  "relevant_ids": [
+   "batch-recall"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q208",
+  "type": "summary",
+  "question": "Summarize the Lot Quarantine policy.",
+  "ground_truth": "For Lot Quarantine, the maximum processing time is 77 hours. For Lot Quarantine, the required approvals is 10 approvers. For Lot Quarantine, the escalation deadline is 76 minutes. For Lot Quarantine, the sample size is 77 units. For Lot Quarantine, the notification window is 53 hours. For Lot Quarantine, the responsible owner is the Quality Lead. Escalations for Lot Quarantine follow the [[batch-recall]] procedure (Batch Recall).",
+  "relevant_ids": [
+   "lot-quarantine"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q209",
+  "type": "summary",
+  "question": "Summarize the Supplier Onboarding policy.",
+  "ground_truth": "For Supplier Onboarding, the escalation deadline is 21 minutes. For Supplier Onboarding, the maximum processing time is 72 hours. For Supplier Onboarding, the record retention period is 18 days. For Supplier Onboarding, the audit lookback period is 76 months. For Supplier Onboarding, the cooling-off period is 42 days. For Supplier Onboarding, the responsible owner is the Compliance Officer. Escalations for Supplier Onboarding follow the [[returns-processing]] procedure (Returns Processing).",
+  "relevant_ids": [
+   "supplier-onboarding"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q210",
+  "type": "summary",
+  "question": "Summarize the Purchase Approval policy.",
+  "ground_truth": "For Purchase Approval, the required approvals is 94 approvers. For Purchase Approval, the escalation deadline is 11 minutes. For Purchase Approval, the sample size is 75 units. For Purchase Approval, the maximum processing time is 10 hours. For Purchase Approval, the review frequency is every 82 weeks. For Purchase Approval, the responsible owner is the Finance Controller. Escalations for Purchase Approval follow the [[change-management]] procedure (Change Management).",
+  "relevant_ids": [
+   "purchase-approval"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q211",
+  "type": "summary",
+  "question": "Summarize the Invoice Dispute policy.",
+  "ground_truth": "For Invoice Dispute, the audit lookback period is 62 months. For Invoice Dispute, the maximum batch size is 77 items. For Invoice Dispute, the notification window is 61 hours. For Invoice Dispute, the cooling-off period is 49 days. For Invoice Dispute, the record retention period is 41 days. For Invoice Dispute, the responsible owner is the Finance Controller. Escalations for Invoice Dispute follow the [[equipment-calibration]] procedure (Equipment Calibration).",
+  "relevant_ids": [
+   "invoice-dispute"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q212",
+  "type": "summary",
+  "question": "Summarize the Data Retention policy.",
+  "ground_truth": "For Data Retention, the record retention period is 70 days. For Data Retention, the escalation deadline is 66 minutes. For Data Retention, the required approvals is 46 approvers. For Data Retention, the review frequency is every 96 weeks. For Data Retention, the cooling-off period is 60 days. For Data Retention, the responsible owner is the Security Officer. Escalations for Data Retention follow the [[visitor-access]] procedure (Visitor Access).",
+  "relevant_ids": [
+   "data-retention"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q213",
+  "type": "summary",
+  "question": "Summarize the Access Review policy.",
+  "ground_truth": "For Access Review, the cooling-off period is 24 days. For Access Review, the required approvals is 46 approvers. For Access Review, the maximum batch size is 22 items. For Access Review, the review frequency is every 65 weeks. For Access Review, the escalation deadline is 56 minutes. For Access Review, the responsible owner is the Quality Lead. Escalations for Access Review follow the [[vendor-audit]] procedure (Vendor Audit).",
+  "relevant_ids": [
+   "access-review"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "Q214",
+  "type": "negative",
+  "question": "What is the cafeteria menu for Friday?",
+  "ground_truth": "",
+  "relevant_ids": [],
+  "answerable": false
+ },
+ {
+  "id": "Q215",
+  "type": "negative",
+  "question": "Who won the 2022 football World Cup?",
+  "ground_truth": "",
+  "relevant_ids": [],
+  "answerable": false
+ },
+ {
+  "id": "Q216",
+  "type": "negative",
+  "question": "What is the CEO's home address?",
+  "ground_truth": "",
+  "relevant_ids": [],
+  "answerable": false
+ },
+ {
+  "id": "Q217",
+  "type": "negative",
+  "question": "How do I bake sourdough bread?",
+  "ground_truth": "",
+  "relevant_ids": [],
+  "answerable": false
+ },
+ {
+  "id": "Q218",
+  "type": "negative",
+  "question": "What will the weather be in Paris tomorrow?",
+  "ground_truth": "",
+  "relevant_ids": [],
+  "answerable": false
+ },
+ {
+  "id": "Q219",
+  "type": "negative",
+  "question": "Recommend a good sci-fi movie.",
+  "ground_truth": "",
+  "relevant_ids": [],
+  "answerable": false
+ },
+ {
+  "id": "Q220",
+  "type": "negative",
+  "question": "What is the stock price of Acme Corp today?",
+  "ground_truth": "",
+  "relevant_ids": [],
+  "answerable": false
+ },
+ {
+  "id": "Q221",
+  "type": "negative",
+  "question": "Translate hello into Klingon.",
+  "ground_truth": "",
+  "relevant_ids": [],
+  "answerable": false
+ },
+ {
+  "id": "Q222",
+  "type": "negative",
+  "question": "Who is the best tennis player ever?",
+  "ground_truth": "",
+  "relevant_ids": [],
+  "answerable": false
+ },
+ {
+  "id": "Q223",
+  "type": "negative",
+  "question": "What is the capital of Australia?",
+  "ground_truth": "",
+  "relevant_ids": [],
+  "answerable": false
+ },
+ {
+  "id": "Q224",
+  "type": "negative",
+  "question": "How tall is Mount Everest?",
+  "ground_truth": "",
+  "relevant_ids": [],
+  "answerable": false
+ },
+ {
+  "id": "Q225",
+  "type": "negative",
+  "question": "Write a poem about the sea.",
+  "ground_truth": "",
+  "relevant_ids": [],
+  "answerable": false
+ },
+ {
+  "id": "Q226",
+  "type": "negative",
+  "question": "What is my colleague's salary?",
+  "ground_truth": "",
+  "relevant_ids": [],
+  "answerable": false
+ },
+ {
+  "id": "Q227",
+  "type": "negative",
+  "question": "What is the airspeed velocity of an unladen swallow?",
+  "ground_truth": "",
+  "relevant_ids": [],
+  "answerable": false
+ },
+ {
+  "id": "Q228",
+  "type": "negative",
+  "question": "Which restaurant near the office has the best pizza?",
+  "ground_truth": "",
+  "relevant_ids": [],
+  "answerable": false
+ },
+ {
+  "id": "Q229",
+  "type": "negative",
+  "question": "What are next year's lottery numbers?",
+  "ground_truth": "",
+  "relevant_ids": [],
+  "answerable": false
+ },
+ {
+  "id": "Q230",
+  "type": "negative",
+  "question": "How many moons does Jupiter have?",
+  "ground_truth": "",
+  "relevant_ids": [],
+  "answerable": false
+ },
+ {
+  "id": "Q231",
+  "type": "negative",
+  "question": "Who painted the Mona Lisa?",
+  "ground_truth": "",
+  "relevant_ids": [],
+  "answerable": false
+ },
+ {
+  "id": "Q232",
+  "type": "negative",
+  "question": "What is the WiFi password at the airport?",
+  "ground_truth": "",
+  "relevant_ids": [],
+  "answerable": false
+ },
+ {
+  "id": "Q233",
+  "type": "negative",
+  "question": "Explain quantum entanglement to a child.",
+  "ground_truth": "",
+  "relevant_ids": [],
+  "answerable": false
+ },
+ {
+  "id": "Q234",
+  "type": "negative",
+  "question": "What time does the sun set in Tokyo?",
+  "ground_truth": "",
+  "relevant_ids": [],
+  "answerable": false
+ },
+ {
+  "id": "Q235",
+  "type": "negative",
+  "question": "Suggest a name for my dog.",
+  "ground_truth": "",
+  "relevant_ids": [],
+  "answerable": false
+ },
+ {
+  "id": "Q236",
+  "type": "negative",
+  "question": "What is the plot of Hamlet?",
+  "ground_truth": "",
+  "relevant_ids": [],
+  "answerable": false
+ },
+ {
+  "id": "Q237",
+  "type": "negative",
+  "question": "How do I fix my bicycle chain?",
+  "ground_truth": "",
+  "relevant_ids": [],
+  "answerable": false
+ },
+ {
+  "id": "Q238",
+  "type": "negative",
+  "question": "Who is the president of Brazil?",
+  "ground_truth": "",
+  "relevant_ids": [],
+  "answerable": false
+ },
+ {
+  "id": "Q239",
+  "type": "negative",
+  "question": "What is the boiling point of mercury?",
+  "ground_truth": "",
+  "relevant_ids": [],
+  "answerable": false
+ },
+ {
+  "id": "Q240",
+  "type": "negative",
+  "question": "Give me a joke about accountants.",
+  "ground_truth": "",
+  "relevant_ids": [],
+  "answerable": false
+ },
+ {
+  "id": "Q241",
+  "type": "negative",
+  "question": "What is the best programming language?",
+  "ground_truth": "",
+  "relevant_ids": [],
+  "answerable": false
+ },
+ {
+  "id": "Q242",
+  "type": "negative",
+  "question": "How many calories are in an apple?",
+  "ground_truth": "",
+  "relevant_ids": [],
+  "answerable": false
+ },
+ {
+  "id": "Q243",
+  "type": "negative",
+  "question": "When is the next solar eclipse?",
+  "ground_truth": "",
+  "relevant_ids": [],
+  "answerable": false
+ },
+ {
+  "id": "Q244",
+  "type": "negative",
+  "question": "What is the population of Canada?",
+  "ground_truth": "",
+  "relevant_ids": [],
+  "answerable": false
+ },
+ {
+  "id": "Q245",
+  "type": "negative",
+  "question": "Who invented the telephone?",
+  "ground_truth": "",
+  "relevant_ids": [],
+  "answerable": false
+ },
+ {
+  "id": "Q246",
+  "type": "negative",
+  "question": "What year did the Berlin Wall fall?",
+  "ground_truth": "",
+  "relevant_ids": [],
+  "answerable": false
+ },
+ {
+  "id": "Q247",
+  "type": "negative",
+  "question": "Which vitamins help with sleep?",
+  "ground_truth": "",
+  "relevant_ids": [],
+  "answerable": false
+ },
+ {
+  "id": "Q248",
+  "type": "negative",
+  "question": "What is the speed of light?",
+  "ground_truth": "",
+  "relevant_ids": [],
+  "answerable": false
+ },
+ {
+  "id": "Q249",
+  "type": "negative",
+  "question": "How do I learn to play guitar?",
+  "ground_truth": "",
+  "relevant_ids": [],
+  "answerable": false
+ },
+ {
+  "id": "Q250",
+  "type": "negative",
+  "question": "What is the tallest building in Dubai?",
+  "ground_truth": "",
+  "relevant_ids": [],
+  "answerable": false
+ }
+]

@@ -1,0 +1,333 @@
+{
+ "summary": {
+  "PASS": 29,
+  "FAIL": 0,
+  "PENDING": 7
+ },
+ "kpis": [
+  {
+   "id": "KPI-01",
+   "name": "Pre-hook guardrail latency p95 (ms)",
+   "target": "<= 15",
+   "measured": 0.3342,
+   "status": "PASS",
+   "basis": "measured",
+   "note": ""
+  },
+  {
+   "id": "KPI-02",
+   "name": "PII redaction recall (email/phone/SSN/obfuscated)",
+   "target": ">= 99.8%",
+   "measured": 100.0,
+   "status": "PASS",
+   "basis": "synthetic",
+   "note": "300 generated cases"
+  },
+  {
+   "id": "KPI-03",
+   "name": "Prompt-injection block rate (direct+indirect+multi-turn)",
+   "target": ">= 99.5%",
+   "measured": 100.0,
+   "status": "PASS",
+   "basis": "synthetic",
+   "note": "direct_jailbreak=20/20; indirect_injection=20/20; multi_turn_crescendo=20/20; pii_smuggling=20/20; tool_overflow_sqli=21/21"
+  },
+  {
+   "id": "KPI-04",
+   "name": "Triage routing accuracy (held-out 30%)",
+   "target": ">= 97.0%",
+   "measured": 98.8889,
+   "status": "PASS",
+   "basis": "synthetic",
+   "note": "90 held-out generated queries; rule+TF-IDF/LR fallback, not the fine-tuned SLM (ADR-05)"
+  },
+  {
+   "id": "KPI-05",
+   "name": "Triage latency p95 (ms)",
+   "target": "<= 25",
+   "measured": 2.5713,
+   "status": "PASS",
+   "basis": "measured",
+   "note": ""
+  },
+  {
+   "id": "KPI-06",
+   "name": "False-positive refusal rate on benign queries",
+   "target": "<= 1.0%",
+   "measured": 0.4695,
+   "status": "PASS",
+   "basis": "synthetic",
+   "note": "1/213 answerable golden queries refused/abstained"
+  },
+  {
+   "id": "KPI-07",
+   "name": "BM25 latency p95 (ms)",
+   "target": "<= 12",
+   "measured": 0.5097,
+   "status": "PASS",
+   "basis": "measured",
+   "note": ""
+  },
+  {
+   "id": "KPI-08",
+   "name": "Bi-encoder+FAISS latency p95 (ms)",
+   "target": "<= 25",
+   "measured": 0.3802,
+   "status": "PASS",
+   "basis": "measured",
+   "note": "hash-embedder stand-in, not ONNX bge-large"
+  },
+  {
+   "id": "KPI-09",
+   "name": "Cross-encoder rerank latency p95 (ms)",
+   "target": "<= 45",
+   "measured": 0.3538,
+   "status": "PASS",
+   "basis": "measured",
+   "note": "lexical stand-in, not ONNX bge-reranker"
+  },
+  {
+   "id": "KPI-10",
+   "name": "Hybrid context recall@50",
+   "target": ">= 0.92",
+   "measured": 1.0,
+   "status": "PASS",
+   "basis": "synthetic",
+   "note": "trivial: pool covers the whole 32-chunk corpus; not discriminative"
+  },
+  {
+   "id": "KPI-11",
+   "name": "Post-rerank context precision@4 (rank-aware AP)",
+   "target": ">= 0.88",
+   "measured": 0.9347,
+   "status": "PASS",
+   "basis": "synthetic",
+   "note": ""
+  },
+  {
+   "id": "KPI-12",
+   "name": "MRR@4",
+   "target": ">= 0.85",
+   "measured": 0.9347,
+   "status": "PASS",
+   "basis": "synthetic",
+   "note": ""
+  },
+  {
+   "id": "KPI-13",
+   "name": "nDCG@4",
+   "target": ">= 0.86",
+   "measured": 0.9489,
+   "status": "PASS",
+   "basis": "synthetic",
+   "note": ""
+  },
+  {
+   "id": "KPI-14",
+   "name": "Tool schema first-pass validation rate",
+   "target": ">= 96.0%",
+   "measured": 99.5902,
+   "status": "PASS",
+   "basis": "synthetic",
+   "note": "organic workload: golden set + 100 lookups (4% typos); calls=488"
+  },
+  {
+   "id": "KPI-15",
+   "name": "Auto-repair success on malformed args",
+   "target": ">= 90.0%",
+   "measured": 92.0,
+   "status": "PASS",
+   "basis": "synthetic",
+   "note": "100 malformed calls incl. 8 unrepairable"
+  },
+  {
+   "id": "KPI-16",
+   "name": "Infinite-loop escape rate",
+   "target": ">= 100.0%",
+   "measured": 100.0,
+   "status": "PASS",
+   "basis": "measured",
+   "note": "50 chaos runs (repeat-failing and never-ending planners)"
+  },
+  {
+   "id": "KPI-17",
+   "name": "Mean ReAct steps per completed task",
+   "target": "<= 2.2",
+   "measured": 1.4776,
+   "status": "PASS",
+   "basis": "measured",
+   "note": "stub planner"
+  },
+  {
+   "id": "KPI-18",
+   "name": "Context drift score (goal cosine alignment)",
+   "target": ">= 0.85",
+   "measured": 1.0,
+   "status": "PASS",
+   "basis": "proxy",
+   "note": "planner restates objective from the immutable anchor; ablation without anchor reported in reports/drift.json"
+  },
+  {
+   "id": "KPI-19",
+   "name": "Tier 3 HITL gate enforcement rate",
+   "target": ">= 100.0%",
+   "measured": 100.0,
+   "status": "PASS",
+   "basis": "measured",
+   "note": "100 direct Tier-3 attempts (harness level): 0 state changes without approval; 100 frozen as PENDING_APPROVAL"
+  },
+  {
+   "id": "KPI-20",
+   "name": "Faithfulness (token-support proxy, not LLM-judged RAGAS)",
+   "target": ">= 0.92",
+   "measured": 1.0,
+   "status": "PASS",
+   "basis": "proxy",
+   "note": "extractive generator: near-1.0 by construction"
+  },
+  {
+   "id": "KPI-21",
+   "name": "Answer correctness (ground-truth containment; proxy for answer relevancy)",
+   "target": ">= 0.9",
+   "measured": 0.9906,
+   "status": "PASS",
+   "basis": "proxy",
+   "note": ""
+  },
+  {
+   "id": "KPI-22",
+   "name": "Context entity recall (retrieved + hop evidence; proxy)",
+   "target": ">= 0.85",
+   "measured": 0.9906,
+   "status": "PASS",
+   "basis": "proxy",
+   "note": "retrieved chunks plus chunks the loop cited after hop 2"
+  },
+  {
+   "id": "KPI-23",
+   "name": "Unanswerable-query abstention accuracy",
+   "target": ">= 98.0%",
+   "measured": 100.0,
+   "status": "PASS",
+   "basis": "synthetic",
+   "note": "37 negatives"
+  },
+  {
+   "id": "KPI-24",
+   "name": "Unsupported-claim rate (token-support verifier; proxy, circular for extractive LLM)",
+   "target": "<= 0.5%",
+   "measured": 0.0,
+   "status": "PASS",
+   "basis": "proxy",
+   "note": ""
+  },
+  {
+   "id": "KPI-25",
+   "name": "TTFT p95 (ms) - stub generator",
+   "target": "<= 180",
+   "measured": null,
+   "status": "PENDING",
+   "basis": "pending",
+   "note": "stub ttft p95=0.300 ms is meaningless; needs real vLLM/TensorRT-LLM"
+  },
+  {
+   "id": "KPI-26",
+   "name": "Prompt-token reduction vs whole-note dump",
+   "target": ">= 45.0%",
+   "measured": 83.7591,
+   "status": "PASS",
+   "basis": "synthetic",
+   "note": "baseline=858 tok, optimized=139 tok (mean per RAG answer)"
+  },
+  {
+   "id": "KPI-27",
+   "name": "Semantic cache hit ratio (steady state)",
+   "target": ">= 35.0%",
+   "measured": 98.4667,
+   "status": "PASS",
+   "basis": "synthetic",
+   "note": "Zipf-like synthetic workload, 20 users; real ratio depends on production traffic"
+  },
+  {
+   "id": "KPI-28",
+   "name": "Cross-tenant cache isolation (leaks)",
+   "target": "<= 0",
+   "measured": 0,
+   "status": "PASS",
+   "basis": "measured",
+   "note": "500 concurrent cross-tenant probes, same user id and same query on 50 tenants"
+  },
+  {
+   "id": "KPI-29",
+   "name": "Cost per 1,000 queries (USD, assumed prices, 35% cache hits)",
+   "target": "<= 0.45",
+   "measured": 0.0458,
+   "status": "PASS",
+   "basis": "proxy",
+   "note": "golden-set mix of 250 queries (212 reach the LLM; abstentions/rejections cost 0). No cache: $0.07; at the 35% hit ratio KPI-27 requires: $0.05. Self-hosted pricing assumed: $0.30/M in, $0.90/M out. At hosted-API prices ($3/$15 per M) the same traffic costs $0.56 (FAIL). Word-count token estimates. NOTE: this PASS rests on assumed self-hosted pricing. Real OpenRouter billing in the live run was $2.83 per 1,000 queries (FAIL vs $0.45), see reports/llm_eval.json"
+  },
+  {
+   "id": "KPI-30",
+   "name": "MCP JSON-RPC serialization overhead p95 (ms)",
+   "target": "<= 4",
+   "measured": 0.1311,
+   "status": "PASS",
+   "basis": "measured",
+   "note": ""
+  },
+  {
+   "id": "KPI-31",
+   "name": "E2E latency p50 @50K VUs (ms)",
+   "target": "<= 240",
+   "measured": null,
+   "status": "PENDING",
+   "basis": "pending",
+   "note": "SMOKE ONLY: 100 VUs, 20 s - not 50,000 VUs; smoke p50=55.9 ms"
+  },
+  {
+   "id": "KPI-32",
+   "name": "E2E latency p95 @50K VUs (ms)",
+   "target": "<= 450",
+   "measured": null,
+   "status": "PENDING",
+   "basis": "pending",
+   "note": "SMOKE ONLY: 100 VUs, 20 s - not 50,000 VUs; smoke p95=1012.4 ms"
+  },
+  {
+   "id": "KPI-33",
+   "name": "E2E latency p99 @50K VUs (ms)",
+   "target": "<= 590",
+   "measured": null,
+   "status": "PENDING",
+   "basis": "pending",
+   "note": "SMOKE ONLY: 100 VUs, 20 s - not 50,000 VUs; smoke p99=2224.5 ms"
+  },
+  {
+   "id": "KPI-34",
+   "name": "HTTP 5xx rate @50K VUs",
+   "target": "<= 0.05",
+   "measured": null,
+   "status": "PENDING",
+   "basis": "pending",
+   "note": "SMOKE ONLY: 100 VUs, 20 s - not 50,000 VUs; smoke 5xx=0.000%"
+  },
+  {
+   "id": "KPI-35",
+   "name": "Sustained throughput (RPS)",
+   "target": ">= 8500",
+   "measured": null,
+   "status": "PENDING",
+   "basis": "pending",
+   "note": "SMOKE ONLY: 100 VUs, 20 s - not 50,000 VUs; smoke RPS=80"
+  },
+  {
+   "id": "KPI-36",
+   "name": "RSS growth over 1-hr soak",
+   "target": "<= 3.0",
+   "measured": null,
+   "status": "PENDING",
+   "basis": "pending",
+   "note": "needs a separate 1-hour soak run"
+  }
+ ]
+}

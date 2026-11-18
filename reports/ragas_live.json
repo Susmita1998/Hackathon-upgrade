@@ -1,0 +1,990 @@
+{
+ "run": {
+  "ragas_version": "0.4.4",
+  "judge_model": "anthropic/claude-haiku-4.5",
+  "answer_relevancy_embeddings": "BAAI/bge-small-en-v1.5 (local, sentence-transformers)",
+  "sampled": 48,
+  "answered_and_scored": 46,
+  "not_answered": 2,
+  "per_type": 12,
+  "pipeline_spend_usd": 0.1748,
+  "total_spend_usd": 1.4017,
+  "seconds": 543.6,
+  "metric_errors": {}
+ },
+ "scores": {
+  "faithfulness": {
+   "mean": 0.9456521739130435,
+   "n": 46,
+   "gate": 0.92,
+   "pass": true,
+   "min": 0.5,
+   "below_gate": 5
+  },
+  "answer_relevancy": {
+   "mean": 0.8707139537866626,
+   "n": 46,
+   "gate": 0.9,
+   "pass": false,
+   "min": 0.5349809913832798,
+   "below_gate": 18
+  },
+  "context_precision": {
+   "mean": 0.7391304347086957,
+   "n": 46,
+   "gate": 0.88,
+   "pass": false,
+   "min": 0.0,
+   "below_gate": 14
+  },
+  "context_recall": {
+   "mean": 0.9782608695652174,
+   "n": 46,
+   "gate": 0.85,
+   "pass": true,
+   "min": 0.0,
+   "below_gate": 1
+  },
+  "context_entity_recall": {
+   "mean": 0.9879227017042405,
+   "n": 46,
+   "gate": 0.85,
+   "pass": true,
+   "min": 0.8888888879012344,
+   "below_gate": 0
+  }
+ },
+ "by_type": {
+  "factoid": {
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.9899124487682306,
+   "context_precision": 0.916666666575,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.999999995
+  },
+  "complex_reasoning": {
+   "faithfulness": 0.7916666666666666,
+   "answer_relevancy": 0.9414976805738781,
+   "context_precision": 0.9583333332375,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.9999999963888889
+  },
+  "multi_hop": {
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.8832506370434546,
+   "context_precision": 0.0,
+   "context_recall": 0.9,
+   "context_entity_recall": 0.999999995
+  },
+  "summary": {
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.6702844959705524,
+   "context_precision": 0.9583333332375,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.9537037026440328
+  }
+ },
+ "samples": [
+  {
+   "id": "Q030",
+   "type": "factoid",
+   "status": "OK",
+   "question": "What is the maximum processing time for Credit Limit?",
+   "answer": "The maximum processing time for Credit Limit is 70 hours [credit-limit#0].",
+   "scored_response": "The maximum processing time for Credit Limit is 70 hours.",
+   "reference": "For Credit Limit, the maximum processing time is 70 hours.",
+   "contexts": [
+    "- For Credit Limit, the sample size is 95 units.\n- For Credit Limit, the record retention period is 86 days.\n- For Credit Limit, the maximum batch size is 16 items.\n- For Credit Limit, the maximum processing time is 70 hours."
+   ],
+   "n_contexts": 1,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.9999999999998672,
+   "context_precision": 0.9999999999,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.999999995
+  },
+  {
+   "id": "Q044",
+   "type": "factoid",
+   "status": "OK",
+   "question": "What is the review frequency for Safety Inspection?",
+   "answer": "The review frequency for Safety Inspection is every 10 weeks [safety-inspection#0].",
+   "scored_response": "The review frequency for Safety Inspection is every 10 weeks.",
+   "reference": "For Safety Inspection, the review frequency is every 10 weeks.",
+   "contexts": [
+    "- For Safety Inspection, the required approvals is 11 approvers.\n- For Safety Inspection, the review frequency is every 10 weeks.\n- For Safety Inspection, the audit lookback period is 96 months.\n- For Safety Inspection, the sample size is 92 units."
+   ],
+   "n_contexts": 1,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.8993996735198487,
+   "context_precision": 0.9999999999,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.999999995
+  },
+  {
+   "id": "Q009",
+   "type": "factoid",
+   "status": "OK",
+   "question": "What is the audit lookback period for Customer Refund?",
+   "answer": "The audit lookback period for Customer Refund is 4 months [customer-refund#0].",
+   "scored_response": "The audit lookback period for Customer Refund is 4 months.",
+   "reference": "For Customer Refund, the audit lookback period is 4 months.",
+   "contexts": [
+    "- For Customer Refund, the escalation deadline is 32 minutes.\n- For Customer Refund, the record retention period is 87 days.\n- For Customer Refund, the required approvals is 32 approvers.\n- For Customer Refund, the audit lookback period is 4 months."
+   ],
+   "n_contexts": 1,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.9999999999998854,
+   "context_precision": 0.9999999999,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.999999995
+  },
+  {
+   "id": "Q026",
+   "type": "factoid",
+   "status": "OK",
+   "question": "What is the record retention period for Supplier Onboarding?",
+   "answer": "The record retention period for Supplier Onboarding is 18 days. [supplier-onboarding#0]",
+   "scored_response": "The record retention period for Supplier Onboarding is 18 days.",
+   "reference": "For Supplier Onboarding, the record retention period is 18 days.",
+   "contexts": [
+    "- For Supplier Onboarding, the escalation deadline is 21 minutes.\n- For Supplier Onboarding, the record retention period is 18 days.\n- For Supplier Onboarding, the audit lookback period is 76 months.\n- For Supplier Onboarding, the cooling-off period is 42 days.",
+    "- For Visitor Access, the escalation deadline is 40 minutes.\n- For Visitor Access, the cooling-off period is 67 days.\n- For Visitor Access, the record retention period is 78 days.\n- Escalations for Visitor Access follow the [[supplier-onboarding]] procedure (Supplier Onboarding)."
+   ],
+   "n_contexts": 2,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.9999999999998908,
+   "context_precision": 0.9999999999,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.999999995
+  },
+  {
+   "id": "Q058",
+   "type": "factoid",
+   "status": "OK",
+   "question": "What is the review frequency for Contract Renewal?",
+   "answer": "The review frequency for Contract Renewal is every 80 weeks [contract-renewal#0].",
+   "scored_response": "The review frequency for Contract Renewal is every 80 weeks.",
+   "reference": "For Contract Renewal, the review frequency is every 80 weeks.",
+   "contexts": [
+    "- For Contract Renewal, the maximum processing time is 27 hours.\n- For Contract Renewal, the cooling-off period is 91 days.\n- For Contract Renewal, the review frequency is every 80 weeks.\n- For Contract Renewal, the escalation deadline is 47 minutes."
+   ],
+   "n_contexts": 1,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.9999999999998946,
+   "context_precision": 0.9999999999,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.999999995
+  },
+  {
+   "id": "Q040",
+   "type": "factoid",
+   "status": "OK",
+   "question": "What is the cooling-off period for Training Certification?",
+   "answer": "The cooling-off period for Training Certification is 97 days [training-certification#0].",
+   "scored_response": "The cooling-off period for Training Certification is 97 days.",
+   "reference": "For Training Certification, the cooling-off period is 97 days.",
+   "contexts": [
+    "- For Training Certification, the cooling-off period is 97 days.\n- For Training Certification, the escalation deadline is 32 minutes.\n- For Training Certification, the maximum batch size is 28 items.\n- For Training Certification, the audit lookback period is 66 months.",
+    "- For Shipment Hold, the required approvals is 31 approvers.\n- For Shipment Hold, the cooling-off period is 67 days.\n- For Shipment Hold, the record retention period is 45 days.\n- Escalations for Shipment Hold follow the [[training-certification]] procedure (Training Certification)."
+   ],
+   "n_contexts": 2,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.9855842991302679,
+   "context_precision": 0.9999999999,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.999999995
+  },
+  {
+   "id": "Q007",
+   "type": "factoid",
+   "status": "OK",
+   "question": "What is the maximum batch size for Fire Drill?",
+   "answer": "The maximum batch size for Fire Drill is 64 items [fire-drill#0].",
+   "scored_response": "The maximum batch size for Fire Drill is 64 items.",
+   "reference": "For Fire Drill, the maximum batch size is 64 items.",
+   "contexts": [
+    "- For Credit Limit, the sample size is 95 units.\n- For Credit Limit, the maximum batch size is 16 items.\n- For Credit Limit, the maximum processing time is 70 hours.\n- Escalations for Credit Limit follow the [[batch-recall]] procedure (Batch Recall).",
+    "- For Fire Drill, the sample size is 63 units.\n- For Fire Drill, the required approvals is 28 approvers.\n- For Fire Drill, the maximum processing time is 29 hours.\n- For Fire Drill, the maximum batch size is 64 items."
+   ],
+   "n_contexts": 2,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.9999999999998886,
+   "context_precision": 0.49999999995,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.999999995
+  },
+  {
+   "id": "Q002",
+   "type": "factoid",
+   "status": "OK",
+   "question": "What is the maximum processing time for Change Management?",
+   "answer": "The maximum processing time for Change Management is 53 hours [change-management#0].",
+   "scored_response": "The maximum processing time for Change Management is 53 hours.",
+   "reference": "For Change Management, the maximum processing time is 53 hours.",
+   "contexts": [
+    "- For Change Management, the maximum batch size is 74 items.\n- For Change Management, the maximum processing time is 53 hours.\n- For Change Management, the audit lookback period is 53 months.\n- For Change Management, the notification window is 54 hours.",
+    "- For Contract Renewal, the maximum processing time is 27 hours.\n- For Contract Renewal, the cooling-off period is 91 days.\n- For Contract Renewal, the review frequency is every 80 weeks.\n- Escalations for Contract Renewal follow the [[change-management]] procedure (Change Management).",
+    "- For Purchase Approval, the required approvals is 94 approvers.\n- For Purchase Approval, the escalation deadline is 11 minutes.\n- For Purchase Approval, the maximum processing time is 10 hours.\n- Escalations for Purchase Approval follow the [[change-management]] procedure (Change Management).",
+    "- For Password Rotation, the required approvals is 49 approvers.\n- For Password Rotation, the maximum processing time is 81 hours.\n- For Password Rotation, the record retention period is 6 days.\n- For Password Rotation, the maximum batch size is 29 items."
+   ],
+   "n_contexts": 4,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.9999999999998966,
+   "context_precision": 0.9999999999,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.999999995
+  },
+  {
+   "id": "Q032",
+   "type": "factoid",
+   "status": "OK",
+   "question": "What is the review frequency for Hazmat Handling?",
+   "answer": "The review frequency for Hazmat Handling is every 48 weeks [hazmat-handling#0].",
+   "scored_response": "The review frequency for Hazmat Handling is every 48 weeks.",
+   "reference": "For Hazmat Handling, the review frequency is every 48 weeks.",
+   "contexts": [
+    "- For Hazmat Handling, the review frequency is every 48 weeks.\n- For Hazmat Handling, the notification window is 24 hours.\n- For Hazmat Handling, the sample size is 81 units.\n- For Hazmat Handling, the maximum processing time is 17 hours.",
+    "- For Label Verification, the maximum batch size is 21 items.\n- For Label Verification, the maximum processing time is 91 hours.\n- For Label Verification, the escalation deadline is 72 minutes.\n- For Label Verification, the review frequency is every 6 weeks."
+   ],
+   "n_contexts": 2,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.9999999999998862,
+   "context_precision": 0.9999999999,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.999999995
+  },
+  {
+   "id": "Q020",
+   "type": "factoid",
+   "status": "OK",
+   "question": "What is the cooling-off period for Privacy Request?",
+   "answer": "The cooling-off period for Privacy Request is 13 days [privacy-request#0].",
+   "scored_response": "The cooling-off period for Privacy Request is 13 days.",
+   "reference": "For Privacy Request, the cooling-off period is 13 days.",
+   "contexts": [
+    "- For Privacy Request, the notification window is 53 hours.\n- For Privacy Request, the sample size is 62 units.\n- For Privacy Request, the required approvals is 54 approvers.\n- For Privacy Request, the cooling-off period is 13 days."
+   ],
+   "n_contexts": 1,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.9999999999998889,
+   "context_precision": 0.9999999999,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.999999995
+  },
+  {
+   "id": "Q035",
+   "type": "factoid",
+   "status": "OK",
+   "question": "What is the sample size for Software Release?",
+   "answer": "For Software Release, the sample size is 52 units [software-release#0].",
+   "scored_response": "For Software Release, the sample size is 52 units.",
+   "reference": "For Software Release, the sample size is 52 units.",
+   "contexts": [
+    "- For Fire Drill, the sample size is 63 units.\n- For Fire Drill, the required approvals is 28 approvers.\n- For Fire Drill, the maximum batch size is 64 items.\n- Escalations for Fire Drill follow the [[software-release]] procedure (Software Release).",
+    "- For Software Release, the audit lookback period is 18 months.\n- For Software Release, the sample size is 52 units.\n- For Software Release, the required approvals is 94 approvers.\n- For Software Release, the maximum batch size is 64 items."
+   ],
+   "n_contexts": 2,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.9999999999999059,
+   "context_precision": 0.49999999995,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.999999995
+  },
+  {
+   "id": "Q017",
+   "type": "factoid",
+   "status": "OK",
+   "question": "What is the responsible owner for Safety Inspection?",
+   "answer": "The responsible owner for Safety Inspection is the Safety Marshal [safety-inspection#0].",
+   "scored_response": "The responsible owner for Safety Inspection is the Safety Marshal.",
+   "reference": "For Safety Inspection, the responsible owner is the Safety Marshal.",
+   "contexts": [
+    "- For Safety Inspection, the required approvals is 11 approvers.\n- For Safety Inspection, the review frequency is every 10 weeks.\n- For Safety Inspection, the audit lookback period is 96 months.\n- For Safety Inspection, the responsible owner is the Safety Marshal."
+   ],
+   "n_contexts": 1,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.9939654125696459,
+   "context_precision": 0.9999999999,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.999999995
+  },
+  {
+   "id": "Q080",
+   "type": "complex_reasoning",
+   "status": "OK",
+   "question": "Before scheduling work, what audit lookback period applies to Batch Recall, and who is the responsible owner?",
+   "answer": "The audit lookback period for Batch Recall is 14 months [batch-recall#0]. The responsible owner is the Procurement Director [batch-recall#0].",
+   "scored_response": "The audit lookback period for Batch Recall is 14 months. The responsible owner is the Procurement Director.",
+   "reference": "For Batch Recall, the audit lookback period is 14 months. For Batch Recall, the responsible owner is the Procurement Director.",
+   "contexts": [
+    "- For Batch Recall, the maximum batch size is 56 items.\n- For Batch Recall, the audit lookback period is 14 months.\n- For Batch Recall, the cooling-off period is 73 days.\n- For Batch Recall, the responsible owner is the Procurement Director."
+   ],
+   "n_contexts": 1,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.9672611852440735,
+   "context_precision": 0.9999999999,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.9999999966666667
+  },
+  {
+   "id": "Q124",
+   "type": "complex_reasoning",
+   "status": "OK",
+   "question": "When preparing an audit, what responsible owner applies to Batch Recall, and who is the responsible owner?",
+   "answer": "The responsible owner for Batch Recall is the Procurement Director [batch-recall#0].",
+   "scored_response": "The responsible owner for Batch Recall is the Procurement Director.",
+   "reference": "For Batch Recall, the responsible owner is the Procurement Director.",
+   "contexts": [
+    "- For Batch Recall, the maximum batch size is 56 items.\n- For Batch Recall, the escalation deadline is 11 minutes.\n- For Batch Recall, the audit lookback period is 14 months.\n- For Batch Recall, the responsible owner is the Procurement Director."
+   ],
+   "n_contexts": 1,
+   "faithfulness": 0.5,
+   "answer_relevancy": 0.9051647714034633,
+   "context_precision": 0.9999999999,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.999999995
+  },
+  {
+   "id": "Q108",
+   "type": "complex_reasoning",
+   "status": "OK",
+   "question": "For compliance reporting, what maximum processing time applies to Batch Recall, and who is the responsible owner?",
+   "answer": "For Batch Recall, the maximum processing time is 33 hours [batch-recall#0], and the responsible owner is the Procurement Director [batch-recall#0].",
+   "scored_response": "For Batch Recall, the maximum processing time is 33 hours, and the responsible owner is the Procurement Director.",
+   "reference": "For Batch Recall, the maximum processing time is 33 hours. For Batch Recall, the responsible owner is the Procurement Director.",
+   "contexts": [
+    "- For Batch Recall, the maximum batch size is 56 items.\n- For Batch Recall, the escalation deadline is 11 minutes.\n- For Batch Recall, the maximum processing time is 33 hours.\n- For Batch Recall, the responsible owner is the Procurement Director.",
+    "- For Label Verification, the maximum batch size is 21 items.\n- For Label Verification, the maximum processing time is 91 hours.\n- For Label Verification, the responsible owner is the Security Officer.\n- Escalations for Label Verification follow the [[batch-recall]] procedure (Batch Recall).",
+    "- For Lot Quarantine, the maximum processing time is 77 hours.\n- For Lot Quarantine, the required approvals is 10 approvers.\n- For Lot Quarantine, the responsible owner is the Quality Lead.\n- Escalations for Lot Quarantine follow the [[batch-recall]] procedure (Batch Recall).",
+    "- For Privacy Request, the notification window is 53 hours.\n- For Privacy Request, the maximum batch size is 95 items.\n- For Privacy Request, the responsible owner is the Compliance Officer.\n- Escalations for Privacy Request follow the [[batch-recall]] procedure (Batch Recall)."
+   ],
+   "n_contexts": 4,
+   "faithfulness": 0.5,
+   "answer_relevancy": 0.9509594358795254,
+   "context_precision": 0.9999999999,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.9999999966666667
+  },
+  {
+   "id": "Q086",
+   "type": "complex_reasoning",
+   "status": "OK",
+   "question": "For compliance reporting, what maximum batch size applies to Credit Limit, and who is the responsible owner?",
+   "answer": "For Credit Limit, the maximum batch size is 16 items [credit-limit#0], and the responsible owner is the Procurement Director [credit-limit#0].",
+   "scored_response": "For Credit Limit, the maximum batch size is 16 items, and the responsible owner is the Procurement Director.",
+   "reference": "For Credit Limit, the maximum batch size is 16 items. For Credit Limit, the responsible owner is the Procurement Director.",
+   "contexts": [
+    "- For Credit Limit, the sample size is 95 units.\n- For Credit Limit, the maximum batch size is 16 items.\n- For Credit Limit, the maximum processing time is 70 hours.\n- For Credit Limit, the responsible owner is the Procurement Director.",
+    "- For Returns Processing, the notification window is 73 hours.\n- For Returns Processing, the maximum batch size is 38 items.\n- For Returns Processing, the responsible owner is the Procurement Director.\n- Escalations for Returns Processing follow the [[credit-limit]] procedure (Credit Limit)."
+   ],
+   "n_contexts": 2,
+   "faithfulness": 0.5,
+   "answer_relevancy": 0.9528353960633811,
+   "context_precision": 0.9999999999,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.9999999966666667
+  },
+  {
+   "id": "Q109",
+   "type": "complex_reasoning",
+   "status": "OK",
+   "question": "Before scheduling work, what responsible owner applies to Hazmat Handling, and who is the responsible owner?",
+   "answer": "The responsible owner for Hazmat Handling is the Quality Lead [hazmat-handling#0].",
+   "scored_response": "The responsible owner for Hazmat Handling is the Quality Lead.",
+   "reference": "For Hazmat Handling, the responsible owner is the Quality Lead.",
+   "contexts": [
+    "- For Hazmat Handling, the review frequency is every 48 weeks.\n- For Hazmat Handling, the notification window is 24 hours.\n- For Hazmat Handling, the sample size is 81 units.\n- For Hazmat Handling, the responsible owner is the Quality Lead.",
+    "- For Label Verification, the maximum batch size is 21 items.\n- For Label Verification, the maximum processing time is 91 hours.\n- For Label Verification, the escalation deadline is 72 minutes.\n- For Label Verification, the responsible owner is the Security Officer."
+   ],
+   "n_contexts": 2,
+   "faithfulness": 0.5,
+   "answer_relevancy": 0.932042244679273,
+   "context_precision": 0.9999999999,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.999999995
+  },
+  {
+   "id": "Q102",
+   "type": "complex_reasoning",
+   "status": "OK",
+   "question": "When preparing an audit, what cooling-off period applies to Invoice Dispute, and who is the responsible owner?",
+   "answer": "For Invoice Dispute, the cooling-off period is 49 days [invoice-dispute#0], and the responsible owner is the Finance Controller [invoice-dispute#0].",
+   "scored_response": "For Invoice Dispute, the cooling-off period is 49 days, and the responsible owner is the Finance Controller.",
+   "reference": "For Invoice Dispute, the cooling-off period is 49 days. For Invoice Dispute, the responsible owner is the Finance Controller.",
+   "contexts": [
+    "- For Invoice Dispute, the audit lookback period is 62 months.\n- For Invoice Dispute, the cooling-off period is 49 days.\n- For Invoice Dispute, the record retention period is 41 days.\n- For Invoice Dispute, the responsible owner is the Finance Controller.",
+    "- For Backup Recovery, the audit lookback period is 29 months.\n- For Backup Recovery, the notification window is 59 hours.\n- For Backup Recovery, the cooling-off period is 46 days.\n- For Backup Recovery, the responsible owner is the Quality Lead.",
+    "- For Batch Recall, the maximum batch size is 56 items.\n- For Batch Recall, the audit lookback period is 14 months.\n- For Batch Recall, the cooling-off period is 73 days.\n- For Batch Recall, the responsible owner is the Procurement Director."
+   ],
+   "n_contexts": 3,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.9507767884415051,
+   "context_precision": 0.9999999999,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.9999999966666667
+  },
+  {
+   "id": "Q079",
+   "type": "complex_reasoning",
+   "status": "OK",
+   "question": "Before scheduling work, what notification window applies to Backup Recovery, and who is the responsible owner?",
+   "answer": "For Backup Recovery, the notification window is 59 hours [backup-recovery#0], and the responsible owner is the Quality Lead [backup-recovery#0].",
+   "scored_response": "For Backup Recovery, the notification window is 59 hours, and the responsible owner is the Quality Lead.",
+   "reference": "For Backup Recovery, the notification window is 59 hours. For Backup Recovery, the responsible owner is the Quality Lead.",
+   "contexts": [
+    "- For Backup Recovery, the audit lookback period is 29 months.\n- For Backup Recovery, the notification window is 59 hours.\n- For Backup Recovery, the maximum processing time is 23 hours.\n- For Backup Recovery, the responsible owner is the Quality Lead."
+   ],
+   "n_contexts": 1,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.950056561146245,
+   "context_precision": 0.9999999999,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.9999999966666667
+  },
+  {
+   "id": "Q089",
+   "type": "complex_reasoning",
+   "status": "OK",
+   "question": "Before scheduling work, what record retention period applies to Travel Expense, and who is the responsible owner?",
+   "answer": "For Travel Expense, the record retention period is 63 days [travel-expense#0], and the responsible owner is the Safety Marshal [travel-expense#0].",
+   "scored_response": "For Travel Expense, the record retention period is 63 days, and the responsible owner is the Safety Marshal.",
+   "reference": "For Travel Expense, the record retention period is 63 days. For Travel Expense, the responsible owner is the Safety Marshal.",
+   "contexts": [
+    "- For Travel Expense, the record retention period is 63 days.\n- For Travel Expense, the review frequency is every 18 weeks.\n- For Travel Expense, the cooling-off period is 62 days.\n- For Travel Expense, the responsible owner is the Safety Marshal.",
+    "- For Cold Chain Storage, the record retention period is 71 days.\n- For Cold Chain Storage, the cooling-off period is 49 days.\n- For Cold Chain Storage, the responsible owner is the Quality Lead.\n- Escalations for Cold Chain Storage follow the [[travel-expense]] procedure (Travel Expense)."
+   ],
+   "n_contexts": 2,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.9565377482691648,
+   "context_precision": 0.9999999999,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.9999999966666667
+  },
+  {
+   "id": "Q070",
+   "type": "complex_reasoning",
+   "status": "OK",
+   "question": "When preparing an audit, what cooling-off period applies to Equipment Calibration, and who is the responsible owner?",
+   "answer": "For Equipment Calibration, the cooling-off period is 64 days [equipment-calibration#0], and the responsible owner is the Compliance Officer [equipment-calibration#0].",
+   "scored_response": "For Equipment Calibration, the cooling-off period is 64 days, and the responsible owner is the Compliance Officer.",
+   "reference": "For Equipment Calibration, the cooling-off period is 64 days. For Equipment Calibration, the responsible owner is the Compliance Officer.",
+   "contexts": [
+    "- For Equipment Calibration, the audit lookback period is 46 months.\n- For Equipment Calibration, the review frequency is every 97 weeks.\n- For Equipment Calibration, the cooling-off period is 64 days.\n- For Equipment Calibration, the responsible owner is the Compliance Officer.",
+    "- For Invoice Dispute, the audit lookback period is 62 months.\n- For Invoice Dispute, the cooling-off period is 49 days.\n- For Invoice Dispute, the responsible owner is the Finance Controller.\n- Escalations for Invoice Dispute follow the [[equipment-calibration]] procedure (Equipment Calibration)."
+   ],
+   "n_contexts": 2,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.9455361135280539,
+   "context_precision": 0.9999999999,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.9999999966666667
+  },
+  {
+   "id": "Q121",
+   "type": "complex_reasoning",
+   "status": "OK",
+   "question": "When preparing an audit, what notification window applies to Cold Chain Storage, and who is the responsible owner?",
+   "answer": "For Cold Chain Storage, the notification window is 15 hours [cold-chain-storage#0], and the responsible owner is the Quality Lead [cold-chain-storage#0].",
+   "scored_response": "For Cold Chain Storage, the notification window is 15 hours, and the responsible owner is the Quality Lead.",
+   "reference": "For Cold Chain Storage, the notification window is 15 hours. For Cold Chain Storage, the responsible owner is the Quality Lead.",
+   "contexts": [
+    "- For Cold Chain Storage, the sample size is 12 units.\n- For Cold Chain Storage, the record retention period is 71 days.\n- For Cold Chain Storage, the notification window is 15 hours.\n- For Cold Chain Storage, the responsible owner is the Quality Lead.",
+    "- For Vendor Audit, the review frequency is every 71 weeks.\n- For Vendor Audit, the cooling-off period is 50 days.\n- For Vendor Audit, the maximum processing time is 81 hours.\n- For Vendor Audit, the responsible owner is the Compliance Officer."
+   ],
+   "n_contexts": 2,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.9496598912082778,
+   "context_precision": 0.9999999999,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.9999999966666667
+  },
+  {
+   "id": "Q122",
+   "type": "complex_reasoning",
+   "status": "OK",
+   "question": "When preparing an audit, what escalation deadline applies to Access Review, and who is the responsible owner?",
+   "answer": "For Access Review, the escalation deadline is 56 minutes [access-review#0], and the responsible owner is the Quality Lead [access-review#0].",
+   "scored_response": "For Access Review, the escalation deadline is 56 minutes, and the responsible owner is the Quality Lead.",
+   "reference": "For Access Review, the escalation deadline is 56 minutes. For Access Review, the responsible owner is the Quality Lead.",
+   "contexts": [
+    "- For Access Review, the cooling-off period is 24 days.\n- For Access Review, the escalation deadline is 56 minutes.\n- For Access Review, the responsible owner is the Quality Lead.\n- Escalations for Access Review follow the [[vendor-audit]] procedure (Vendor Audit).",
+    "- For Vendor Audit, the review frequency is every 71 weeks.\n- For Vendor Audit, the escalation deadline is 43 minutes.\n- For Vendor Audit, the responsible owner is the Compliance Officer.\n- Escalations for Vendor Audit follow the [[label-verification]] procedure (Label Verification)."
+   ],
+   "n_contexts": 2,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.9443852002425688,
+   "context_precision": 0.9999999999,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.9999999966666667
+  },
+  {
+   "id": "Q072",
+   "type": "complex_reasoning",
+   "status": "OK",
+   "question": "For compliance reporting, what required approvals applies to Returns Processing, and who is the responsible owner?",
+   "answer": "Returns Processing requires 56 approvers [returns-processing#0], and the responsible owner is the Procurement Director [returns-processing#0].",
+   "scored_response": "Returns Processing requires 56 approvers, and the responsible owner is the Procurement Director.",
+   "reference": "For Returns Processing, the required approvals is 56 approvers. For Returns Processing, the responsible owner is the Procurement Director.",
+   "contexts": [
+    "- For Supplier Onboarding, the escalation deadline is 21 minutes.\n- For Supplier Onboarding, the maximum processing time is 72 hours.\n- For Supplier Onboarding, the responsible owner is the Compliance Officer.\n- Escalations for Supplier Onboarding follow the [[returns-processing]] procedure (Returns Processing).",
+    "- For Returns Processing, the notification window is 73 hours.\n- For Returns Processing, the maximum batch size is 38 items.\n- For Returns Processing, the required approvals is 56 approvers.\n- For Returns Processing, the responsible owner is the Procurement Director."
+   ],
+   "n_contexts": 2,
+   "faithfulness": 0.5,
+   "answer_relevancy": 0.8927568307810055,
+   "context_precision": 0.49999999995,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.9999999966666667
+  },
+  {
+   "id": "Q162",
+   "type": "multi_hop",
+   "status": "OK",
+   "question": "What is the escalation deadline of the procedure that escalations for Data Retention follow?",
+   "answer": "Escalations for Data Retention follow the Visitor Access procedure [data-retention#0], and the escalation deadline for Visitor Access is 40 minutes [visitor-access#0].",
+   "scored_response": "Escalations for Data Retention follow the Visitor Access procedure, and the escalation deadline for Visitor Access is 40 minutes.",
+   "reference": "For Visitor Access, the escalation deadline is 40 minutes.",
+   "contexts": [
+    "- For Data Retention, the record retention period is 70 days.\n- For Data Retention, the escalation deadline is 66 minutes.\n- For Data Retention, the required approvals is 46 approvers.\n- Escalations for Data Retention follow the [[visitor-access]] procedure (Visitor Access).",
+    "- For Stock Adjustment, the record retention period is 62 days.\n- For Stock Adjustment, the cooling-off period is 86 days.\n- For Stock Adjustment, the maximum processing time is 21 hours.\n- Escalations for Stock Adjustment follow the [[data-retention]] procedure (Data Retention).",
+    "- For Visitor Access, the escalation deadline is 40 minutes.\n- For Visitor Access, the cooling-off period is 67 days.\n- For Visitor Access, the record retention period is 78 days.\n- Escalations for Visitor Access follow the [[supplier-onboarding]] procedure (Supplier Onboarding).",
+    "- For Supplier Onboarding, the escalation deadline is 21 minutes.\n- For Supplier Onboarding, the maximum processing time is 72 hours.\n- For Supplier Onboarding, the record retention period is 18 days.\n- Escalations for Supplier Onboarding follow the [[returns-processing]] procedure (Returns Processing)."
+   ],
+   "n_contexts": 4,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.9117643105157619,
+   "context_precision": 0.0,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.999999995
+  },
+  {
+   "id": "Q169",
+   "type": "multi_hop",
+   "status": "OK",
+   "question": "What is the required approvals of the procedure that escalations for Customer Refund follow?",
+   "answer": "Escalations for Customer Refund follow the Software Release procedure [customer-refund#0], and Software Release requires 94 approvers [software-release#0].",
+   "scored_response": "Escalations for Customer Refund follow the Software Release procedure, and Software Release requires 94 approvers.",
+   "reference": "For Software Release, the required approvals is 94 approvers.",
+   "contexts": [
+    "- For Customer Refund, the escalation deadline is 32 minutes.\n- For Customer Refund, the record retention period is 87 days.\n- For Customer Refund, the required approvals is 32 approvers.\n- Escalations for Customer Refund follow the [[software-release]] procedure (Software Release).",
+    "- For Software Release, the audit lookback period is 18 months.\n- For Software Release, the sample size is 52 units.\n- For Software Release, the required approvals is 94 approvers.\n- Escalations for Software Release follow the [[visitor-access]] procedure (Visitor Access).",
+    "- For Fire Drill, the sample size is 63 units.\n- For Fire Drill, the required approvals is 28 approvers.\n- For Fire Drill, the escalation deadline is 46 minutes.\n- Escalations for Fire Drill follow the [[software-release]] procedure (Software Release).",
+    "- For Change Management, the maximum batch size is 74 items.\n- For Change Management, the maximum processing time is 53 hours.\n- For Change Management, the audit lookback period is 53 months.\n- Escalations for Change Management follow the [[software-release]] procedure (Software Release)."
+   ],
+   "n_contexts": 4,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.8618278922338477,
+   "context_precision": 0.0,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.999999995
+  },
+  {
+   "id": "Q155",
+   "type": "multi_hop",
+   "status": "OK",
+   "question": "What is the escalation deadline of the procedure that escalations for Visitor Access follow?",
+   "answer": "Escalations for Visitor Access follow the Supplier Onboarding procedure [visitor-access#0], and the escalation deadline for Supplier Onboarding is 21 minutes [supplier-onboarding#0].",
+   "scored_response": "Escalations for Visitor Access follow the Supplier Onboarding procedure, and the escalation deadline for Supplier Onboarding is 21 minutes.",
+   "reference": "For Supplier Onboarding, the escalation deadline is 21 minutes.",
+   "contexts": [
+    "- For Visitor Access, the escalation deadline is 40 minutes.\n- For Visitor Access, the cooling-off period is 67 days.\n- For Visitor Access, the maximum processing time is 33 hours.\n- Escalations for Visitor Access follow the [[supplier-onboarding]] procedure (Supplier Onboarding).",
+    "- For Data Retention, the record retention period is 70 days.\n- For Data Retention, the escalation deadline is 66 minutes.\n- For Data Retention, the required approvals is 46 approvers.\n- Escalations for Data Retention follow the [[visitor-access]] procedure (Visitor Access).",
+    "- For Supplier Onboarding, the escalation deadline is 21 minutes.\n- For Supplier Onboarding, the maximum processing time is 72 hours.\n- For Supplier Onboarding, the record retention period is 18 days.\n- Escalations for Supplier Onboarding follow the [[returns-processing]] procedure (Returns Processing).",
+    "- For Incident Escalation, the required approvals is 47 approvers.\n- For Incident Escalation, the maximum batch size is 79 items.\n- For Incident Escalation, the sample size is 66 units.\n- Escalations for Incident Escalation follow the [[visitor-access]] procedure (Visitor Access)."
+   ],
+   "n_contexts": 4,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.8740122558192459,
+   "context_precision": 0.0,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.999999995
+  },
+  {
+   "id": "Q147",
+   "type": "multi_hop",
+   "status": "OK",
+   "question": "What is the cooling-off period of the procedure that escalations for Shipment Hold follow?",
+   "answer": "Escalations for Shipment Hold follow the Training Certification procedure [shipment-hold#0], and the cooling-off period for Training Certification is 97 days [training-certification#0].",
+   "scored_response": "Escalations for Shipment Hold follow the Training Certification procedure, and the cooling-off period for Training Certification is 97 days.",
+   "reference": "For Training Certification, the cooling-off period is 97 days.",
+   "contexts": [
+    "- For Shipment Hold, the required approvals is 31 approvers.\n- For Shipment Hold, the cooling-off period is 67 days.\n- For Shipment Hold, the record retention period is 45 days.\n- Escalations for Shipment Hold follow the [[training-certification]] procedure (Training Certification).",
+    "- For Training Certification, the cooling-off period is 97 days.\n- For Training Certification, the escalation deadline is 32 minutes.\n- For Training Certification, the audit lookback period is 66 months.\n- Escalations for Training Certification follow the [[backup-recovery]] procedure (Backup Recovery).",
+    "- For Backup Recovery, the audit lookback period is 29 months.\n- For Backup Recovery, the notification window is 59 hours.\n- For Backup Recovery, the cooling-off period is 46 days.\n- Escalations for Backup Recovery follow the [[purchase-approval]] procedure (Purchase Approval)."
+   ],
+   "n_contexts": 3,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.9024036685730913,
+   "context_precision": 0.0,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.999999995
+  },
+  {
+   "id": "Q137",
+   "type": "multi_hop",
+   "status": "OK",
+   "question": "What is the maximum batch size of the procedure that escalations for Warehouse Receiving follow?",
+   "answer": "Escalations for Warehouse Receiving follow the Password Rotation procedure [warehouse-receiving#0], and the maximum batch size for Password Rotation is 29 items [password-rotation#0].",
+   "scored_response": "Escalations for Warehouse Receiving follow the Password Rotation procedure, and the maximum batch size for Password Rotation is 29 items.",
+   "reference": "For Password Rotation, the maximum batch size is 29 items.",
+   "contexts": [
+    "- For Warehouse Receiving, the escalation deadline is 53 minutes.\n- For Warehouse Receiving, the review frequency is every 53 weeks.\n- For Warehouse Receiving, the sample size is 13 units.\n- Escalations for Warehouse Receiving follow the [[password-rotation]] procedure (Password Rotation).",
+    "- For Password Rotation, the required approvals is 49 approvers.\n- For Password Rotation, the maximum processing time is 81 hours.\n- For Password Rotation, the maximum batch size is 29 items.\n- Escalations for Password Rotation follow the [[purchase-approval]] procedure (Purchase Approval)."
+   ],
+   "n_contexts": 2,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.8640839304838711,
+   "context_precision": 0.0,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.999999995
+  },
+  {
+   "id": "Q164",
+   "type": "multi_hop",
+   "status": "OK",
+   "question": "What is the required approvals of the procedure that escalations for Incident Escalation follow?",
+   "answer": "Escalations for Incident Escalation follow the Visitor Access procedure [incident-escalation#0], and the required approvals for Visitor Access is 44 approvers [visitor-access#0].",
+   "scored_response": "Escalations for Incident Escalation follow the Visitor Access procedure, and the required approvals for Visitor Access is 44 approvers.",
+   "reference": "For Visitor Access, the required approvals is 44 approvers.",
+   "contexts": [
+    "- For Stock Adjustment, the record retention period is 62 days.\n- For Stock Adjustment, the cooling-off period is 86 days.\n- For Stock Adjustment, the required approvals is 81 approvers.\n- Escalations for Stock Adjustment follow the [[data-retention]] procedure (Data Retention).",
+    "- For Incident Escalation, the required approvals is 47 approvers.\n- For Incident Escalation, the maximum batch size is 79 items.\n- For Incident Escalation, the sample size is 66 units.\n- Escalations for Incident Escalation follow the [[visitor-access]] procedure (Visitor Access).",
+    "- For Visitor Access, the escalation deadline is 40 minutes.\n- For Visitor Access, the cooling-off period is 67 days.\n- For Visitor Access, the required approvals is 44 approvers.\n- Escalations for Visitor Access follow the [[supplier-onboarding]] procedure (Supplier Onboarding).",
+    "- For Software Release, the audit lookback period is 18 months.\n- For Software Release, the sample size is 52 units.\n- For Software Release, the required approvals is 94 approvers.\n- Escalations for Software Release follow the [[visitor-access]] procedure (Visitor Access).",
+    "- For Data Retention, the record retention period is 70 days.\n- For Data Retention, the escalation deadline is 66 minutes.\n- For Data Retention, the required approvals is 46 approvers.\n- Escalations for Data Retention follow the [[visitor-access]] procedure (Visitor Access)."
+   ],
+   "n_contexts": 5,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.8544144268705666,
+   "context_precision": 0.0,
+   "context_recall": 0.0,
+   "context_entity_recall": 0.999999995
+  },
+  {
+   "id": "Q133",
+   "type": "multi_hop",
+   "status": "OK",
+   "question": "What is the cooling-off period of the procedure that escalations for Access Review follow?",
+   "answer": "Escalations for Access Review follow the Vendor Audit procedure [access-review#0], and the cooling-off period for Vendor Audit is 50 days [vendor-audit#0].",
+   "scored_response": "Escalations for Access Review follow the Vendor Audit procedure, and the cooling-off period for Vendor Audit is 50 days.",
+   "reference": "For Vendor Audit, the cooling-off period is 50 days.",
+   "contexts": [
+    "- For Access Review, the cooling-off period is 24 days.\n- For Access Review, the required approvals is 46 approvers.\n- For Access Review, the escalation deadline is 56 minutes.\n- Escalations for Access Review follow the [[vendor-audit]] procedure (Vendor Audit).",
+    "- For Privacy Request, the notification window is 53 hours.\n- For Privacy Request, the sample size is 62 units.\n- For Privacy Request, the cooling-off period is 13 days.\n- Escalations for Privacy Request follow the [[batch-recall]] procedure (Batch Recall).",
+    "- For Data Retention, the record retention period is 70 days.\n- For Data Retention, the escalation deadline is 66 minutes.\n- For Data Retention, the cooling-off period is 60 days.\n- Escalations for Data Retention follow the [[visitor-access]] procedure (Visitor Access).",
+    "- For Visitor Access, the escalation deadline is 40 minutes.\n- For Visitor Access, the cooling-off period is 67 days.\n- For Visitor Access, the record retention period is 78 days.\n- Escalations for Visitor Access follow the [[supplier-onboarding]] procedure (Supplier Onboarding).",
+    "- For Vendor Audit, the review frequency is every 71 weeks.\n- For Vendor Audit, the cooling-off period is 50 days.\n- For Vendor Audit, the escalation deadline is 43 minutes.\n- Escalations for Vendor Audit follow the [[label-verification]] procedure (Label Verification).",
+    "- For Cold Chain Storage, the sample size is 12 units.\n- For Cold Chain Storage, the record retention period is 71 days.\n- For Cold Chain Storage, the cooling-off period is 49 days.\n- Escalations for Cold Chain Storage follow the [[travel-expense]] procedure (Travel Expense)."
+   ],
+   "n_contexts": 6,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.9154778529179417,
+   "context_precision": 0.0,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.999999995
+  },
+  {
+   "id": "Q143",
+   "type": "multi_hop",
+   "status": "OK",
+   "question": "What is the review frequency of the procedure that escalations for Password Rotation follow?",
+   "answer": "Escalations for Password Rotation follow the Purchase Approval procedure [password-rotation#0], whose review frequency is every 82 weeks [purchase-approval#0].",
+   "scored_response": "Escalations for Password Rotation follow the Purchase Approval procedure, whose review frequency is every 82 weeks.",
+   "reference": "For Purchase Approval, the review frequency is every 82 weeks.",
+   "contexts": [
+    "- For Password Rotation, the required approvals is 49 approvers.\n- For Password Rotation, the maximum processing time is 81 hours.\n- For Password Rotation, the review frequency is every 12 weeks.\n- Escalations for Password Rotation follow the [[purchase-approval]] procedure (Purchase Approval).",
+    "- For Warehouse Receiving, the escalation deadline is 53 minutes.\n- For Warehouse Receiving, the review frequency is every 53 weeks.\n- For Warehouse Receiving, the record retention period is 66 days.\n- Escalations for Warehouse Receiving follow the [[password-rotation]] procedure (Password Rotation).",
+    "- For Hazmat Handling, the review frequency is every 48 weeks.\n- For Hazmat Handling, the notification window is 24 hours.\n- For Hazmat Handling, the escalation deadline is 66 minutes.\n- Escalations for Hazmat Handling follow the [[purchase-approval]] procedure (Purchase Approval).",
+    "- For Data Retention, the record retention period is 70 days.\n- For Data Retention, the escalation deadline is 66 minutes.\n- For Data Retention, the review frequency is every 96 weeks.\n- Escalations for Data Retention follow the [[visitor-access]] procedure (Visitor Access).",
+    "- For Purchase Approval, the required approvals is 94 approvers.\n- For Purchase Approval, the escalation deadline is 11 minutes.\n- For Purchase Approval, the review frequency is every 82 weeks.\n- Escalations for Purchase Approval follow the [[change-management]] procedure (Change Management).",
+    "- For Safety Inspection, the required approvals is 11 approvers.\n- For Safety Inspection, the review frequency is every 10 weeks.\n- For Safety Inspection, the audit lookback period is 96 months.\n- Escalations for Safety Inspection follow the [[purchase-approval]] procedure (Purchase Approval)."
+   ],
+   "n_contexts": 6,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.9139305961549452,
+   "context_precision": 0.0,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.999999995
+  },
+  {
+   "id": "Q138",
+   "type": "multi_hop",
+   "status": "OK",
+   "question": "What is the record retention period of the procedure that escalations for Returns Processing follow?",
+   "answer": "Escalations for Returns Processing follow the Credit Limit procedure [returns-processing#0], and the record retention period for Credit Limit is 86 days [credit-limit#0].",
+   "scored_response": "Escalations for Returns Processing follow the Credit Limit procedure, and the record retention period for Credit Limit is 86 days.",
+   "reference": "For Credit Limit, the record retention period is 86 days.",
+   "contexts": [
+    "- For Supplier Onboarding, the escalation deadline is 21 minutes.\n- For Supplier Onboarding, the maximum processing time is 72 hours.\n- For Supplier Onboarding, the record retention period is 18 days.\n- Escalations for Supplier Onboarding follow the [[returns-processing]] procedure (Returns Processing).",
+    "- For Returns Processing, the notification window is 73 hours.\n- For Returns Processing, the maximum batch size is 38 items.\n- For Returns Processing, the escalation deadline is 48 minutes.\n- Escalations for Returns Processing follow the [[credit-limit]] procedure (Credit Limit).",
+    "- For Credit Limit, the sample size is 95 units.\n- For Credit Limit, the record retention period is 86 days.\n- For Credit Limit, the maximum processing time is 70 hours.\n- Escalations for Credit Limit follow the [[batch-recall]] procedure (Batch Recall)."
+   ],
+   "n_contexts": 3,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.9233891153631877,
+   "context_precision": 0.0,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.999999995
+  },
+  {
+   "id": "Q167",
+   "type": "multi_hop",
+   "status": "OK",
+   "question": "What is the required approvals of the procedure that escalations for Warehouse Receiving follow?",
+   "answer": "Escalations for Warehouse Receiving follow the Password Rotation procedure [warehouse-receiving#0], and Password Rotation requires 49 approvers [password-rotation#0].",
+   "scored_response": "Escalations for Warehouse Receiving follow the Password Rotation procedure, and Password Rotation requires 49 approvers.",
+   "reference": "For Password Rotation, the required approvals is 49 approvers.",
+   "contexts": [
+    "- For Warehouse Receiving, the escalation deadline is 53 minutes.\n- For Warehouse Receiving, the review frequency is every 53 weeks.\n- For Warehouse Receiving, the required approvals is 24 approvers.\n- Escalations for Warehouse Receiving follow the [[password-rotation]] procedure (Password Rotation).",
+    "- For Password Rotation, the required approvals is 49 approvers.\n- For Password Rotation, the maximum processing time is 81 hours.\n- For Password Rotation, the record retention period is 6 days.\n- Escalations for Password Rotation follow the [[purchase-approval]] procedure (Purchase Approval)."
+   ],
+   "n_contexts": 2,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.8112023215020877,
+   "context_precision": 0.0,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.999999995
+  },
+  {
+   "id": "Q208",
+   "type": "summary",
+   "status": "OK",
+   "question": "Summarize the Lot Quarantine policy.",
+   "answer": "- Maximum processing time is 77 hours [lot-quarantine#0].\n- Requires 10 approvers [lot-quarantine#0].\n- Escalation deadline is 76 minutes, and escalations follow the Batch Recall procedure [lot-quarantine#0].\n- Sample size is 77 units [lot-quarantine#0].\n- Notification window is 53 hours [lot-quarantine#0].\n- The responsible owner is the Quality Lead [lot-quarantine#0].",
+   "scored_response": "- Maximum processing time is 77 hours.\n- Requires 10 approvers.\n- Escalation deadline is 76 minutes, and escalations follow the Batch Recall procedure.\n- Sample size is 77 units.\n- Notification window is 53 hours.\n- The responsible owner is the Quality Lead.",
+   "reference": "For Lot Quarantine, the maximum processing time is 77 hours. For Lot Quarantine, the required approvals is 10 approvers. For Lot Quarantine, the escalation deadline is 76 minutes. For Lot Quarantine, the sample size is 77 units. For Lot Quarantine, the notification window is 53 hours. For Lot Quarantine, the responsible owner is the Quality Lead. Escalations for Lot Quarantine follow the [[batch-recall]] procedure (Batch Recall).",
+   "contexts": [
+    "# Lot Quarantine\n\n- For Lot Quarantine, the maximum processing time is 77 hours.\n- For Lot Quarantine, the required approvals is 10 approvers.\n- For Lot Quarantine, the escalation deadline is 76 minutes.\n- For Lot Quarantine, the sample size is 77 units.\n- For Lot Quarantine, the notification window is 53 hours.\n- For Lot Quarantine, the responsible owner is the Quality Lead.\n- Escalations for Lot Quarantine follow the [[batch-recall]] procedure (Batch Recall).\n\nRelated: [[batch-recall]], [[fire-drill]]",
+    "# Lot 88392 Safety Protocol\n\n- For LOT-88392, the safety protocol is quarantine pending inspection.\n- For LOT-88392, the inspection window is 48 hours.\n- For LOT-88392, the triage status is amber until inspection completes.\n\nRelated: [[batch-recall]], [[lot-quarantine]]"
+   ],
+   "n_contexts": 2,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.6054113280792768,
+   "context_precision": 0.9999999999,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.9999999988888888
+  },
+  {
+   "id": "Q191",
+   "type": "summary",
+   "status": "OK",
+   "question": "Summarize the Change Management policy.",
+   "answer": "- Maximum batch size is 74 items. [change-management#0]\n- Maximum processing time is 53 hours. [change-management#0]\n- Audit lookback period is 53 months. [change-management#0]\n- Notification window is 54 hours. [change-management#0]\n- Sample size is 53 units. [change-management#0]\n- The responsible owner is the Operations Manager. [change-management#0]\n- Escalations follow the Software Release procedure. [change-management#0]",
+   "scored_response": "- Maximum batch size is 74 items.\n- Maximum processing time is 53 hours.\n- Audit lookback period is 53 months.\n- Notification window is 54 hours.\n- Sample size is 53 units.\n- The responsible owner is the Operations Manager.\n- Escalations follow the Software Release procedure.",
+   "reference": "For Change Management, the maximum batch size is 74 items. For Change Management, the maximum processing time is 53 hours. For Change Management, the audit lookback period is 53 months. For Change Management, the notification window is 54 hours. For Change Management, the sample size is 53 units. For Change Management, the responsible owner is the Operations Manager. Escalations for Change Management follow the [[software-release]] procedure (Software Release).",
+   "contexts": [
+    "# Purchase Approval\n\n- For Purchase Approval, the required approvals is 94 approvers.\n- For Purchase Approval, the escalation deadline is 11 minutes.\n- For Purchase Approval, the sample size is 75 units.\n- For Purchase Approval, the maximum processing time is 10 hours.\n- For Purchase Approval, the review frequency is every 82 weeks.\n- For Purchase Approval, the responsible owner is the Finance Controller.\n- Escalations for Purchase Approval follow the [[change-management]] procedure (Change Management).\n\nRelated: [[change-management]], [[training-certification]]",
+    "# Change Management\n\n- For Change Management, the maximum batch size is 74 items.\n- For Change Management, the maximum processing time is 53 hours.\n- For Change Management, the audit lookback period is 53 months.\n- For Change Management, the notification window is 54 hours.\n- For Change Management, the sample size is 53 units.\n- For Change Management, the responsible owner is the Operations Manager.\n- Escalations for Change Management follow the [[software-release]] procedure (Software Release).\n\nRelated: [[software-release]], [[privacy-request]]"
+   ],
+   "n_contexts": 2,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.6128444959151179,
+   "context_precision": 0.49999999995,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.8888888879012344
+  },
+  {
+   "id": "Q185",
+   "type": "summary",
+   "status": "OK",
+   "question": "Summarize the Safety Inspection policy.",
+   "answer": "- Required approvals: 11 approvers [safety-inspection#0]\n- Review frequency: every 10 weeks [safety-inspection#0]\n- Audit lookback period: 96 months [safety-inspection#0]\n- Sample size: 92 units [safety-inspection#0]\n- Notification window: 42 hours [safety-inspection#0]\n- Responsible owner: the Safety Marshal [safety-inspection#0]\n- Escalations follow the Purchase Approval procedure [safety-inspection#0]",
+   "scored_response": "- Required approvals: 11 approvers\n- Review frequency: every 10 weeks\n- Audit lookback period: 96 months\n- Sample size: 92 units\n- Notification window: 42 hours\n- Responsible owner: the Safety Marshal\n- Escalations follow the Purchase Approval procedure",
+   "reference": "For Safety Inspection, the required approvals is 11 approvers. For Safety Inspection, the review frequency is every 10 weeks. For Safety Inspection, the audit lookback period is 96 months. For Safety Inspection, the sample size is 92 units. For Safety Inspection, the notification window is 42 hours. For Safety Inspection, the responsible owner is the Safety Marshal. Escalations for Safety Inspection follow the [[purchase-approval]] procedure (Purchase Approval).",
+   "contexts": [
+    "# Safety Inspection\n\n- For Safety Inspection, the required approvals is 11 approvers.\n- For Safety Inspection, the review frequency is every 10 weeks.\n- For Safety Inspection, the audit lookback period is 96 months.\n- For Safety Inspection, the sample size is 92 units.\n- For Safety Inspection, the notification window is 42 hours.\n- For Safety Inspection, the responsible owner is the Safety Marshal.\n- Escalations for Safety Inspection follow the [[purchase-approval]] procedure (Purchase Approval).\n\nRelated: [[purchase-approval]], [[travel-expense]]",
+    "# Lot 88392 Safety Protocol\n\n- For LOT-88392, the safety protocol is quarantine pending inspection.\n- For LOT-88392, the inspection window is 48 hours.\n- For LOT-88392, the triage status is amber until inspection completes.\n\nRelated: [[batch-recall]], [[lot-quarantine]]"
+   ],
+   "n_contexts": 2,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.6677468275744497,
+   "context_precision": 0.9999999999,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.9999999988888888
+  },
+  {
+   "id": "Q193",
+   "type": "summary",
+   "status": "OK",
+   "question": "Summarize the Password Rotation policy.",
+   "answer": "- Required approvals: 49 approvers [password-rotation#0]\n- Maximum processing time: 81 hours [password-rotation#0]\n- Record retention period: 6 days [password-rotation#0]\n- Review frequency: every 12 weeks [password-rotation#0]\n- Maximum batch size: 29 items [password-rotation#0]\n- Responsible owner: the Procurement Director [password-rotation#0]\n- Escalations follow the Purchase Approval procedure [password-rotation#0]",
+   "scored_response": "- Required approvals: 49 approvers\n- Maximum processing time: 81 hours\n- Record retention period: 6 days\n- Review frequency: every 12 weeks\n- Maximum batch size: 29 items\n- Responsible owner: the Procurement Director\n- Escalations follow the Purchase Approval procedure",
+   "reference": "For Password Rotation, the required approvals is 49 approvers. For Password Rotation, the maximum processing time is 81 hours. For Password Rotation, the record retention period is 6 days. For Password Rotation, the review frequency is every 12 weeks. For Password Rotation, the maximum batch size is 29 items. For Password Rotation, the responsible owner is the Procurement Director. Escalations for Password Rotation follow the [[purchase-approval]] procedure (Purchase Approval).",
+   "contexts": [
+    "# Password Rotation\n\n- For Password Rotation, the required approvals is 49 approvers.\n- For Password Rotation, the maximum processing time is 81 hours.\n- For Password Rotation, the record retention period is 6 days.\n- For Password Rotation, the review frequency is every 12 weeks.\n- For Password Rotation, the maximum batch size is 29 items.\n- For Password Rotation, the responsible owner is the Procurement Director.\n- Escalations for Password Rotation follow the [[purchase-approval]] procedure (Purchase Approval).\n\nRelated: [[purchase-approval]], [[change-management]]"
+   ],
+   "n_contexts": 1,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.5349809913832798,
+   "context_precision": 0.9999999999,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.9999999988888888
+  },
+  {
+   "id": "Q182",
+   "type": "summary",
+   "status": "OK",
+   "question": "Summarize the Data Retention policy.",
+   "answer": "Data Retention policy:\n- Record retention period is 70 days [data-retention#0].\n- Escalation deadline is 66 minutes [data-retention#0].\n- Required approvals: 46 approvers [data-retention#0].\n- Review frequency is every 96 weeks [data-retention#0].\n- Cooling-off period is 60 days [data-retention#0].\n- Responsible owner is the Security Officer [data-retention#0].\n- Escalations follow the Visitor Access procedure [data-retention#0].",
+   "scored_response": "Data Retention policy:\n- Record retention period is 70 days.\n- Escalation deadline is 66 minutes.\n- Required approvals: 46 approvers.\n- Review frequency is every 96 weeks.\n- Cooling-off period is 60 days.\n- Responsible owner is the Security Officer.\n- Escalations follow the Visitor Access procedure.",
+   "reference": "For Data Retention, the record retention period is 70 days. For Data Retention, the escalation deadline is 66 minutes. For Data Retention, the required approvals is 46 approvers. For Data Retention, the review frequency is every 96 weeks. For Data Retention, the cooling-off period is 60 days. For Data Retention, the responsible owner is the Security Officer. Escalations for Data Retention follow the [[visitor-access]] procedure (Visitor Access).",
+   "contexts": [
+    "# Data Retention\n\n- For Data Retention, the record retention period is 70 days.\n- For Data Retention, the escalation deadline is 66 minutes.\n- For Data Retention, the required approvals is 46 approvers.\n- For Data Retention, the review frequency is every 96 weeks.\n- For Data Retention, the cooling-off period is 60 days.\n- For Data Retention, the responsible owner is the Security Officer.\n- Escalations for Data Retention follow the [[visitor-access]] procedure (Visitor Access).\n\nRelated: [[visitor-access]], [[password-rotation]]",
+    "# Visitor Access\n\n- For Visitor Access, the escalation deadline is 40 minutes.\n- For Visitor Access, the cooling-off period is 67 days.\n- For Visitor Access, the maximum processing time is 33 hours.\n- For Visitor Access, the record retention period is 78 days.\n- For Visitor Access, the required approvals is 44 approvers.\n- For Visitor Access, the responsible owner is the Security Officer.\n- Escalations for Visitor Access follow the [[supplier-onboarding]] procedure (Supplier Onboarding).\n\nRelated: [[supplier-onboarding]], [[backup-recovery]]"
+   ],
+   "n_contexts": 2,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.8261113264709077,
+   "context_precision": 0.9999999999,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.8888888879012344
+  },
+  {
+   "id": "Q201",
+   "type": "summary",
+   "status": "OK",
+   "question": "Summarize the Software Release policy.",
+   "answer": "Software Release policy:\n- Audit lookback period: 18 months [software-release#0]\n- Sample size: 52 units [software-release#0]\n- Required approvals: 94 approvers [software-release#0]\n- Notification window: 28 hours [software-release#0]\n- Maximum batch size: 64 items [software-release#0]\n- Responsible owner: Compliance Officer [software-release#0]\n- Escalations follow the Visitor Access procedure [software-release#0]",
+   "scored_response": "Software Release policy:\n- Audit lookback period: 18 months\n- Sample size: 52 units\n- Required approvals: 94 approvers\n- Notification window: 28 hours\n- Maximum batch size: 64 items\n- Responsible owner: Compliance Officer\n- Escalations follow the Visitor Access procedure",
+   "reference": "For Software Release, the audit lookback period is 18 months. For Software Release, the sample size is 52 units. For Software Release, the required approvals is 94 approvers. For Software Release, the notification window is 28 hours. For Software Release, the maximum batch size is 64 items. For Software Release, the responsible owner is the Compliance Officer. Escalations for Software Release follow the [[visitor-access]] procedure (Visitor Access).",
+   "contexts": [
+    "# Software Release\n\n- For Software Release, the audit lookback period is 18 months.\n- For Software Release, the sample size is 52 units.\n- For Software Release, the required approvals is 94 approvers.\n- For Software Release, the notification window is 28 hours.\n- For Software Release, the maximum batch size is 64 items.\n- For Software Release, the responsible owner is the Compliance Officer.\n- Escalations for Software Release follow the [[visitor-access]] procedure (Visitor Access).\n\nRelated: [[visitor-access]], [[password-rotation]]",
+    "# Change Management\n\n- For Change Management, the maximum batch size is 74 items.\n- For Change Management, the maximum processing time is 53 hours.\n- For Change Management, the audit lookback period is 53 months.\n- For Change Management, the notification window is 54 hours.\n- For Change Management, the sample size is 53 units.\n- For Change Management, the responsible owner is the Operations Manager.\n- Escalations for Change Management follow the [[software-release]] procedure (Software Release).\n\nRelated: [[software-release]], [[privacy-request]]",
+    "# Customer Refund\n\n- For Customer Refund, the escalation deadline is 32 minutes.\n- For Customer Refund, the record retention period is 87 days.\n- For Customer Refund, the required approvals is 32 approvers.\n- For Customer Refund, the audit lookback period is 4 months.\n- For Customer Refund, the notification window is 65 hours.\n- For Customer Refund, the responsible owner is the Compliance Officer.\n- Escalations for Customer Refund follow the [[software-release]] procedure (Software Release).\n\nRelated: [[software-release]], [[invoice-dispute]]",
+    "# Fire Drill\n\n- For Fire Drill, the sample size is 63 units.\n- For Fire Drill, the required approvals is 28 approvers.\n- For Fire Drill, the escalation deadline is 46 minutes.\n- For Fire Drill, the maximum processing time is 29 hours.\n- For Fire Drill, the maximum batch size is 64 items.\n- For Fire Drill, the responsible owner is the Quality Lead.\n- Escalations for Fire Drill follow the [[software-release]] procedure (Software Release).\n\nRelated: [[software-release]], [[supplier-onboarding]]"
+   ],
+   "n_contexts": 4,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.8819760215528024,
+   "context_precision": 0.9999999999,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.8888888879012344
+  },
+  {
+   "id": "Q202",
+   "type": "summary",
+   "status": "OK",
+   "question": "Summarize the Privacy Request policy.",
+   "answer": "- Notification window: 53 hours [privacy-request#0]\n- Sample size: 62 units [privacy-request#0]\n- Required approvals: 54 approvers [privacy-request#0]\n- Cooling-off period: 13 days [privacy-request#0]\n- Maximum batch size: 95 items [privacy-request#0]\n- Responsible owner: Compliance Officer [privacy-request#0]\n- Escalations follow the Batch Recall procedure [privacy-request#0]",
+   "scored_response": "- Notification window: 53 hours\n- Sample size: 62 units\n- Required approvals: 54 approvers\n- Cooling-off period: 13 days\n- Maximum batch size: 95 items\n- Responsible owner: Compliance Officer\n- Escalations follow the Batch Recall procedure",
+   "reference": "For Privacy Request, the notification window is 53 hours. For Privacy Request, the sample size is 62 units. For Privacy Request, the required approvals is 54 approvers. For Privacy Request, the cooling-off period is 13 days. For Privacy Request, the maximum batch size is 95 items. For Privacy Request, the responsible owner is the Compliance Officer. Escalations for Privacy Request follow the [[batch-recall]] procedure (Batch Recall).",
+   "contexts": [
+    "# Privacy Request\n\n- For Privacy Request, the notification window is 53 hours.\n- For Privacy Request, the sample size is 62 units.\n- For Privacy Request, the required approvals is 54 approvers.\n- For Privacy Request, the cooling-off period is 13 days.\n- For Privacy Request, the maximum batch size is 95 items.\n- For Privacy Request, the responsible owner is the Compliance Officer.\n- Escalations for Privacy Request follow the [[batch-recall]] procedure (Batch Recall).\n\nRelated: [[batch-recall]], [[access-review]]",
+    "# Change Management\n\n- For Change Management, the maximum batch size is 74 items.\n- For Change Management, the maximum processing time is 53 hours.\n- For Change Management, the audit lookback period is 53 months.\n- For Change Management, the notification window is 54 hours.\n- For Change Management, the sample size is 53 units.\n- For Change Management, the responsible owner is the Operations Manager.\n- Escalations for Change Management follow the [[software-release]] procedure (Software Release).\n\nRelated: [[software-release]], [[privacy-request]]",
+    "# Contract Renewal\n\n- For Contract Renewal, the maximum processing time is 27 hours.\n- For Contract Renewal, the cooling-off period is 91 days.\n- For Contract Renewal, the review frequency is every 80 weeks.\n- For Contract Renewal, the escalation deadline is 47 minutes.\n- For Contract Renewal, the record retention period is 60 days.\n- For Contract Renewal, the responsible owner is the Logistics Supervisor.\n- Escalations for Contract Renewal follow the [[change-management]] procedure (Change Management).\n\nRelated: [[change-management]], [[privacy-request]]"
+   ],
+   "n_contexts": 3,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.6015852612716819,
+   "context_precision": 0.9999999999,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.9999999988888888
+  },
+  {
+   "id": "Q187",
+   "type": "summary",
+   "status": "OK",
+   "question": "Summarize the Warehouse Receiving policy.",
+   "answer": "- Escalation deadline: 53 minutes [warehouse-receiving#0]\n- Review frequency: every 53 weeks [warehouse-receiving#0]\n- Record retention period: 66 days [warehouse-receiving#0]\n- Sample size: 13 units [warehouse-receiving#0]\n- Required approvals: 24 approvers [warehouse-receiving#0]\n- Responsible owner: Safety Marshal [warehouse-receiving#0]\n- Escalations follow the Password Rotation procedure [warehouse-receiving#0]",
+   "scored_response": "- Escalation deadline: 53 minutes\n- Review frequency: every 53 weeks\n- Record retention period: 66 days\n- Sample size: 13 units\n- Required approvals: 24 approvers\n- Responsible owner: Safety Marshal\n- Escalations follow the Password Rotation procedure",
+   "reference": "For Warehouse Receiving, the escalation deadline is 53 minutes. For Warehouse Receiving, the review frequency is every 53 weeks. For Warehouse Receiving, the record retention period is 66 days. For Warehouse Receiving, the sample size is 13 units. For Warehouse Receiving, the required approvals is 24 approvers. For Warehouse Receiving, the responsible owner is the Safety Marshal. Escalations for Warehouse Receiving follow the [[password-rotation]] procedure (Password Rotation).",
+   "contexts": [
+    "# Warehouse Receiving\n\n- For Warehouse Receiving, the escalation deadline is 53 minutes.\n- For Warehouse Receiving, the review frequency is every 53 weeks.\n- For Warehouse Receiving, the record retention period is 66 days.\n- For Warehouse Receiving, the sample size is 13 units.\n- For Warehouse Receiving, the required approvals is 24 approvers.\n- For Warehouse Receiving, the responsible owner is the Safety Marshal.\n- Escalations for Warehouse Receiving follow the [[password-rotation]] procedure (Password Rotation).\n\nRelated: [[password-rotation]], [[cold-chain-storage]]"
+   ],
+   "n_contexts": 1,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.6002242349008693,
+   "context_precision": 0.9999999999,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.9999999988888888
+  },
+  {
+   "id": "Q206",
+   "type": "summary",
+   "status": "OK",
+   "question": "Summarize the Cold Chain Storage policy.",
+   "answer": "Cold Chain Storage policy:\n- Sample size: 12 units [cold-chain-storage#0]\n- Record retention period: 71 days [cold-chain-storage#0]\n- Notification window: 15 hours [cold-chain-storage#0]\n- Cooling-off period: 49 days [cold-chain-storage#0]\n- Maximum processing time: 77 hours [cold-chain-storage#0]\n- Responsible owner: Quality Lead [cold-chain-storage#0]\n- Escalations follow the Travel Expense procedure [cold-chain-storage#0]",
+   "scored_response": "Cold Chain Storage policy:\n- Sample size: 12 units\n- Record retention period: 71 days\n- Notification window: 15 hours\n- Cooling-off period: 49 days\n- Maximum processing time: 77 hours\n- Responsible owner: Quality Lead\n- Escalations follow the Travel Expense procedure",
+   "reference": "For Cold Chain Storage, the sample size is 12 units. For Cold Chain Storage, the record retention period is 71 days. For Cold Chain Storage, the notification window is 15 hours. For Cold Chain Storage, the cooling-off period is 49 days. For Cold Chain Storage, the maximum processing time is 77 hours. For Cold Chain Storage, the responsible owner is the Quality Lead. Escalations for Cold Chain Storage follow the [[travel-expense]] procedure (Travel Expense).",
+   "contexts": [
+    "# Cold Chain Storage\n\n- For Cold Chain Storage, the sample size is 12 units.\n- For Cold Chain Storage, the record retention period is 71 days.\n- For Cold Chain Storage, the notification window is 15 hours.\n- For Cold Chain Storage, the cooling-off period is 49 days.\n- For Cold Chain Storage, the maximum processing time is 77 hours.\n- For Cold Chain Storage, the responsible owner is the Quality Lead.\n- Escalations for Cold Chain Storage follow the [[travel-expense]] procedure (Travel Expense).\n\nRelated: [[travel-expense]], [[vendor-audit]]",
+    "# Vendor Audit\n\n- For Vendor Audit, the review frequency is every 71 weeks.\n- For Vendor Audit, the cooling-off period is 50 days.\n- For Vendor Audit, the maximum processing time is 81 hours.\n- For Vendor Audit, the required approvals is 75 approvers.\n- For Vendor Audit, the escalation deadline is 43 minutes.\n- For Vendor Audit, the responsible owner is the Compliance Officer.\n- Escalations for Vendor Audit follow the [[label-verification]] procedure (Label Verification).\n\nRelated: [[label-verification]], [[cold-chain-storage]]",
+    "# Warehouse Receiving\n\n- For Warehouse Receiving, the escalation deadline is 53 minutes.\n- For Warehouse Receiving, the review frequency is every 53 weeks.\n- For Warehouse Receiving, the record retention period is 66 days.\n- For Warehouse Receiving, the sample size is 13 units.\n- For Warehouse Receiving, the required approvals is 24 approvers.\n- For Warehouse Receiving, the responsible owner is the Safety Marshal.\n- Escalations for Warehouse Receiving follow the [[password-rotation]] procedure (Password Rotation).\n\nRelated: [[password-rotation]], [[cold-chain-storage]]"
+   ],
+   "n_contexts": 3,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.9256390158442797,
+   "context_precision": 0.9999999999,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.9999999988888888
+  },
+  {
+   "id": "Q190",
+   "type": "summary",
+   "status": "OK",
+   "question": "Summarize the Vendor Audit policy.",
+   "answer": "- Review frequency: every 71 weeks [vendor-audit#0]\n- Cooling-off period: 50 days [vendor-audit#0]\n- Maximum processing time: 81 hours [vendor-audit#0]\n- Required approvals: 75 approvers [vendor-audit#0]\n- Escalation deadline: 43 minutes [vendor-audit#0]\n- Responsible owner: Compliance Officer [vendor-audit#0]\n- Escalations follow the Label Verification procedure [vendor-audit#0]",
+   "scored_response": "- Review frequency: every 71 weeks\n- Cooling-off period: 50 days\n- Maximum processing time: 81 hours\n- Required approvals: 75 approvers\n- Escalation deadline: 43 minutes\n- Responsible owner: Compliance Officer\n- Escalations follow the Label Verification procedure",
+   "reference": "For Vendor Audit, the review frequency is every 71 weeks. For Vendor Audit, the cooling-off period is 50 days. For Vendor Audit, the maximum processing time is 81 hours. For Vendor Audit, the required approvals is 75 approvers. For Vendor Audit, the escalation deadline is 43 minutes. For Vendor Audit, the responsible owner is the Compliance Officer. Escalations for Vendor Audit follow the [[label-verification]] procedure (Label Verification).",
+   "contexts": [
+    "# Vendor Audit\n\n- For Vendor Audit, the review frequency is every 71 weeks.\n- For Vendor Audit, the cooling-off period is 50 days.\n- For Vendor Audit, the maximum processing time is 81 hours.\n- For Vendor Audit, the required approvals is 75 approvers.\n- For Vendor Audit, the escalation deadline is 43 minutes.\n- For Vendor Audit, the responsible owner is the Compliance Officer.\n- Escalations for Vendor Audit follow the [[label-verification]] procedure (Label Verification).\n\nRelated: [[label-verification]], [[cold-chain-storage]]",
+    "# Label Verification\n\n- For Label Verification, the maximum batch size is 21 items.\n- For Label Verification, the maximum processing time is 91 hours.\n- For Label Verification, the escalation deadline is 72 minutes.\n- For Label Verification, the review frequency is every 6 weeks.\n- For Label Verification, the record retention period is 70 days.\n- For Label Verification, the responsible owner is the Security Officer.\n- Escalations for Label Verification follow the [[batch-recall]] procedure (Batch Recall).\n\nRelated: [[batch-recall]], [[hazmat-handling]]"
+   ],
+   "n_contexts": 2,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.6022989847520912,
+   "context_precision": 0.9999999999,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.8888888879012344
+  },
+  {
+   "id": "Q209",
+   "type": "summary",
+   "status": "OK",
+   "question": "Summarize the Supplier Onboarding policy.",
+   "answer": "- Escalation deadline: 21 minutes [supplier-onboarding#0]\n- Maximum processing time: 72 hours [supplier-onboarding#0]\n- Record retention period: 18 days [supplier-onboarding#0]\n- Audit lookback period: 76 months [supplier-onboarding#0]\n- Cooling-off period: 42 days [supplier-onboarding#0]\n- Responsible owner: Compliance Officer [supplier-onboarding#0]\n- Escalations follow the Returns Processing procedure [supplier-onboarding#0]",
+   "scored_response": "- Escalation deadline: 21 minutes\n- Maximum processing time: 72 hours\n- Record retention period: 18 days\n- Audit lookback period: 76 months\n- Cooling-off period: 42 days\n- Responsible owner: Compliance Officer\n- Escalations follow the Returns Processing procedure",
+   "reference": "For Supplier Onboarding, the escalation deadline is 21 minutes. For Supplier Onboarding, the maximum processing time is 72 hours. For Supplier Onboarding, the record retention period is 18 days. For Supplier Onboarding, the audit lookback period is 76 months. For Supplier Onboarding, the cooling-off period is 42 days. For Supplier Onboarding, the responsible owner is the Compliance Officer. Escalations for Supplier Onboarding follow the [[returns-processing]] procedure (Returns Processing).",
+   "contexts": [
+    "# Supplier Onboarding\n\n- For Supplier Onboarding, the escalation deadline is 21 minutes.\n- For Supplier Onboarding, the maximum processing time is 72 hours.\n- For Supplier Onboarding, the record retention period is 18 days.\n- For Supplier Onboarding, the audit lookback period is 76 months.\n- For Supplier Onboarding, the cooling-off period is 42 days.\n- For Supplier Onboarding, the responsible owner is the Compliance Officer.\n- Escalations for Supplier Onboarding follow the [[returns-processing]] procedure (Returns Processing).\n\nRelated: [[returns-processing]], [[visitor-access]]",
+    "# Equipment Calibration\n\n- For Equipment Calibration, the audit lookback period is 46 months.\n- For Equipment Calibration, the review frequency is every 97 weeks.\n- For Equipment Calibration, the required approvals is 36 approvers.\n- For Equipment Calibration, the cooling-off period is 64 days.\n- For Equipment Calibration, the maximum processing time is 91 hours.\n- For Equipment Calibration, the responsible owner is the Compliance Officer.\n- Escalations for Equipment Calibration follow the [[supplier-onboarding]] procedure (Supplier Onboarding).\n\nRelated: [[supplier-onboarding]], [[password-rotation]]",
+    "# Visitor Access\n\n- For Visitor Access, the escalation deadline is 40 minutes.\n- For Visitor Access, the cooling-off period is 67 days.\n- For Visitor Access, the maximum processing time is 33 hours.\n- For Visitor Access, the record retention period is 78 days.\n- For Visitor Access, the required approvals is 44 approvers.\n- For Visitor Access, the responsible owner is the Security Officer.\n- Escalations for Visitor Access follow the [[supplier-onboarding]] procedure (Supplier Onboarding).\n\nRelated: [[supplier-onboarding]], [[backup-recovery]]",
+    "# Fire Drill\n\n- For Fire Drill, the sample size is 63 units.\n- For Fire Drill, the required approvals is 28 approvers.\n- For Fire Drill, the escalation deadline is 46 minutes.\n- For Fire Drill, the maximum processing time is 29 hours.\n- For Fire Drill, the maximum batch size is 64 items.\n- For Fire Drill, the responsible owner is the Quality Lead.\n- Escalations for Fire Drill follow the [[software-release]] procedure (Software Release).\n\nRelated: [[software-release]], [[supplier-onboarding]]"
+   ],
+   "n_contexts": 4,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.6000524350160622,
+   "context_precision": 0.9999999999,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.8888888879012344
+  },
+  {
+   "id": "Q178",
+   "type": "summary",
+   "status": "OK",
+   "question": "Summarize the Lot Quarantine policy.",
+   "answer": "- Maximum processing time is 77 hours. [lot-quarantine#0]\n- Required approvals: 10 approvers. [lot-quarantine#0]\n- Escalation deadline is 76 minutes. [lot-quarantine#0]\n- Sample size is 77 units. [lot-quarantine#0]\n- Notification window is 53 hours. [lot-quarantine#0]\n- The responsible owner is the Quality Lead. [lot-quarantine#0]\n- Escalations follow the Batch Recall procedure. [lot-quarantine#0]",
+   "scored_response": "- Maximum processing time is 77 hours.\n- Required approvals: 10 approvers.\n- Escalation deadline is 76 minutes.\n- Sample size is 77 units.\n- Notification window is 53 hours.\n- The responsible owner is the Quality Lead.\n- Escalations follow the Batch Recall procedure.",
+   "reference": "For Lot Quarantine, the maximum processing time is 77 hours. For Lot Quarantine, the required approvals is 10 approvers. For Lot Quarantine, the escalation deadline is 76 minutes. For Lot Quarantine, the sample size is 77 units. For Lot Quarantine, the notification window is 53 hours. For Lot Quarantine, the responsible owner is the Quality Lead. Escalations for Lot Quarantine follow the [[batch-recall]] procedure (Batch Recall).",
+   "contexts": [
+    "# Lot Quarantine\n\n- For Lot Quarantine, the maximum processing time is 77 hours.\n- For Lot Quarantine, the required approvals is 10 approvers.\n- For Lot Quarantine, the escalation deadline is 76 minutes.\n- For Lot Quarantine, the sample size is 77 units.\n- For Lot Quarantine, the notification window is 53 hours.\n- For Lot Quarantine, the responsible owner is the Quality Lead.\n- Escalations for Lot Quarantine follow the [[batch-recall]] procedure (Batch Recall).\n\nRelated: [[batch-recall]], [[fire-drill]]",
+    "# Lot 88392 Safety Protocol\n\n- For LOT-88392, the safety protocol is quarantine pending inspection.\n- For LOT-88392, the inspection window is 48 hours.\n- For LOT-88392, the triage status is amber until inspection completes.\n\nRelated: [[batch-recall]], [[lot-quarantine]]"
+   ],
+   "n_contexts": 2,
+   "faithfulness": 1.0,
+   "answer_relevancy": 0.5845430288858098,
+   "context_precision": 0.9999999999,
+   "context_recall": 1.0,
+   "context_entity_recall": 0.9999999988888888
+  }
+ ],
+ "notes": [
+  "Scored with the real ragas library (collections API). Reference answers are built from the vault sentence(s) containing the ground-truth value.",
+  "Judge = claude-haiku-4.5, which is also the pipeline's independent verifier model, so faithfulness is partly self-graded; use a different judge family for an unbiased score.",
+  "Answers the pipeline declined (abstained/blocked) are not scored by RAGAS and are counted in not_answered.",
+  "Citation markers such as [fire-drill#0] are removed from the response before scoring: RAGAS counted the marker as an extra unsupported statement (same answer: faithfulness 0.5 with the marker, 1.0 without). The earlier run with markers left in is kept in reports/ragas_live_citations_in_response.json.",
+  "Context precision (ContextPrecisionWithReference) judges each context in isolation. For multi-hop questions it returned 0.0 even when the only context supplied contained the exact reference sentence, so that metric cannot credit evidence that is part of a hop chain; read the per-type table, not only the mean.",
+  "Samples store the full answers and exact contexts so scores can be reproduced or re-judged with a different model."
+ ]
+}

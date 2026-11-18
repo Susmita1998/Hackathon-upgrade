@@ -1,0 +1,73 @@
+{
+ "alg": "Ed25519",
+ "key_id": "5842aac9ca0bdaba",
+ "servers": {
+  "graphify-vault": {
+   "manifest": {
+    "name": "graphify-vault",
+    "protocol": "mcp/json-rpc-2.0",
+    "resources": [
+     "vault://notes"
+    ],
+    "sources": {
+     "agent/config.py": "f503e8b4f13ea19038db4b11cc30919f4d2f2c72159de4a8c322efdc63ae6530",
+     "agent/graphify.py": "0e49afdd4b03d77b0645f067e8f8feb61567a7b3067eacadacf1add37d968c6f",
+     "agent/mcp.py": "a85ff5eaa42452a6e71af0e2b7b405e53d6fdec3e1071039c34cc66448c84a13",
+     "agent/models.py": "24520a51a942fc93693ae10a5c3f60574bff316b236f33dbe4d1c8741144dfd9",
+     "agent/rag.py": "53938b0171d90099dc8af971976a5c52c9848595266b1622bbacc7402ba31eca",
+     "mcp_servers/graphify_server.py": "f2b23973265df64ea9ac766934f324b73a32a256b184561a387f8a2e7bc9a026"
+    },
+    "tools": [
+     "resolve_subgraph"
+    ],
+    "version": "1.0"
+   },
+   "signature": "aQLWyxF8NDhRHcyb1cO7UmLVP3+vSPjBj2JdjxQPKgBx1xXUkbjqbrxukBASoYiW0uqvaXXhh8oySSrf+YShAA=="
+  },
+  "hybrid-rag": {
+   "manifest": {
+    "name": "hybrid-rag",
+    "protocol": "mcp/json-rpc-2.0",
+    "resources": [
+     "rag://chunks"
+    ],
+    "sources": {
+     "agent/config.py": "f503e8b4f13ea19038db4b11cc30919f4d2f2c72159de4a8c322efdc63ae6530",
+     "agent/mcp.py": "a85ff5eaa42452a6e71af0e2b7b405e53d6fdec3e1071039c34cc66448c84a13",
+     "agent/models.py": "24520a51a942fc93693ae10a5c3f60574bff316b236f33dbe4d1c8741144dfd9",
+     "agent/rag.py": "53938b0171d90099dc8af971976a5c52c9848595266b1622bbacc7402ba31eca",
+     "agent/security.py": "c49ee72c7aaf3c4a8f7b4200c470a71a1c700337cc1faa30a884bc3f34d12e30",
+     "mcp_servers/rag_server.py": "ee800b04a6397786d0a7a6ab6de500912b9ea39ed4c98feb8dce3b283a5ec9df"
+    },
+    "tools": [
+     "hybrid_retrieve"
+    ],
+    "version": "1.0"
+   },
+   "signature": "7y02x0p9FRPgxbcsBS3hjU02XOemvaA7ASalME9yBBMwrp1i9TbF9sjofUOjQNUH24opMuM4fEnu9ogmZTtMCQ=="
+  },
+  "state-store": {
+   "manifest": {
+    "name": "state-store",
+    "protocol": "mcp/json-rpc-2.0",
+    "resources": [],
+    "sources": {
+     "agent/mcp.py": "a85ff5eaa42452a6e71af0e2b7b405e53d6fdec3e1071039c34cc66448c84a13",
+     "agent/models.py": "24520a51a942fc93693ae10a5c3f60574bff316b236f33dbe4d1c8741144dfd9",
+     "agent/state.py": "ad43661616dc189b99cc959de87f9492225d7544e1ba8616b2e7de194b257737",
+     "mcp_servers/state_store_server.py": "9636e091d85db1ca43389b3e5aa016f8865f57a5f675bc4aaaa9901ecf6edbb3"
+    },
+    "tools": [
+     "append_audit",
+     "get_session_facts",
+     "lookup_lot",
+     "lookup_sku",
+     "request_approval",
+     "upsert_fact"
+    ],
+    "version": "1.0"
+   },
+   "signature": "kRZXnHV6GKmHaXI5/Tz6DDlB0sbdQcjckqr8GrP6hcPNOz3Xs913f1jFGXGvbOhm7elo+ZwHEVbbYjw2Cr6+Cw=="
+  }
+ }
+}

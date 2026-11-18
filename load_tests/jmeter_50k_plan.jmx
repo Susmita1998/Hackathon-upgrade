@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Distributed plan: 1 controller + 10 workers x 5,000 threads = 50,000 VUs, ramp-up 180 s, 600 s duration, non-GUI.
+     jmeter -n -t load_tests/jmeter_50k_plan.jmx -R worker1,worker2,worker3,worker4,worker5,worker6,worker7,worker8,worker9,worker10 -l results_50k.jtl -e -o dashboard_50k/
+     Override: -Jhost=... -Jport=... -Jthreads=... -Jramp=... -Jduration=...  (defaults are the full-scale 5000 threads/worker, 180 s ramp, 600 s). Threads are PER WORKER. -->
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.6.3">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Unreliable Assistant 50K">
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments"/>
+    </TestPlan>
+    <hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Agent query VUs (5000 per worker)">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <intProp name="LoopController.loops">-1</intProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">${__P(threads,5000)}</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">${__P(ramp,180)}</stringProp>
+        <boolProp name="ThreadGroup.scheduler">true</boolProp>
+        <stringProp name="ThreadGroup.duration">${__P(duration,600)}</stringProp>
+      </ThreadGroup>
+      <hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="POST /api/v1/agent/query">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{"tenant_id":"tenant_${__jexl3(${__threadNum} % 50,)}","user_id":"user_${__threadNum}_${__machineIP}","query":"Verify batch LOT-88392 safety protocol and return triage status"}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${__P(host,localhost)}</stringProp>
+          <stringProp name="HTTPSampler.port">${__P(port,8000)}</stringProp>
+          <stringProp name="HTTPSampler.path">/api/v1/agent/query</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="Headers">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="" elementType="Header"><stringProp name="Header.name">Content-Type</stringProp><stringProp name="Header.value">application/json</stringProp></elementProp>
+              <elementProp name="" elementType="Header"><stringProp name="Header.name">X-Tenant-ID</stringProp><stringProp name="Header.value">tenant_${__jexl3(${__threadNum} % 50,)}</stringProp></elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+          <DurationAssertion guiclass="DurationAssertionGui" testclass="DurationAssertion" testname="Duration Assertion (600 ms)">
+            <stringProp name="DurationAssertion.duration">600</stringProp>
+          </DurationAssertion>
+          <hashTree/>
+          <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="JSONPath: $.faithfulness &gt;= 0.92">
+            <stringProp name="JSON_PATH">$[?(@.faithfulness &gt;= 0.92)]</stringProp>
+            <boolProp name="JSONVALIDATION">false</boolProp>
+            <boolProp name="EXPECT_NULL">false</boolProp>
+            <boolProp name="INVERT">false</boolProp>
+          </JSONPathAssertion>
+          <hashTree/>
+          <ConstantThroughputTimer guiclass="TestBeanGUI" testclass="ConstantThroughputTimer" testname="Constant Throughput Timer">
+            <intProp name="calcMode">0</intProp>
+            <stringProp name="throughput">${__P(rpm,600000)}</stringProp>
+          </ConstantThroughputTimer>
+          <hashTree/>
+          <BackendListener guiclass="BackendListenerGui" testclass="BackendListener" testname="Backend Listener (InfluxDB/Prometheus)">
+            <stringProp name="classname">org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient</stringProp>
+            <elementProp name="arguments" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="influxdbMetricsSender" elementType="Argument"><stringProp name="Argument.name">influxdbMetricsSender</stringProp><stringProp name="Argument.value">org.apache.jmeter.visualizers.backend.influxdb.HttpMetricsSender</stringProp><stringProp name="Argument.metadata">=</stringProp></elementProp>
+                <elementProp name="influxdbUrl" elementType="Argument"><stringProp name="Argument.name">influxdbUrl</stringProp><stringProp name="Argument.value">${__P(influx,http://localhost:8086/write?db=jmeter)}</stringProp><stringProp name="Argument.metadata">=</stringProp></elementProp>
+                <elementProp name="application" elementType="Argument"><stringProp name="Argument.name">application</stringProp><stringProp name="Argument.value">unreliable-assistant</stringProp><stringProp name="Argument.metadata">=</stringProp></elementProp>
+                <elementProp name="measurement" elementType="Argument"><stringProp name="Argument.name">measurement</stringProp><stringProp name="Argument.value">jmeter</stringProp><stringProp name="Argument.metadata">=</stringProp></elementProp>
+                <elementProp name="summaryOnly" elementType="Argument"><stringProp name="Argument.name">summaryOnly</stringProp><stringProp name="Argument.value">false</stringProp><stringProp name="Argument.metadata">=</stringProp></elementProp>
+                <elementProp name="samplersRegex" elementType="Argument"><stringProp name="Argument.name">samplersRegex</stringProp><stringProp name="Argument.value">.*</stringProp><stringProp name="Argument.metadata">=</stringProp></elementProp>
+                <elementProp name="percentiles" elementType="Argument"><stringProp name="Argument.name">percentiles</stringProp><stringProp name="Argument.value">90;95;99</stringProp><stringProp name="Argument.metadata">=</stringProp></elementProp>
+                <elementProp name="testTitle" elementType="Argument"><stringProp name="Argument.name">testTitle</stringProp><stringProp name="Argument.value">50K plan</stringProp><stringProp name="Argument.metadata">=</stringProp></elementProp>
+                <elementProp name="eventTags" elementType="Argument"><stringProp name="Argument.name">eventTags</stringProp><stringProp name="Argument.value"></stringProp><stringProp name="Argument.metadata">=</stringProp></elementProp>
+              </collectionProp>
+            </elementProp>
+          </BackendListener>
+          <hashTree/>
+        </hashTree>
+      </hashTree>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>

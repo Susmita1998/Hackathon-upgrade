@@ -22,7 +22,7 @@ c.node("cache", "Redis Semantic Cache\n(tenant-isolated)", fillcolor="#F8D7DA")
 g.subgraph(c)
 
 c = box("b", "2. Triage & Routing", "#E6F4EA")
-c.node("tri", "Triage Agent\ntemp=0.0, <30 ms", fillcolor="#D4EDDA")
+c.node("tri", "Triage Agent\ntemp=0.0, ≤25 ms", fillcolor="#D4EDDA")
 c.node("direct", "Direct Response")
 c.node("retr", "Retrieval Subagent")
 c.node("exe", "Execution Subagent")

@@ -1,0 +1,7 @@
+{
+ "faithfulness_proxy": 1.0,
+ "answer_correctness_proxy": 0.9906,
+ "context_precision": 0.9347,
+ "context_entity_recall_proxy": 0.9906,
+ "note": "proxy metrics; no LLM judge available"
+}
